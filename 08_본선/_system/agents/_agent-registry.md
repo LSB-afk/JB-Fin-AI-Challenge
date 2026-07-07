@@ -44,6 +44,19 @@ aliases:
 - **[[designer]]·[[compliance-risk]] 앱 설계 단계 배정** — designer=JB 디자인시스템(토큰 확보)·조직도 메인UI·IA / compliance-risk=PII 비반출을 설계 첫날부터.
 - 남은 후보: pitch-storyteller·red-team-judge·security(트리거 대기).
 
+### 역할 페르소나 전체 (roles/*.md SSOT · 14종)
+
+> 위 셋업 4종 외 나머지 활성 역할. `roles/*.md`가 정본, 아래는 인덱스.
+
+- **[[finance-domain]]** — 금융 도메인 리드(여신·리스크·규제·계열사 사실 검증).
+- **[[compliance-risk]]** — PII 비반출·망분리·승인루프·적법성 게이트.
+- **[[research]]** — 딥리서치 사이클·회수·적대검증·_canon 정합.
+- **[[evidence]]** — 증빙·감사체인·Capture-by-default 로그 무결성.
+- **[[judge-qa]]** — 심사위원 시뮬·품질 게이트·제출물 검수.
+- **[[submission]]** — 제출물(발표자료·기능명세서·README) 조립·마감 관리.
+- **[[data-steward]] ★신설** — 로그·텔레메트리·**커밋/푸시 통계**·리서치 로우데이터를 독립 세션에서 전담 관리(evidence의 상위 운영자, 부팅 프롬프트 내장).
+- (셋업 4종: [[orchestrator]]·[[architect]]·[[data-engineer]]·[[designer]]·[[product]]·[[builder]]·[[visualization]] — 위 표/로스터 참조.)
+
 ---
 
 ## 누적 집계
@@ -86,9 +99,11 @@ Orchestrator (Opus)
 
 | 에이전트 | 세션 수 | 입력 토큰 | 출력 토큰 |
 |---------|--------|---------|---------|
-| direct | 8 | 44,016,059 | 11,532,959 |
-| via-claude | 3 | 0 | 0 |
-| orchestrator | 2 | 50,000 | 570,000 |
+| direct | 15 | 98,573,837 | 25,131,141 |
+| via-claude | 6 | 0 | 0 |
+| codex-logstats | 5 | 0 | 0 |
+| orchestrator | 3 | 50,000 | 570,000 |
 | gpt-5.3-codex-spark | 1 | 0 | 0 |
 | gpt-5.5-xhigh | 1 | 0 | 0 |
+| codex-cli-backfill | 1 | 0 | 0 |
 <!-- /AGGREGATOR:AGENT-STATS -->

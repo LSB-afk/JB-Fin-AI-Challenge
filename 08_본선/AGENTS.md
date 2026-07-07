@@ -22,7 +22,7 @@ aliases:
 
 ---
 
-## 2. 역할 분담 (11역할 — 읽는 파일 / 쓰는 파일 / 의사결정)
+## 2. 역할 분담 (14역할 — 읽는 파일 / 쓰는 파일 / 의사결정)
 
 > 역할 상세 정의: `_system/agents/roles/*.md`
 > ★ = 이번 본선에서 1급으로 승격/신설 (금융·준법·디자인)
@@ -46,6 +46,7 @@ aliases:
 | **data-engineer** | 공공데이터·ECOS·등기·HUG·RAG 파이프라인·데이터 모델(2026-07-02 후보→승격) | API 문서, `_canon §10`, `05_리서치` | `03_제품/04_tech`, 데이터 스키마 | 자율(수집·스키마); 외부 API 제안→승인 | Sonnet |
 | **judge-qa** | 25항목 적합성·verify-implementation·심사 시뮬 | `05_제출`, `심사기준` | `04_증빙`, `05_제출/live-final-verification` | 자율(검증) | Sonnet |
 | **evidence** | Capture-by-default 집행·intake append·기여 통계 | 전체 | `04_증빙/*`, `_system/telemetry`, `team` | 자율(증빙) | **Haiku** |
+| **data-steward** ★ | 로그·텔레메트리·**커밋/푸시 통계**·리서치 로우데이터 독립 세션 전담(evidence 상위 운영자) | 전체 로그·CSV·`_결과` | `_system/telemetry`, `team`, 통계 문서 | 자율(데이터 관리) | Sonnet |
 | **submission** | 패키징·README→SHARE-PACKAGE·피칭 | `05_제출`, `00_제출` | `05_제출`, `00_제출` | **사람만**(제출 확정) | Sonnet |
 
 ---
@@ -63,17 +64,18 @@ aliases:
 
 ---
 
-## 2-B. 사람 4슬롯 ↔ 에이전트 클러스터 매핑
+## 2-B. 사람 4슬롯 ↔ 에이전트 클러스터 매핑 (실팀 확정 2026-07-03)
 
-> 팀 프로필 수신 후 슬롯 채움. 현재는 슬롯명으로 관리.
+> 업무분장 근거 [[업무분장-작업로그]]. 발표 총괄=김민주, **발표자(등단)는 미정**.
 
-| 슬롯 | 역할 | 주 에이전트 클러스터 | 후보 에이전트 |
-|------|------|-------------------|------------|
-| **슬롯 A** (운영·발표) | 팀장·발표자 | orchestrator + submission | pitch-storyteller |
-| **슬롯 B** (개발) | 개발자 | builder | data-engineer · security |
-| **슬롯 C** (디자인·기획) | 기획·디자인 | designer + product | — |
-| **슬롯 D** (금융·준법·리서치) | 금융 도메인 | finance-domain + compliance-risk + research | — |
+| 슬롯 | 담당(실명) | 실제 분장 | 주 에이전트 클러스터 | 후보 |
+|------|------|------|-------------------|------|
+| **슬롯 A** (문서·제출물·서사) | **김주용** | 문서·기능구조·제출문서·발표흐름 초안·"왜 하나의 AX 콘솔인가" 서사·스킬/플러그인 | submission + product | pitch-storyteller |
+| **슬롯 B** (개발) | **이승보** | 프로토타입·설계도·은행 DB 연결 명문화 | builder + architect | data-engineer · security |
+| **슬롯 C** (디자인·발표) | **김민주** | 디자인 토큰·화면 톤·발표 전반·이름/슬로건·승인 UX | designer | — |
+| **슬롯 D** (외부확인·리서치) | **최영욱** | 공공데이터·KIPRIS 상표·전세/피싱 출처·은행 자동화 vs 차별점 GPT딥리서치 | research | — |
 
+> **finance-domain · compliance-risk = AI(Sonnet) 전담** — 전담 금융/준법 인력이 사람 슬롯에 없음(최영욱=외부확인 리서치가 금융 사실 보조). PII 비반출·규제 게이트는 AI가 설계 첫날부터 수호.
 > evidence · visualization · judge-qa · red-team = AI 주도 + 팀 공유 (특정 슬롯에 고정하지 않음)
 
 ---
@@ -102,6 +104,10 @@ aliases:
 
 > **완전 자동화(선택)**: Claude Code Stop 훅으로 세션 종료 시 `session-log`에 타임스탬프 항목을 자동 append 가능. 와이어링은 `update-config`로 settings.json에 등록(사용자 승인 후). 미적용 시에도 위 규약을 수동 준수.
 
+**로테이션 규칙**: 메인 로그(`프롬프트-로그.md`·`session-log.md`·`decision-log.md`)가 300줄을 넘으면 세션 종료 시 오래된 항목을 `04_증빙/01_핵심로그/_아카이브/<로그명>-<기간>.md`로 이월하고 메인에 목차 링크를 남긴다. **항목 삭제 금지 — 이월만 허용.** 메인에는 최신 활성 구간(오늘 + 직전 1일)만 본문으로 유지한다. `decision-log`는 예외로, 이월 후에도 전체 결정 인덱스(번호·제목·날짜 1줄)는 메인에 계속 유지한다.
+
+**코드 추적 규칙(2026-07-05)**: JB_project2 연동 문서(구현현황·implementation-index·feature-spec·기능명세서·로드맵)를 만지기 전과 커밋 전에는 반드시 `_vendor/JB_project2`에서 `git fetch upstream` 후 HEAD 해시를 문서에 병기한다. 승보 로컬은 원격보다 앞서 있는 워크플로우이므로, 확정 판정("~로 굳어짐")을 내리기 전에 push 여부를 확인하거나 [원격 기준] 한정을 명시한다.
+
 ---
 
 ## 4-A. 운영 자동화 스킬 — AI 자동 시행 규약
@@ -118,6 +124,7 @@ aliases:
 | **제품정의·MVP범위·시나리오 변경 / 제출물 갱신 전** | [[submission-consistency-check]] | 제출·발표 문서 간 히어로 시나리오·범위·검증기준·제품정의 불일치 교차 감사(보고만, 제출은 사람 승인). |
 | **문서·원장 변경이 보드에 영향 / 시각화 가독성 피드백** | [[visualization-cycle]] | VISUALIZATION-PLAN 선행 갱신 후 Excalidraw 재생성·간트 갭·5초 가독성·사람/AI/기여 레이어 검증. |
 | **로그·산출물에 PII 유입 우려** | [[pii-governance-validator]] / `pii-scan.mjs`(Stop훅) | 한국 PII 패턴 스캔·마스킹 경고. |
+| **핵심로그(session-log/decision-log/프롬프트-로그)에 새 항목 append** | [[log-toc]] | `<!-- TOC:AUTO -->` 목차 블록 재생성 — 매번 전체를 안 읽어도 항목 탐색 가능. harness-sync 7단계에도 포함. |
 
 **핵심 규칙(부모-자식 정합)**: 새로 생성되는 **모든** 파일은 부모(up)와 자식이 잘 연결되어 **조상(본선 HOME)에서부터 타고 내려갈 수 있어야** 한다. 작업 끝에 `canon-moc-sync`의 `[5/5] 도달성`이 ✓인지 확인한다(고아=`✗`로 표시됨).
 
@@ -128,9 +135,11 @@ aliases:
 ## 5. 지식 우선순위 (LLM-Wiki-First)
 raw 원천을 매번 다시 읽기 전에 정제된 지식을 먼저 본다: [[_MOC_HOME|본선 MOC]] → 섹션 MOC → `03_제품` 정본 → 그래도 없으면 `07_원천`/웹.
 
+**리서치는 요약 먼저(Summary-First).** 딥리서치 결과(`04_증빙/02_분석자료/리서치/02_결과-원문/`)를 소비할 때는 **[[_요약-인덱스]] → `[[Dxx-요약]]`(⚡30초·🎯바로 쓸 것·🙋전문가 Q&A·⚠️한계)를 먼저 읽고**, 근거·수치·인용이 필요할 때만 원문 `Dxx-결과-원문.md`를 연다. 각 원문 상단 `📄 요약 먼저` 콜아웃이 요약으로 되돌린다. 요약이 없거나 낡았으면 **codex(gpt-5.4)로 재생성**(4병렬 배치) — 출처 [[_모델-실행기록]].
+
 ---
 
 ## 6. 연결
 - [[본선 HOME|본선 홈]] · [[project-dashboard|운영 대시보드]] · [[hagent-os-구조-청사진|구조 청사진]]
-- 역할 상세: [[_system/agents/roles/orchestrator|orchestrator]] · [[_system/agents/roles/finance-domain|finance-domain]] · [[_system/agents/roles/compliance-risk|compliance-risk]] · [[_system/agents/roles/research|research]] · [[_system/agents/roles/product|product]] · [[_system/agents/roles/architect|architect]] · [[_system/agents/roles/designer|designer]] · [[_system/agents/roles/visualization|visualization]] · [[_system/agents/roles/builder|builder]] · [[_system/agents/roles/data-engineer|data-engineer]] · [[_system/agents/roles/judge-qa|judge-qa]] · [[_system/agents/roles/evidence|evidence]] · [[_system/agents/roles/submission|submission]]
+- 역할 상세: [[_system/agents/roles/orchestrator|orchestrator]] · [[_system/agents/roles/finance-domain|finance-domain]] · [[_system/agents/roles/compliance-risk|compliance-risk]] · [[_system/agents/roles/research|research]] · [[_system/agents/roles/product|product]] · [[_system/agents/roles/architect|architect]] · [[_system/agents/roles/designer|designer]] · [[_system/agents/roles/visualization|visualization]] · [[_system/agents/roles/builder|builder]] · [[_system/agents/roles/data-engineer|data-engineer]] · [[_system/agents/roles/judge-qa|judge-qa]] · [[_system/agents/roles/evidence|evidence]] · [[_system/agents/roles/submission|submission]] · [[_system/agents/roles/data-steward|data-steward]]
 - 후보: [[_system/agents/candidates/red-team-judge|red-team-judge]] · [[_system/agents/candidates/pitch-storyteller|pitch-storyteller]] · [[_system/agents/candidates/security|security]]

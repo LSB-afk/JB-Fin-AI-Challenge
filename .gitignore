@@ -66,3 +66,11 @@ tests/results/
 08_본선/assets/screenshots/*.png
 08_본선/assets/screenshots/*.jpeg
 08_본선/assets/screenshots/paperclip/
+
+# 벤더링된 외부 레포(우리 git에 커밋 안 함)
+_vendor/
+
+# nested _원문 폴더까지 확실히 무시(대외비 회의 전사)
+_원문/
+**/_원문/**
+02_제품/scripts/llm-runs.jsonl
