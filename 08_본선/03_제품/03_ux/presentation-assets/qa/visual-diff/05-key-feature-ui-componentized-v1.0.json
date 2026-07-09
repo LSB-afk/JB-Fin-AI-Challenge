@@ -1,0 +1,26 @@
+{
+  "source": "assets/rebuild-screenshots/05-key-feature-ui-source-6-261.png",
+  "rebuild": "assets/rebuild-screenshots/05-key-feature-ui-componentized-98-1189.png",
+  "sourceNodeId": "6:261",
+  "rebuildNodeId": "98:1189",
+  "baselineNodeId": "28:159",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "exactChangedPixels": 0,
+  "exactSimilarity": 1.0,
+  "pixelTolerancePerChannel": 1,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "maxChannelDelta": 0,
+  "bbox": null,
+  "qaStatus": "pass_tolerance_delta_le_1",
+  "componentSets": [
+    "95:1197",
+    "96:1195"
+  ],
+  "notes": "Baseline clone with original callouts hidden and promoted component instances for known callout labels. Node 6:285 was not directly accessed.",
+  "sourceSha256": "230ff25de041b282e90aed3c4ddcecac427586d049d27d375dd9d12a4c2ed88c",
+  "rebuildSha256": "230ff25de041b282e90aed3c4ddcecac427586d049d27d375dd9d12a4c2ed88c",
+  "diffSha256": "f9708f9f8361d467ddfc7575e35f49343096b3b5a76cd81faf9b1dfc99462381"
+}

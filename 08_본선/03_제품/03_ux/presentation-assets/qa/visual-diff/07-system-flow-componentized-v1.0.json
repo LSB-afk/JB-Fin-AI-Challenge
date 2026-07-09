@@ -1,0 +1,33 @@
+{
+  "slideNo": 7,
+  "version": "v1.0",
+  "sourceNodeId": "6:325",
+  "baselineNodeId": "25:2",
+  "rebuiltNodeId": "68:508",
+  "name": "S07/SystemFlow/Componentized Rebuild v1.0",
+  "componentSets": [
+    "66:560",
+    "66:610"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/07-system-flow-source-6-325.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/07-system-flow-componentized-68-508.png",
+  "diffImage": "qa/visual-diff/07-system-flow-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 980,
+  "similarity": 0.9995273919753086,
+  "maxChannelDelta": 48,
+  "changedBoundingBox": [
+    82,
+    301,
+    1839,
+    963
+  ],
+  "rmsRgbaNormalized": 0.0014758344904561094,
+  "qaStatus": "pass",
+  "sourceSha256": "24eb58e3ac7fdbf8bf3f5c2fc58599fe5bbfa78134f4fba78f439d1bb17903ac",
+  "rebuiltSha256": "aed94044c4004c6f2748a355000c9f067398132f890030c28fe7fd670b998d20",
+  "diffSha256": "c6c0ed100a89f81a5919f3fece7e96e2b902172b3a0845277e68363154229c17",
+  "notes": "Pixel diff between source slide 6:325 and componentized rebuild 68:508. Right-side data/technology tables and seven entity pills are replaced with exact component instances; main flow columns and connectors remain cloned source layers."
+}

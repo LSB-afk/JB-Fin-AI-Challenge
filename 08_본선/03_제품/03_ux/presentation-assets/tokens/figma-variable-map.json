@@ -1,0 +1,72 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation Figma variable map",
+    "created": "2026-07-08",
+    "status": "ready_for_A5_builder"
+  },
+  "collections": {
+    "JByond Deck / Color": {
+      "mode": "Pilot",
+      "variables": [
+        { "figmaName": "deck/color/bg/stage", "token": "color.background.stage", "type": "COLOR", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
+        { "figmaName": "deck/color/bg/stage-deep", "token": "color.background.stageDeep", "type": "COLOR", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
+        { "figmaName": "deck/color/bg/panel", "token": "color.background.diagramPanel", "type": "COLOR", "scopes": ["FRAME_FILL", "SHAPE_FILL"] },
+        { "figmaName": "deck/color/text/on-dark/primary", "token": "color.text.primaryOnDark", "type": "COLOR", "scopes": ["TEXT_FILL"] },
+        { "figmaName": "deck/color/text/on-dark/muted", "token": "color.text.mutedOnDark", "type": "COLOR", "scopes": ["TEXT_FILL"] },
+        { "figmaName": "deck/color/text/on-light/primary", "token": "color.text.primaryOnLight", "type": "COLOR", "scopes": ["TEXT_FILL"] },
+        { "figmaName": "deck/color/accent/glow", "token": "color.accent.glow", "type": "COLOR", "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"] },
+        { "figmaName": "deck/color/line/white", "token": "color.line.white", "type": "COLOR", "scopes": ["STROKE_COLOR"] },
+        { "figmaName": "deck/color/line/diagram", "token": "color.line.diagram", "type": "COLOR", "scopes": ["STROKE_COLOR"] }
+      ]
+    },
+    "JByond Deck / Size": {
+      "mode": "Pilot",
+      "variables": [
+        { "figmaName": "deck/frame/width", "token": "frame.deck.width", "type": "FLOAT", "scopes": ["WIDTH_HEIGHT"] },
+        { "figmaName": "deck/frame/height", "token": "frame.deck.height", "type": "FLOAT", "scopes": ["WIDTH_HEIGHT"] },
+        { "figmaName": "deck/radius/card", "token": "radius.card", "type": "FLOAT", "scopes": ["CORNER_RADIUS"] },
+        { "figmaName": "deck/radius/panel", "token": "radius.panel", "type": "FLOAT", "scopes": ["CORNER_RADIUS"] },
+        { "figmaName": "deck/space/4", "token": "space.4", "type": "FLOAT", "scopes": ["GAP"] },
+        { "figmaName": "deck/space/8", "token": "space.8", "type": "FLOAT", "scopes": ["GAP"] }
+      ]
+    }
+  },
+  "textStyles": [
+    { "figmaName": "JByond/Deck/Cover Eyebrow", "token": "typography.role.coverEyebrow" },
+    { "figmaName": "JByond/Deck/Cover Statement", "token": "typography.role.coverStatement" },
+    { "figmaName": "JByond/Deck/Cover Wordmark", "token": "typography.role.coverWordmark" },
+    { "figmaName": "JByond/Deck/Footer Left", "token": "typography.role.footerLeft" },
+    { "figmaName": "JByond/Deck/Footer Right", "token": "typography.role.footerRight" },
+    { "figmaName": "JByond/Deck/Slide Section", "token": "typography.role.slideSection" },
+    { "figmaName": "JByond/Deck/Slide Headline", "token": "typography.role.slideHeadline" },
+    { "figmaName": "JByond/Deck/Diagram Title", "token": "typography.role.diagramTitle" },
+    { "figmaName": "JByond/Deck/Table Header", "token": "typography.role.tableHeader" },
+    { "figmaName": "JByond/Deck/Table Body", "token": "typography.role.tableBody" },
+    { "figmaName": "JByond/Deck/Flow Header", "token": "typography.role.flowHeader" },
+    { "figmaName": "JByond/Deck/Flow Node Title", "token": "typography.role.flowNodeTitle" },
+    { "figmaName": "JByond/Deck/Flow Micro", "token": "typography.role.flowMicro" },
+    { "figmaName": "JByond/Deck/Scenario Badge", "token": "typography.role.scenarioBadge" },
+    { "figmaName": "JByond/Deck/Scenario Headline", "token": "typography.role.scenarioHeadline" },
+    { "figmaName": "JByond/Deck/Story Caption", "token": "typography.role.storyCaption" }
+  ],
+  "components": [
+    { "figmaName": "JByond/Deck/FrameDark", "token": "component.FrameDark" },
+    { "figmaName": "JByond/Deck/FooterMeta", "token": "component.FooterMeta" },
+    { "figmaName": "JByond/Deck/SlideHeader", "token": "component.SlideHeader" },
+    { "figmaName": "JByond/Deck/HeroWordmark", "token": "component.HeroWordmark" },
+    { "figmaName": "JByond/Deck/SystemFlowPanel", "token": "component.SystemFlowPanel" },
+    { "figmaName": "JByond/Deck/FlowStageHeader", "token": "component.FlowStageHeader" },
+    { "figmaName": "JByond/Deck/FlowNode", "token": "component.FlowNode" },
+    { "figmaName": "JByond/Deck/DarkTable", "token": "component.DarkTable" },
+    { "figmaName": "JByond/Deck/ProcessNode", "token": "component.ProcessNode" },
+    { "figmaName": "JByond/Deck/DecisionDiamond", "token": "component.DecisionDiamond" },
+    { "figmaName": "JByond/Deck/ScenarioCard", "token": "component.ScenarioCard" }
+  ],
+  "builderNotes": [
+    "Create variables before components.",
+    "Set variable scopes explicitly.",
+    "Use Figma text styles for role typography; mixed text nodes require local text runs.",
+    "Do not bind full-slide screenshots as slide fills except in References page."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation font asset tokens",
+    "created": "2026-07-09",
+    "status": "pilot_font_provenance"
+  },
+  "fontAsset": {
+    "panchang.light": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Panchang",
+        "style": "Light",
+        "weight": 300,
+        "provider": "Fontshare",
+        "providerUrl": "https://www.fontshare.com/?q=Panchang",
+        "css": "assets/fonts/panchang/fontshare-panchang.css",
+        "localFile": "assets/fonts/panchang/Panchang-Light.woff2",
+        "sha256": "fe6d83807b64726b94230a013707163469059d340c436ede01e11d4fb95b987b",
+        "licenseStatus": "captured_from_fontshare_verify_before_external_distribution",
+        "figma": { "hasMissingFont": true }
+      }
+    },
+    "panchang.regular": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Panchang",
+        "style": "Regular",
+        "weight": 400,
+        "provider": "Fontshare",
+        "providerUrl": "https://www.fontshare.com/?q=Panchang",
+        "css": "assets/fonts/panchang/fontshare-panchang.css",
+        "localFile": "assets/fonts/panchang/Panchang-Regular.woff2",
+        "sha256": "ba70d104f27665674c71596046e032e1a811fd3ec879a47e94e07d57872c2988",
+        "licenseStatus": "captured_from_fontshare_verify_before_external_distribution",
+        "figma": { "hasMissingFont": true }
+      }
+    },
+    "panchang.medium": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Panchang",
+        "style": "Medium",
+        "weight": 500,
+        "provider": "Fontshare",
+        "providerUrl": "https://www.fontshare.com/?q=Panchang",
+        "css": "assets/fonts/panchang/fontshare-panchang.css",
+        "localFile": "assets/fonts/panchang/Panchang-Medium.woff2",
+        "sha256": "2fdb155485451c5a5ea94e55ff052c127951dca602875e41d3a0a993f455b9ed",
+        "licenseStatus": "captured_from_fontshare_verify_before_external_distribution",
+        "figma": {
+          "hasMissingFont": true,
+          "sourceNodes": ["6:209", "22:13"],
+          "usage": "01 Summary hero wordmark"
+        }
+      }
+    },
+    "panchang.semibold": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Panchang",
+        "style": "Semibold",
+        "weight": 600,
+        "provider": "Fontshare",
+        "providerUrl": "https://www.fontshare.com/?q=Panchang",
+        "css": "assets/fonts/panchang/fontshare-panchang.css",
+        "localFile": "assets/fonts/panchang/Panchang-Semibold.woff2",
+        "sha256": "47b8dc8711f9ad0a3efe413dddf4fdc956bf7da783bdb4b0fdb536c40fea9ece",
+        "licenseStatus": "captured_from_fontshare_verify_before_external_distribution",
+        "figma": { "hasMissingFont": true }
+      }
+    },
+    "panchang.bold": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Panchang",
+        "style": "Bold",
+        "weight": 700,
+        "provider": "Fontshare",
+        "providerUrl": "https://www.fontshare.com/?q=Panchang",
+        "css": "assets/fonts/panchang/fontshare-panchang.css",
+        "localFile": "assets/fonts/panchang/Panchang-Bold.woff2",
+        "sha256": "0a11d0386e491b46f19ebf2e1badad9a14f083c14bdaac92e95bc64e7164f1dc",
+        "licenseStatus": "captured_from_fontshare_verify_before_external_distribution",
+        "figma": { "hasMissingFont": true }
+      }
+    },
+    "pretendard.regular": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Pretendard",
+        "style": "Regular",
+        "weight": 400,
+        "provider": "unknown",
+        "localFile": null,
+        "sha256": null,
+        "licenseStatus": "pending_source_capture",
+        "figma": {
+          "hasMissingFont": true,
+          "sourceNodes": ["6:207", "6:208", "22:11", "22:12"]
+        }
+      }
+    },
+    "pretendard.medium": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Pretendard",
+        "style": "Medium",
+        "weight": 500,
+        "provider": "unknown",
+        "localFile": null,
+        "sha256": null,
+        "licenseStatus": "pending_source_capture",
+        "figma": {
+          "hasMissingFont": true,
+          "sourceNodes": ["6:202", "22:6"]
+        }
+      }
+    },
+    "pretendard.semibold": {
+      "$type": "fontAsset",
+      "$value": {
+        "family": "Pretendard",
+        "style": "SemiBold",
+        "weight": 600,
+        "provider": "unknown",
+        "localFile": null,
+        "sha256": null,
+        "licenseStatus": "pending_source_capture",
+        "figma": {
+          "hasMissingFont": true,
+          "sourceNodes": ["6:201", "22:5"]
+        }
+      }
+    }
+  },
+  "policy": {
+    "textMutationGate": {
+      "$type": "string",
+      "$value": "Do not mutate pasted Pretendard/Panchang text nodes in Figma until the exact font family/style is available to the Plugin API."
+    },
+    "visualClonePolicy": {
+      "$type": "string",
+      "$value": "Cloning existing text nodes is allowed and can pass visual QA while missing fonts are unresolved, because no text characters or font properties are modified."
+    }
+  }
+}

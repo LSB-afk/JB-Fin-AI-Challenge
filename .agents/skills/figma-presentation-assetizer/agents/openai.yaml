@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Presentation Assetizer"
+  short_description: "Assetize Figma presentation decks"
+  default_prompt: "Use $figma-presentation-assetizer to reverse-engineer and package a Figma presentation deck."

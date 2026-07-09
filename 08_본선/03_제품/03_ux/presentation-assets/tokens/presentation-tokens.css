@@ -1,0 +1,69 @@
+:root {
+  --deck-frame-width: 1920px;
+  --deck-frame-height: 1080px;
+
+  --deck-color-navy-950: #000832;
+  --deck-color-navy-940: #000B49;
+  --deck-color-navy-900: #08124A;
+  --deck-color-blue-700: #344895;
+  --deck-color-blue-650: #3E63BD;
+  --deck-color-blue-600: #4660C1;
+  --deck-color-blue-500: #6583EC;
+  --deck-color-blue-100: #F0F4FF;
+  --deck-color-blue-080: #F3F6FF;
+  --deck-color-white: #FFFFFF;
+  --deck-color-white-980: #F8F8F8;
+  --deck-color-gray-200: #D9D9D9;
+  --deck-color-gray-500: #565656;
+  --deck-color-gray-900: #0F172A;
+  --deck-color-black: #000000;
+  --deck-color-pink-050: #FFECEC;
+
+  --deck-bg-stage: var(--deck-color-navy-940);
+  --deck-bg-stage-deep: var(--deck-color-navy-950);
+  --deck-bg-panel: var(--deck-color-white);
+  --deck-text-on-dark: var(--deck-color-white);
+  --deck-text-on-dark-muted: rgb(255 255 255 / 60%);
+  --deck-text-on-dark-secondary: rgb(255 255 255 / 80%);
+  --deck-text-on-light: var(--deck-color-black);
+  --deck-line-white: var(--deck-color-white);
+  --deck-line-diagram: var(--deck-color-gray-500);
+  --deck-accent-glow: var(--deck-color-blue-500);
+
+  --deck-font-korean: Pretendard, "SUIT Variable", -apple-system, system-ui, sans-serif;
+  --deck-font-display: Panchang, Pretendard, sans-serif;
+
+  --deck-type-cover-eyebrow: 600 25px/1.1 var(--deck-font-korean);
+  --deck-type-cover-statement: 500 40px/1.3 var(--deck-font-korean);
+  --deck-type-cover-wordmark: 500 300px/1.1 var(--deck-font-display);
+  --deck-type-footer: 400 25px/1.1 var(--deck-font-korean);
+  --deck-type-section: 400 22px/1.5 var(--deck-font-korean);
+  --deck-type-diagram-title: 600 28.3158px/1.3 var(--deck-font-korean);
+  --deck-type-table-header: 500 16.4294px/1.5 var(--deck-font-korean);
+  --deck-type-table-body: 500 15.5227px/1.5 var(--deck-font-korean);
+  --deck-type-flow-header: 500 18.1574px/1.4 var(--deck-font-korean);
+  --deck-type-flow-node: 400 17.6491px/1.3 var(--deck-font-korean);
+  --deck-type-flow-micro: 400 11.3263px/1.3 var(--deck-font-korean);
+  --deck-type-scenario-badge: 500 36px/1.4 var(--deck-font-korean);
+  --deck-type-scenario-headline: 500 56.1889px/1.4 var(--deck-font-korean);
+  --deck-type-story-caption: 400 20px/1.5 var(--deck-font-korean);
+
+  --deck-radius-xs: 5px;
+  --deck-radius-sm: 7.55px;
+  --deck-radius-card: 10px;
+  --deck-radius-md: 12.71px;
+  --deck-radius-panel: 18.88px;
+  --deck-radius-pill: 40px;
+  --deck-radius-full: 999px;
+
+  --deck-stroke-hairline: 0.32px;
+  --deck-stroke-thin: 0.64px;
+  --deck-stroke-default: 1px;
+  --deck-stroke-strong: 2px;
+
+  --deck-gradient-stage-cover: linear-gradient(90deg, #08124A 0%, #6583EC 21.6%, #08124A 46.5%, #08124A 100%);
+  --deck-gradient-stage-standard: linear-gradient(90deg, #08124A 13.5%, #6583EC 25.5%, #08124A 33.7%, #08124A 100%);
+  --deck-shadow-product-shot: 0 24px 80px rgb(0 0 0 / 35%);
+  --deck-shadow-card: 0 12px 36px rgb(0 0 0 / 22%);
+  --deck-shadow-glow: 0 0 80px rgb(101 131 236 / 35%);
+}

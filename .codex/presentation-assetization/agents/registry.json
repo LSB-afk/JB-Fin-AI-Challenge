@@ -1,0 +1,81 @@
+{
+  "version": "0.1.0",
+  "writeLock": {
+    "figmaWriter": "A5",
+    "manifestOwner": "A0",
+    "rule": "Only A5 mutates Figma. Other agents are read-only for Figma and write only their owned repo files."
+  },
+  "agents": [
+    {
+      "id": "A0",
+      "name": "Orchestrator",
+      "role": "Integrate state, manifest, indexes, and handoff.",
+      "writeScope": ["README.md", "INDEX.md", "manifest.json", "qa/rebuild-diff.md"],
+      "parallel": false
+    },
+    {
+      "id": "A1",
+      "name": "Figma Reverse Engineer",
+      "role": "Extract source node structure, text, layer roles, and screenshots.",
+      "writeScope": ["slides/*-source-analysis.md", "assets/source-screenshots/*"],
+      "parallel": true
+    },
+    {
+      "id": "A2",
+      "name": "Token Cartographer",
+      "role": "Map primitive, semantic, typography, effect, surface, and component tokens.",
+      "writeScope": ["tokens/*"],
+      "parallel": true
+    },
+    {
+      "id": "A3",
+      "name": "Component Architect",
+      "role": "Design reusable component families, variants, and promotion queue.",
+      "writeScope": ["components/*"],
+      "parallel": true
+    },
+    {
+      "id": "A4",
+      "name": "Asset Harvester",
+      "role": "Catalog images, graphs, tables, fonts, evidence captures, and provenance.",
+      "writeScope": ["assets/*"],
+      "parallel": true
+    },
+    {
+      "id": "A5",
+      "name": "Figma Slide Builder",
+      "role": "Only Figma writer. Build source-preserving, componentized, blind, or derivative frames.",
+      "writeScope": ["Figma duplicate only"],
+      "parallel": false
+    },
+    {
+      "id": "A6",
+      "name": "Visual QA Judge",
+      "role": "Compare screenshots, detect clipping, flattening, drift, and gate failures.",
+      "writeScope": ["qa/*"],
+      "parallel": true
+    },
+    {
+      "id": "A7",
+      "name": "AI Process Librarian",
+      "role": "Record prompts, build logs, failure loops, and decisions.",
+      "writeScope": ["process/*"],
+      "parallel": true
+    },
+    {
+      "id": "A8",
+      "name": "Evidence Recorder",
+      "role": "Append source/evidence/telemetry records and verify no evidence gaps remain.",
+      "writeScope": ["evidence append-only paths"],
+      "parallel": true
+    }
+  ],
+  "handoffBlocks": [
+    "Task",
+    "Inputs",
+    "Output",
+    "Assumptions",
+    "Open risks",
+    "Next action"
+  ]
+}

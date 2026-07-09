@@ -1,0 +1,250 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation asset tokens",
+    "created": "2026-07-08",
+    "status": "pilot"
+  },
+  "sourceScreenshots": {
+    "01-summary": {
+      "$type": "asset",
+      "$value": "assets/rebuild-screenshots/01-summary-source-6-198.png",
+      "$extensions": {
+        "size": "1920x1080",
+        "use": "primary editable-source visual QA reference",
+        "sourceNodeId": "6:198",
+        "legacyLocalExport": "assets/source-screenshots/01-summary.jpg"
+      }
+    },
+    "07-system-flow": {
+      "$type": "asset",
+      "$value": "assets/source-screenshots/07-system-flow.jpg",
+      "$extensions": { "size": "1920x1080", "use": "visual QA reference only" }
+    },
+    "09-user-scenario": {
+      "$type": "asset",
+      "$value": "assets/source-screenshots/09-user-scenario.jpg",
+      "$extensions": { "size": "1920x1080", "use": "visual QA reference only" }
+    }
+  },
+  "figmaImageFills": {
+    "coverBackground": {
+      "$type": "asset",
+      "$value": {
+        "sourceNodeId": "6:199",
+        "figmaOriginalNodeId": "5053:11836",
+        "structuredNodeId": "22:3",
+        "path": "assets/images/01-summary/image-2019.png",
+        "pixelSize": { "width": 1448, "height": 1086 },
+        "placement": { "x": 357, "y": 234, "width": 1205, "height": 904 },
+        "scaleMode": "FILL",
+        "imageTransform": [[1, 0, 0], [0, 1, 0]],
+        "figmaImageHash": "8bc0a0c02f87f84ead092948aabd1d878f8f8364",
+        "sha256": "ebcb964f571d01e84fbd48e578cac82b179d8fa1f4e8297a53af552b3044a841",
+        "role": "cover ambient product background",
+        "editableBoundary": "position, size, mask, opacity"
+      }
+    },
+    "coverLaptop": {
+      "$type": "asset",
+      "$value": {
+        "sourceNodeId": "6:204",
+        "figmaOriginalNodeId": "5053:11841",
+        "structuredNodeId": "22:8",
+        "path": "assets/images/01-summary/image-2090.png",
+        "pixelSize": { "width": 1928, "height": 1320 },
+        "placement": { "x": 447, "y": 257, "width": 1026, "height": 702 },
+        "scaleMode": "FILL",
+        "imageTransform": [[1, 0, 0], [0, 1, 0]],
+        "figmaImageHash": "0ce013a6187f2589651792e1e79188e43955f00b",
+        "sha256": "4713ef8653bfe2aee4d0b97d8e7e5f7810536d81bae5f166001329e2eca609a1",
+        "role": "hero product mockup",
+        "editableBoundary": "position, size, mask, shadow; inner screenshot remains raster unless source UI is rebuilt"
+      }
+    },
+    "scenarioBackground": {
+      "$type": "asset",
+      "$value": {
+        "sourceNodeId": "6:1047",
+        "figmaOriginalNodeId": "5053:12686",
+        "structuredNodeId": "26:3",
+        "path": "assets/images/09-user-scenario/background-image-2000.png",
+        "pixelSize": { "width": 1920, "height": 1080 },
+        "placement": { "x": -53, "y": -172, "width": 2025.0271, "height": 1350.9823 },
+        "scaleMode": "CROP",
+        "sha256": "90ef677d22fdfd2d9424b2c406fc77a8de5d3ef00e61988225809f41a3a702ec",
+        "role": "scenario blue background image",
+        "editableBoundary": "position, size, crop, opacity"
+      }
+    },
+    "scenarioCardImages": {
+      "$type": "asset",
+      "$value": [
+        {
+          "sourceNodeId": "6:1079",
+          "figmaOriginalNodeId": "5053:12718",
+          "structuredNodeId": "26:35",
+          "step": 1,
+          "path": "assets/images/09-user-scenario/card-step01-image-2070.png",
+          "pixelSize": { "width": 393, "height": 267 },
+          "scaleMode": "CROP",
+          "sha256": "43f72081253c133ce4cc943008f14a8b482243f548f93b7cbf2481ef1dfa12b9"
+        },
+        {
+          "sourceNodeId": "6:1082",
+          "figmaOriginalNodeId": "5053:12721",
+          "structuredNodeId": "26:38",
+          "step": 2,
+          "path": "assets/images/09-user-scenario/card-step02-image-2071.png",
+          "pixelSize": { "width": 434, "height": 267 },
+          "scaleMode": "CROP",
+          "sha256": "25815e62c8934c89955bd237aa4b3867b52d1240fe9a86c7359166d1e7789452"
+        },
+        {
+          "sourceNodeId": "6:1085",
+          "figmaOriginalNodeId": "5053:12724",
+          "structuredNodeId": "26:41",
+          "step": 3,
+          "path": "assets/images/09-user-scenario/card-step03-image-2072.png",
+          "pixelSize": { "width": 415, "height": 267 },
+          "scaleMode": "CROP",
+          "sha256": "6ac535c51354c3e54b8c68f6d8d291234e9ac66fed95c847ca8010c8fd552c05"
+        },
+        {
+          "sourceNodeId": "6:1088",
+          "figmaOriginalNodeId": "5053:12727",
+          "structuredNodeId": "26:44",
+          "step": 4,
+          "path": "assets/images/09-user-scenario/card-step04-image-2073.png",
+          "pixelSize": { "width": 432, "height": 267 },
+          "scaleMode": "CROP",
+          "sha256": "1c4746a5429e94791b9af38ac07217dc00c069e4726708e92497c186b91eeb39"
+        }
+      ]
+    },
+    "problemEvidenceCaptures": {
+      "$type": "asset",
+      "$value": [
+        {
+          "sourceNodeId": "6:321",
+          "structuredNodeId": "28:95",
+          "slideNo": 3,
+          "role": "regulation evidence capture",
+          "path": "assets/images/03-problem-evidence/regulation-evidence-2051-6-321.png",
+          "pixelSize": { "width": 823, "height": 331 },
+          "scaleMode": "FILL",
+          "figmaImageHash": "1c98e132999733e68ecda85f675d543a326770ec",
+          "sha256": "2c9a3b58274768572a820b334893c0196e9325bdd15f05c75574114ec6446872",
+          "editableBoundary": "image crop and placement are editable; captured source content remains raster"
+        },
+        {
+          "sourceNodeId": "6:320",
+          "structuredNodeId": "28:95",
+          "slideNo": 3,
+          "role": "article evidence capture",
+          "path": "assets/images/03-problem-evidence/article-evidence-123-6-320.png",
+          "pixelSize": { "width": 804, "height": 443 },
+          "scaleMode": "CROP",
+          "figmaImageHash": "f01e1d802bbe4add596c24628a6ca1b04e804a10",
+          "sha256": "df1d6e09e07445bc8f257dadddee39e5a8a78c2632328cf9bcce8926ec3fa9f4",
+          "editableBoundary": "image crop and placement are editable; captured source content remains raster"
+        }
+      ]
+    },
+    "solutionOverviewComposite": {
+      "$type": "asset",
+      "$value": {
+        "sourceNodeId": "6:260",
+        "structuredNodeId": "28:108",
+        "slideNo": 4,
+        "role": "solution overview background and product composite",
+        "path": "assets/images/04-solution-overview/solution-composite-2093-6-260.png",
+        "pixelSize": { "width": 1213, "height": 935 },
+        "placement": { "x": 642, "y": 115, "width": 1213, "height": 935 },
+        "scaleMode": "CROP",
+        "figmaImageHashes": ["6e735ee0e70e065b059379d082b88be443b84dfe", "145c4d536e49d06cd05c448ab64b1c7214ded848"],
+        "sha256": "c130671fa823cdea0bb414b924bd49de14347fad2aec66938613b5c1a02932ee",
+        "editableBoundary": "flow labels remain editable; this composite is allowed as source product/background raster"
+      }
+    },
+    "featureWorkbenchComposite": {
+      "$type": "asset",
+      "$value": {
+        "sourceNodeId": "6:262",
+        "structuredNodeId": "28:159",
+        "slideNo": 5,
+        "role": "case workbench product UI composite",
+        "path": "assets/images/05-key-feature-ui/case-workbench-composite-2094-6-262.png",
+        "pixelSize": { "width": 1390, "height": 844 },
+        "placement": { "x": 289, "y": 291, "width": 1278, "height": 890 },
+        "scaleMode": "FILL",
+        "figmaImageHashes": ["21ddbadae6386f4a74f07e0f48224ee864092395", "d05b9bdfe3ab7f7bae72234fed4ced59ec52752c"],
+        "sha256": "78dc2067fef4bd97e9f3b0e126868b0394c0d84792ac9670072e120806499185",
+        "editableBoundary": "product UI screenshot is raster; callout labels and leader lines remain editable"
+      }
+    },
+    "featureApprovalLocalCrops": {
+      "$type": "asset",
+      "$value": [
+        {
+          "sourceSlideNo": 6,
+          "sourceNodeId": "6:286",
+          "origin": "local final JPG export",
+          "role": "floating case detail panel",
+          "path": "assets/images/06-key-feature-approval/floating-case-detail-local-crop.png",
+          "pixelSize": { "width": 832, "height": 263 },
+          "cropBox": [50, 54, 882, 317],
+          "sha256": "0f86d022eb3c1b70983716a57850cc22347ea517b4f3f1d1526f2ecb4a621f07",
+          "editableBoundary": "temporary raster crop until Figma subtree export succeeds; callout text remains editable"
+        },
+        {
+          "sourceSlideNo": 6,
+          "sourceNodeId": "6:286",
+          "origin": "local final JPG export",
+          "role": "approval queue product panel",
+          "path": "assets/images/06-key-feature-approval/approval-queue-local-crop.png",
+          "pixelSize": { "width": 886, "height": 430 },
+          "cropBox": [900, 20, 1786, 450],
+          "sha256": "79ce915be90172550e0a0f4e39a12ad54417b30c5958c708d436f51a6e3fc1d2",
+          "editableBoundary": "temporary raster crop until Figma subtree export succeeds; approval labels remain editable if rebuilt"
+        },
+        {
+          "sourceSlideNo": 6,
+          "sourceNodeId": "6:286",
+          "origin": "local final JPG export",
+          "role": "report viewer product panel",
+          "path": "assets/images/06-key-feature-approval/report-viewer-local-crop.png",
+          "pixelSize": { "width": 852, "height": 612 },
+          "cropBox": [908, 464, 1760, 1076],
+          "sha256": "da0be30a71da326e0b76e04409f84834adf3a9d9244355a4e58d6b5c1af72107",
+          "editableBoundary": "temporary raster crop until Figma subtree export succeeds; report text can be rebuilt from source docs later"
+        },
+        {
+          "sourceSlideNo": 6,
+          "sourceNodeId": "6:286",
+          "origin": "local final JPG export",
+          "role": "side navigation and queue panel",
+          "path": "assets/images/06-key-feature-approval/sidebar-queue-local-crop.png",
+          "pixelSize": { "width": 320, "height": 800 },
+          "cropBox": [592, 0, 912, 800],
+          "sha256": "4f86d401b7893baf77686adcdf06ae6b6111e56bce048b2831672eddb2610c38",
+          "editableBoundary": "temporary raster crop until Figma subtree export succeeds"
+        }
+      ]
+    }
+  },
+  "policy": {
+    "fullSlideRaster": {
+      "$value": "forbidden_in_rebuild",
+      "$type": "string"
+    },
+    "allowedRasterRoles": {
+      "$value": ["photo background", "laptop/product mockup image fill", "scenario card image"],
+      "$type": "array"
+    },
+    "mustRemainEditable": {
+      "$value": ["headlines", "captions", "process labels", "flow diagram labels", "data tables", "footer metadata"],
+      "$type": "array"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slideNo": 13,
+  "version": "v1.0",
+  "sourceNodeId": "6:1586",
+  "baselineNodeId": "29:214",
+  "rebuiltNodeId": "80:688",
+  "name": "S13/AppendixReferences/Componentized Rebuild v1.0",
+  "componentSets": [
+    "79:736",
+    "79:832",
+    "79:849"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/13-appendix-source-6-1586.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/13-appendix-componentized-80-688.png",
+  "diffImage": "qa/visual-diff/13-appendix-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "maxChannelDelta": 0,
+  "changedBoundingBox": [],
+  "rmsRgbaNormalized": 0.0,
+  "qaStatus": "pass",
+  "sourceSha256": "310d106cdacecbe7bfd517579664a79420fa34d8d9967ddb96630a93068aa05d",
+  "rebuiltSha256": "310d106cdacecbe7bfd517579664a79420fa34d8d9967ddb96630a93068aa05d",
+  "notes": "Pixel diff between source slide 6:1586 and componentized rebuild 80:688. Thirty-one reference item frames and four verification summary rows are replaced with exact component instances; header, columns, section labels, caveat note, and verification box remain cloned source layers.",
+  "diffSha256": "37ca6e332ecf5cee81f60a6ad3de135f5930dbd44c44f1084a2e541f1b735ff1"
+}

@@ -1,0 +1,33 @@
+{
+  "slideNo": 12,
+  "version": "v1.0",
+  "sourceNodeId": "6:983",
+  "baselineNodeId": "29:151",
+  "rebuiltNodeId": "77:678",
+  "name": "S12/ClosingExpansion/Componentized Rebuild v1.0",
+  "componentSets": [
+    "75:690",
+    "75:703"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/12-expansion-source-6-983.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/12-expansion-componentized-77-678.png",
+  "diffImage": "qa/visual-diff/12-expansion-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 95,
+  "similarity": 0.9999541859567901,
+  "maxChannelDelta": 16,
+  "changedBoundingBox": [
+    920,
+    99,
+    1839,
+    1032
+  ],
+  "rmsRgbaNormalized": 0.00023784973377884586,
+  "qaStatus": "pass",
+  "sourceSha256": "76dd768fa111e7d3f85a36d08fd74363a7886195e5840a6496b8668f785d52fd",
+  "rebuiltSha256": "0cd90e771fe4ac0b9f674ba594e09857130a6e43a8ea655ab4bd998c33a95cc1",
+  "notes": "Pixel diff between source slide 6:983 and componentized rebuild 77:678. AX/EX/CX benefit bubbles and four right-side expansion steps are replaced with exact component instances; orbit vectors, title/body, captions, central list, and closing wordmark remain cloned source layers.",
+  "diffSha256": "e8181c55307390054a309a5fa3d8731485e00befaf4cd35106e927bebd11577a"
+}

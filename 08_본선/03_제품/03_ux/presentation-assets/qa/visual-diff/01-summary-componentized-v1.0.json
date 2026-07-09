@@ -1,0 +1,33 @@
+{
+  "slideNo": 1,
+  "version": "v1.0",
+  "sourceNodeId": "6:198",
+  "baselineNodeId": "22:2",
+  "rebuiltNodeId": "93:1179",
+  "name": "S01/Summary/Componentized Rebuild v1.0",
+  "components": [
+    "92:1179",
+    "92:1188",
+    "92:1189",
+    "92:1192"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/01-summary-source-6-198.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/01-summary-componentized-93-1179.png",
+  "diffImage": "qa/visual-diff/01-summary-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "pixelTolerancePerChannel": 1,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "exactChangedPixels": 923512,
+  "exactSimilarity": 0.554633487654321,
+  "maxChannelDelta": 1,
+  "changedBoundingBox": null,
+  "rmsRgbaNormalized": 0.002351216016451862,
+  "qaStatus": "pass_tolerance_delta_le_1",
+  "sourceSha256": "6ada89581dc01b4f247661a4caffe9b08c6e89625af6ecb8c75a13d5a8337b5f",
+  "rebuiltSha256": "c79cfdc1808df8bad06e7878be0222a7f9926c7d6dce2d0f30ec540c4346c8b8",
+  "notes": "Tolerance-aware pixel diff between source slide 6:198 and componentized rebuild 93:1179. Exact-pixel comparison reports many one-channel deltas, but maxChannelDelta is 1 and no pixel differs beyond tolerance. Cover media stack, header, footer, and Panchang wordmark are component instances; text font metadata is preserved without mutation because Pretendard is unavailable to the plugin runtime.",
+  "diffSha256": "9327db0334c49b5bb1c240fa716099d066b28d61e3d55c23e1e1458d90e65ea1"
+}

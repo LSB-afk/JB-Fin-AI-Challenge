@@ -1,0 +1,1289 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "name": "JByond full-deck assetization backlog",
+    "created": "2026-07-09",
+    "status": "source_analysis_ready_component_promotion_pending",
+    "workingFigmaFileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "audit": "../qa/visual-diff/full-deck-structured-audit-2026-07-09.json",
+    "policy": "Preserve the source-clone pixel baseline before and after each material extraction or component promotion."
+  },
+  "qualityTargets": {
+    "visualSimilarityMinimum": 0.98,
+    "preferredSimilarityMinimum": 0.999,
+    "frame": {
+      "width": 1920,
+      "height": 1080
+    },
+    "forbidden": [
+      "full_slide_flatten_as_rebuild",
+      "untracked_font_substitution",
+      "unrecorded_image_crop"
+    ],
+    "requiredRecords": [
+      "sourceNodeId",
+      "rebuildNodeId",
+      "analysisDoc",
+      "materialUnits",
+      "componentCandidates",
+      "qaMethod"
+    ]
+  },
+  "slides": [
+    {
+      "slideNo": 1,
+      "id": "01-summary",
+      "sourceNodeId": "6:198",
+      "rebuildNodeId": "22:2",
+      "analysisDoc": "slides/01-summary-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "full_screenshot_pixel_diff"
+      },
+      "assetizationStatus": "cover_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "cover-stage-image",
+          "kind": "image_fill",
+          "status": "extracted",
+          "path": "assets/images/01-summary/image-2019.png"
+        },
+        {
+          "id": "cover-laptop-mockup",
+          "kind": "image_fill",
+          "status": "extracted",
+          "path": "assets/images/01-summary/image-2090.png"
+        },
+        {
+          "id": "cover-wordmark",
+          "kind": "editable_text",
+          "status": "font_source_captured",
+          "font": "Panchang Medium"
+        },
+        {
+          "id": "cover-veils-and-hand",
+          "kind": "vector_overlay",
+          "status": "extracted",
+          "path": "assets/vectors/01-summary/"
+        }
+      ],
+      "componentCandidates": [
+        "CoverMediaStackExact",
+        "CoverHeaderExact",
+        "CoverFooterExact",
+        "CoverWordmarkExact"
+      ],
+      "tokenFamilies": [
+        "typography",
+        "fonts",
+        "assets",
+        "effects",
+        "surfaces"
+      ],
+      "nextActions": [
+        "Slides 05/06: retry componentization with smaller manually isolated child IDs because whole-subtree reads returned HTTP 504."
+      ],
+      "componentizedRebuild": {
+        "slideNo": 1,
+        "version": "v1.0",
+        "nodeId": "93:1179",
+        "name": "S01/Summary/Componentized Rebuild v1.0",
+        "components": [
+          "92:1179",
+          "92:1188",
+          "92:1189",
+          "92:1192"
+        ],
+        "screenshot": "assets/rebuild-screenshots/01-summary-componentized-93-1179.png",
+        "visualDiff": "qa/visual-diff/01-summary-componentized-v1.0.json",
+        "similarity": 1.0,
+        "changedPixels": 0,
+        "exactChangedPixels": 923512,
+        "exactSimilarity": 0.554633487654321,
+        "maxChannelDelta": 1,
+        "status": "pass_tolerance_delta_le_1_4_component_instances_preserved"
+      }
+    },
+    {
+      "slideNo": 2,
+      "id": "02-problem-definition",
+      "sourceNodeId": "6:3",
+      "rebuildNodeId": "28:2",
+      "analysisDoc": "slides/02-problem-definition-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9999802276234568,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 41
+      },
+      "assetizationStatus": "case_card_and_exact_limitation_row_componentized_v1_2_pass",
+      "materialUnits": [
+        {
+          "id": "problem-case-card-set",
+          "kind": "editable_card_grid",
+          "status": "component_set_promoted_v1",
+          "componentNodeId": "36:16",
+          "componentSetNodeId": "39:77",
+          "componentScreenshot": "assets/components/problem-case-card-36-16.png",
+          "componentSetScreenshot": "assets/components/problem-case-card-variant-set-39-77.png"
+        },
+        {
+          "id": "problem-comparison-rows",
+          "kind": "editable_table",
+          "status": "exact_component_set_promoted_v1_2_pass",
+          "componentSetNodeId": "48:88",
+          "componentSetScreenshot": "assets/components/limitation-row-exact-variant-set-48-88.png",
+          "variants": [
+            "chatbot",
+            "dashboard",
+            "rpa"
+          ],
+          "previousComponentSetNodeId": "42:17",
+          "notes": "42:17 remains as a broader reusable row component; 48:88 preserves exact slide row geometry for high-fidelity rebuilds."
+        },
+        {
+          "id": "problem-headline-block",
+          "kind": "editable_text",
+          "status": "needs_typography_token_mapping"
+        }
+      ],
+      "componentCandidates": [
+        "ComparisonCard",
+        "ProblemCaseCard",
+        "LimitationRow"
+      ],
+      "tokenFamilies": [
+        "typography",
+        "components",
+        "surfaces",
+        "spacing"
+      ],
+      "nextActions": [
+        "Use slide 02 v1.2 as the componentization QA pattern: componentize one repeated family at a time, then rerun full-slide diff.",
+        "Do not mutate text/font properties until Pretendard/Panchang are available in the Figma runtime."
+      ],
+      "componentizedQA": {
+        "nodeId": "49:76",
+        "version": "v1.2",
+        "componentSets": [
+          "39:77",
+          "48:88"
+        ],
+        "similarity": 0.9997815393518519,
+        "changedPixels": 453,
+        "visualDiff": "qa/visual-diff/02-problem-componentized-v1.2.json",
+        "previousLoop": {
+          "nodeId": "46:2",
+          "version": "v1.1",
+          "componentSets": [
+            "39:77",
+            "42:17"
+          ],
+          "similarity": 0.9938806905864197,
+          "changedPixels": 12689,
+          "decision": "Rejected for row geometry drift; still above 98% gate."
+        }
+      }
+    },
+    {
+      "slideNo": 3,
+      "id": "03-problem-evidence",
+      "sourceNodeId": "6:313",
+      "rebuildNodeId": "28:95",
+      "analysisDoc": "slides/03-problem-evidence-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "figma_export_png_byte_equal",
+        "changedPixels": 0
+      },
+      "assetizationStatus": "evidence_screenshots_and_highlights_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "regulation-evidence-capture-01",
+          "kind": "image_fill",
+          "status": "exported",
+          "sourceNodeId": "6:321",
+          "path": "assets/images/03-problem-evidence/regulation-evidence-2051-6-321.png",
+          "pixelSize": {
+            "width": 823,
+            "height": 331
+          },
+          "sha256": "2c9a3b58274768572a820b334893c0196e9325bdd15f05c75574114ec6446872"
+        },
+        {
+          "id": "regulation-evidence-capture-02",
+          "kind": "image_fill",
+          "status": "exported",
+          "sourceNodeId": "6:320",
+          "path": "assets/images/03-problem-evidence/article-evidence-123-6-320.png",
+          "pixelSize": {
+            "width": 804,
+            "height": 443
+          },
+          "sha256": "df1d6e09e07445bc8f257dadddee39e5a8a78c2632328cf9bcce8926ec3fa9f4"
+        },
+        {
+          "id": "evidence-caption-and-headline",
+          "kind": "editable_text",
+          "status": "needs_typography_token_mapping"
+        },
+        {
+          "id": "evidence-component-sets",
+          "kind": "figma_component_sets",
+          "status": "promoted_v1_exact_geometry",
+          "componentSets": [
+            {
+              "name": "JByond/Deck/EvidenceScreenshotExact/VariantSet",
+              "nodeId": "58:175",
+              "screenshot": "assets/components/evidence-screenshot-exact-variant-set-58-175.png",
+              "sha256": "b653445d59e546b2fd507cbee2d50b77bfceb0b63d009d18ecd488e71e5ac244"
+            },
+            {
+              "name": "JByond/Deck/EvidenceHighlightExact/VariantSet",
+              "nodeId": "58:182",
+              "screenshot": "assets/components/evidence-highlight-exact-variant-set-58-182.png",
+              "sha256": "3189769ba78c2bfa4262c681d9ed1f81ec98b4cddfd148c041f65d095d4c16d1"
+            }
+          ]
+        },
+        {
+          "id": "slide03-componentized-rebuild",
+          "kind": "figma_frame_screenshot",
+          "status": "qa_pass_byte_equal",
+          "nodeId": "58:183",
+          "path": "assets/rebuild-screenshots/03-problem-evidence-componentized-58-183.png",
+          "sha256": "9eb99b723c6f9d591742ae65e1dc5e9e050d4dc3ed2991ea8f758df67cad6b31"
+        }
+      ],
+      "componentCandidates": [
+        "EvidenceCapture",
+        "EvidenceCaption"
+      ],
+      "tokenFamilies": [
+        "assets",
+        "typography",
+        "effects"
+      ],
+      "nextActions": [
+        "Use EvidenceScreenshotExact and EvidenceHighlightExact as the canonical pattern for raster evidence plus editable overlay slides.",
+        "Continue with org-chart component promotion on slide 08 or selected-child extraction retry for slides 05/06."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "58:183",
+        "name": "S03/ProblemEvidence/Componentized Rebuild v1.0",
+        "componentSets": [
+          "58:175",
+          "58:182"
+        ],
+        "visualDiff": "qa/visual-diff/03-problem-evidence-componentized-v1.0.json",
+        "similarity": 1.0,
+        "changedPixels": 0
+      }
+    },
+    {
+      "slideNo": 4,
+      "id": "04-solution-overview",
+      "sourceNodeId": "6:210",
+      "rebuildNodeId": "28:108",
+      "analysisDoc": "slides/04-solution-overview-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9999951774691358,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 10
+      },
+      "assetizationStatus": "solution_axis_and_flow_steps_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "solution-axis-flow",
+          "kind": "editable_flow_diagram",
+          "status": "component_sets_promoted_v1_0_pass",
+          "componentSetNodeIds": [
+            "53:174",
+            "53:184"
+          ],
+          "componentSetScreenshots": [
+            "assets/components/solution-axis-column-exact-variant-set-53-174.png",
+            "assets/components/solution-flow-step-exact-variant-set-53-184.png"
+          ],
+          "notes": "Axis columns and flow step pills are now component instances in slide 04 componentized rebuild 54:150."
+        },
+        {
+          "id": "solution-background-composite",
+          "kind": "image_fill",
+          "status": "exported",
+          "sourceNodeId": "6:260",
+          "path": "assets/images/04-solution-overview/solution-composite-2093-6-260.png",
+          "pixelSize": {
+            "width": 1213,
+            "height": 935
+          },
+          "sha256": "c130671fa823cdea0bb414b924bd49de14347fad2aec66938613b5c1a02932ee"
+        },
+        {
+          "id": "keyboard-enter-affordance",
+          "kind": "editable_shape_text",
+          "status": "needs_pattern_decision"
+        }
+      ],
+      "componentCandidates": [
+        "SolutionAxisFlow",
+        "FlowStep",
+        "KeyboardAffordance"
+      ],
+      "tokenFamilies": [
+        "components",
+        "effects",
+        "surfaces",
+        "typography"
+      ],
+      "nextActions": [
+        "Use v1.0 pattern for remaining slide 04 keyboard note if needed; avoid mutating text until Pretendard is available."
+      ],
+      "componentizedQA": {
+        "nodeId": "54:150",
+        "version": "v1.0",
+        "componentSets": [
+          "53:174",
+          "53:184"
+        ],
+        "similarity": 0.9999657600308642,
+        "changedPixels": 71,
+        "visualDiff": "qa/visual-diff/04-solution-componentized-v1.0.json"
+      }
+    },
+    {
+      "slideNo": 5,
+      "id": "05-key-feature-ui",
+      "sourceNodeId": "6:261",
+      "rebuildNodeId": "28:159",
+      "analysisDoc": "slides/05-key-feature-ui-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "figma_export_png_byte_equal",
+        "changedPixels": 0
+      },
+      "assetizationStatus": "componentized_rebuild_v1_0_pass_2026_07_09",
+      "materialUnits": [
+        {
+          "id": "case-workbench-screenshot",
+          "kind": "product_ui_capture",
+          "status": "exported_composite",
+          "path": "assets/images/05-key-feature-ui/case-workbench-composite-2094-6-262.png",
+          "pixelSize": {
+            "width": 1390,
+            "height": 844
+          },
+          "sha256": "78dc2067fef4bd97e9f3b0e126868b0394c0d84792ac9670072e120806499185"
+        },
+        {
+          "id": "ui-callout-case-board",
+          "kind": "editable_callout",
+          "status": "component_promoted_partial_v1",
+          "componentSetNodeId": "95:1197"
+        },
+        {
+          "id": "ui-callout-risk-signal",
+          "kind": "editable_callout",
+          "status": "component_promoted_partial_v1",
+          "componentSetNodeId": "95:1197"
+        },
+        {
+          "id": "ui-callout-agent-run",
+          "kind": "editable_callout",
+          "status": "component_promoted_partial_v1",
+          "componentSetNodeId": "96:1195"
+        },
+        {
+          "id": "ui-callout-evidence-pack",
+          "kind": "editable_callout",
+          "status": "component_promoted_partial_v1",
+          "componentSetNodeId": "96:1195"
+        }
+      ],
+      "componentCandidates": [
+        "UICalloutPanel",
+        "ProductScreenshotFrame",
+        "FeatureCallout"
+      ],
+      "tokenFamilies": [
+        "assets",
+        "components",
+        "typography",
+        "effects"
+      ],
+      "nextActions": [
+        "Retry slide 06 componentization with selected child IDs or manually isolated smaller nodes.",
+        "For slide 05, promote connector vectors only in a separate connector-only loop if reuse value exceeds the risk.",
+        "Keep unresolved node 6:285 out of direct Figma reads unless manually isolated."
+      ],
+      "figmaReadIssues": [
+        {
+          "observedAt": "2026-07-09",
+          "issue": "Figma get_metadata/use_figma subtree and direct-child inspections returned HTTP 504 three times.",
+          "next": "Retry with isolated child IDs if they can be selected manually, otherwise continue from local composite asset and source-preserving baseline."
+        }
+      ],
+      "smallChildProbe": {
+        "observedAt": "2026-07-09",
+        "method": "single_node_get_metadata_after_full_subtree_http_504",
+        "safeWorkflow": "Use one-node metadata probes and narrowly scoped write calls; avoid bundled use_figma loops over slide 05 IDs.",
+        "metadataOkNodeIds": [
+          "6:262",
+          "6:263",
+          "6:264",
+          "6:265",
+          "6:266",
+          "6:267",
+          "6:268",
+          "6:269",
+          "6:270",
+          "6:271",
+          "6:272",
+          "6:273",
+          "6:274",
+          "6:275",
+          "6:276",
+          "6:277",
+          "6:278",
+          "6:279",
+          "6:280",
+          "6:281",
+          "6:282",
+          "6:283",
+          "6:284"
+        ],
+        "metadataTimeoutNodeIds": [
+          "6:285"
+        ],
+        "componentizationTarget": {
+          "rasterProductShot": "6:262",
+          "calloutGroups": [
+            "6:271",
+            "6:274"
+          ],
+          "standaloneCalloutTexts": [
+            "6:277",
+            "6:278",
+            "6:279",
+            "6:280"
+          ],
+          "connectorVectors": [
+            "6:269",
+            "6:270",
+            "6:281",
+            "6:282",
+            "6:283"
+          ],
+          "panelMasks": [
+            "6:265",
+            "6:266",
+            "6:267",
+            "6:268"
+          ]
+        }
+      },
+      "partialPromotedComponents": [
+        {
+          "name": "FeatureCalloutTopExact",
+          "nodeId": "95:1197",
+          "screenshot": "assets/components/feature-callout-top-exact-variant-set-95-1197.png"
+        },
+        {
+          "name": "FeatureCalloutRightExact",
+          "nodeId": "96:1195",
+          "screenshot": "assets/components/feature-callout-right-exact-variant-set-96-1195.png"
+        }
+      ],
+      "componentizedQA": {
+        "nodeId": "98:1189",
+        "version": "v1.0",
+        "componentSets": [
+          "95:1197",
+          "96:1195"
+        ],
+        "componentInstances": [
+          "98:1214",
+          "98:1217",
+          "98:1220",
+          "98:1223"
+        ],
+        "similarity": 1.0,
+        "changedPixels": 0,
+        "visualDiff": "qa/visual-diff/05-key-feature-ui-componentized-v1.0.json",
+        "screenshot": "assets/rebuild-screenshots/05-key-feature-ui-componentized-98-1189.png",
+        "sourceScreenshot": "assets/rebuild-screenshots/05-key-feature-ui-source-6-261.png"
+      }
+    },
+    {
+      "slideNo": 6,
+      "id": "06-key-feature-approval",
+      "sourceNodeId": "6:286",
+      "rebuildNodeId": "28:184",
+      "analysisDoc": "slides/06-key-feature-approval-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "figma_export_png_byte_equal",
+        "changedPixels": 0
+      },
+      "assetizationStatus": "componentized_rebuild_v1_0_pass_2026_07_09",
+      "materialUnits": [
+        {
+          "id": "floating-case-detail-panel",
+          "kind": "product_ui_capture",
+          "status": "exported_local_crop",
+          "path": "assets/images/06-key-feature-approval/floating-case-detail-local-crop.png",
+          "pixelSize": {
+            "width": 832,
+            "height": 263
+          },
+          "sha256": "0f86d022eb3c1b70983716a57850cc22347ea517b4f3f1d1526f2ecb4a621f07",
+          "cropBox": [
+            50,
+            54,
+            882,
+            317
+          ],
+          "source": "local final JPG export"
+        },
+        {
+          "id": "approval-queue-screenshot",
+          "kind": "product_ui_capture",
+          "status": "exported_local_crop",
+          "path": "assets/images/06-key-feature-approval/approval-queue-local-crop.png",
+          "pixelSize": {
+            "width": 886,
+            "height": 430
+          },
+          "sha256": "79ce915be90172550e0a0f4e39a12ad54417b30c5958c708d436f51a6e3fc1d2",
+          "cropBox": [
+            900,
+            20,
+            1786,
+            450
+          ],
+          "source": "local final JPG export; Figma subtree metadata timed out"
+        },
+        {
+          "id": "l0-l4-gate-callout",
+          "kind": "editable_callout",
+          "status": "component_promoted_v1",
+          "componentSetNodeId": "101:1205"
+        },
+        {
+          "id": "audit-log-callout",
+          "kind": "editable_callout",
+          "status": "component_promoted_v1",
+          "componentSetNodeId": "101:1205"
+        },
+        {
+          "id": "report-viewer-panel",
+          "kind": "product_ui_capture",
+          "status": "exported_local_crop",
+          "path": "assets/images/06-key-feature-approval/report-viewer-local-crop.png",
+          "pixelSize": {
+            "width": 852,
+            "height": 612
+          },
+          "sha256": "da0be30a71da326e0b76e04409f84834adf3a9d9244355a4e58d6b5c1af72107",
+          "cropBox": [
+            908,
+            464,
+            1760,
+            1076
+          ],
+          "source": "local final JPG export; Figma subtree metadata timed out"
+        },
+        {
+          "id": "sidebar-queue-panel",
+          "kind": "product_ui_capture",
+          "status": "exported_local_crop",
+          "path": "assets/images/06-key-feature-approval/sidebar-queue-local-crop.png",
+          "pixelSize": {
+            "width": 320,
+            "height": 800
+          },
+          "sha256": "4f86d401b7893baf77686adcdf06ae6b6111e56bce048b2831672eddb2610c38",
+          "cropBox": [
+            592,
+            0,
+            912,
+            800
+          ],
+          "source": "local final JPG export; Figma subtree metadata timed out"
+        }
+      ],
+      "componentCandidates": [
+        "ApprovalQueueCard",
+        "AuditLogCallout",
+        "ReportViewerPanel",
+        "UICalloutPanel"
+      ],
+      "tokenFamilies": [
+        "assets",
+        "components",
+        "typography",
+        "effects"
+      ],
+      "nextActions": [
+        "Optional: promote approval queue cards/report viewer only if future decks need editable console-shot internals.",
+        "Keep node 6:304 out of direct Figma reads unless manually isolated."
+      ],
+      "figmaReadIssue": {
+        "slideNo": 6,
+        "sourceNodeId": "6:286",
+        "baselineNodeId": "28:184",
+        "observedAt": "2026-07-09",
+        "issue": "Figma source+baseline lightweight child read and get_metadata on baseline returned HTTP 504; avoid whole-subtree reads and retry only with selected child IDs or manually isolated smaller nodes."
+      },
+      "componentizedQA": {
+        "nodeId": "101:1206",
+        "version": "v1.0",
+        "componentSets": [
+          "101:1205"
+        ],
+        "componentInstances": [
+          "101:1233",
+          "101:1236"
+        ],
+        "similarity": 1.0,
+        "changedPixels": 0,
+        "visualDiff": "qa/visual-diff/06-key-feature-approval-componentized-v1.0.json",
+        "screenshot": "assets/rebuild-screenshots/06-key-feature-approval-componentized-101-1206.png",
+        "sourceScreenshot": "assets/rebuild-screenshots/06-key-feature-approval-source-6-286.png"
+      },
+      "partialPromotedComponents": [
+        {
+          "name": "ApprovalAuditCalloutExact",
+          "nodeId": "101:1205",
+          "screenshot": "assets/components/approval-audit-callout-exact-variant-set-101-1205.png"
+        }
+      ]
+    },
+    {
+      "slideNo": 7,
+      "id": "07-system-flow",
+      "sourceNodeId": "6:325",
+      "rebuildNodeId": "25:2",
+      "analysisDoc": "slides/07-system-flow-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9997530864,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 512
+      },
+      "assetizationStatus": "tables_and_entity_pills_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "system-flow-diagram",
+          "kind": "editable_flow_diagram",
+          "status": "decomposed_as_pattern"
+        },
+        {
+          "id": "data-and-tech-tables",
+          "kind": "editable_table",
+          "status": "decomposed_as_pattern"
+        },
+        {
+          "id": "entity-rail",
+          "kind": "editable_object_model",
+          "status": "decomposed_as_pattern"
+        },
+        {
+          "id": "system-flow-table-component-set",
+          "kind": "figma_component_set",
+          "status": "promoted_v1_exact_geometry",
+          "nodeId": "66:560",
+          "screenshot": "assets/components/system-flow-table-exact-variant-set-66-560.png",
+          "sha256": "b619c7688045bfe6be7ad819ceebc628a0af44f90775c29bd04ab20bdc1bba76"
+        },
+        {
+          "id": "entity-pill-component-set",
+          "kind": "figma_component_set",
+          "status": "promoted_v1_exact_geometry",
+          "nodeId": "66:610",
+          "screenshot": "assets/components/entity-pill-exact-variant-set-66-610.png",
+          "sha256": "adb552d100fae0b102c1a23bd8a062b8716f1fd05c07c48f1380f24a6316e8ab"
+        },
+        {
+          "id": "slide07-componentized-rebuild",
+          "kind": "figma_frame_screenshot",
+          "status": "qa_pass_99_953_percent",
+          "nodeId": "68:508",
+          "path": "assets/rebuild-screenshots/07-system-flow-componentized-68-508.png",
+          "sha256": "aed94044c4004c6f2748a355000c9f067398132f890030c28fe7fd670b998d20"
+        }
+      ],
+      "componentCandidates": [
+        "SystemFlowPanel",
+        "FlowStageHeader",
+        "FlowNode",
+        "EntityPill",
+        "DarkTable",
+        "TableRow"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "surfaces",
+        "strokes"
+      ],
+      "nextActions": [
+        "Promote main flow stage columns/nodes only after connector endpoint drift check."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "68:508",
+        "name": "S07/SystemFlow/Componentized Rebuild v1.0",
+        "componentSets": [
+          "66:560",
+          "66:610"
+        ],
+        "visualDiff": "qa/visual-diff/07-system-flow-componentized-v1.0.json",
+        "similarity": 0.9995273919753086,
+        "changedPixels": 980
+      }
+    },
+    {
+      "slideNo": 8,
+      "id": "08-ai-org-chart",
+      "sourceNodeId": "6:592",
+      "rebuildNodeId": "28:211",
+      "analysisDoc": "slides/08-ai-org-chart-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9999995177469135,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 1
+      },
+      "assetizationStatus": "org_role_and_gate_cards_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "ai-role-node-set",
+          "kind": "editable_org_chart",
+          "status": "needs_component_promotion"
+        },
+        {
+          "id": "ai-role-connectors",
+          "kind": "editable_connector_set",
+          "status": "needs_component_promotion"
+        },
+        {
+          "id": "governance-support-nodes",
+          "kind": "editable_org_chart",
+          "status": "needs_component_promotion"
+        },
+        {
+          "id": "org-card-component-sets",
+          "kind": "figma_component_sets",
+          "status": "promoted_v1_exact_geometry",
+          "componentSets": [
+            {
+              "name": "JByond/Deck/OrgRoleNodeCompactExact/VariantSet",
+              "nodeId": "60:372",
+              "screenshot": "assets/components/org-role-node-compact-exact-variant-set-60-372.png",
+              "sha256": "ae92106a63486fa727d15ecc65cc53d00d71d7219943edfdfba56ed1f0f967b5"
+            },
+            {
+              "name": "JByond/Deck/OrgRoleNodeTallExact/VariantSet",
+              "nodeId": "60:505",
+              "screenshot": "assets/components/org-role-node-tall-exact-variant-set-60-505.png",
+              "sha256": "c206e6da06e6bd0f32be91a6083d985ab3ce9b26f99fe0eed9c64fa02eba2e2a"
+            },
+            {
+              "name": "JByond/Deck/OrgGateNodeExact/VariantSet",
+              "nodeId": "60:550",
+              "screenshot": "assets/components/org-gate-node-exact-variant-set-60-550.png",
+              "sha256": "a5d42b88ac5c0b7d14708678697b01cc0ef7f9fdb54a2f30d04c02e55ed7db04"
+            }
+          ]
+        },
+        {
+          "id": "slide08-componentized-rebuild",
+          "kind": "figma_frame_screenshot",
+          "status": "qa_pass_99_991_percent",
+          "nodeId": "61:176",
+          "path": "assets/rebuild-screenshots/08-ai-org-componentized-61-176.png",
+          "sha256": "f331f55cae8abfac303e562dacc69a582e7892f6aadb313c8297673ba6146820"
+        }
+      ],
+      "componentCandidates": [
+        "OrgRoleNode",
+        "OrgConnector",
+        "GovernanceRoleNode"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "strokes",
+        "surfaces"
+      ],
+      "nextActions": [
+        "Promote connector arrows only after checking whether endpoint drift can stay under current 177-pixel delta.",
+        "Consider OpsAgentPanelExact for the bottom-right operating agent group."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "61:176",
+        "name": "S08/AIOrgChart/Componentized Rebuild v1.0",
+        "componentSets": [
+          "60:372",
+          "60:505",
+          "60:550"
+        ],
+        "visualDiff": "qa/visual-diff/08-ai-org-componentized-v1.0.json",
+        "similarity": 0.9999146412037037,
+        "changedPixels": 177
+      }
+    },
+    {
+      "slideNo": 9,
+      "id": "09-user-scenario",
+      "sourceNodeId": "6:1046",
+      "rebuildNodeId": "26:2",
+      "analysisDoc": "slides/09-user-scenario-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 0
+      },
+      "assetizationStatus": "process_nodes_and_scenario_cards_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "scenario-background",
+          "kind": "image_fill",
+          "status": "extracted",
+          "path": "assets/images/09-user-scenario/background-image-2000.png"
+        },
+        {
+          "id": "scenario-card-images",
+          "kind": "image_fill_set",
+          "status": "extracted",
+          "path": "assets/images/09-user-scenario/"
+        },
+        {
+          "id": "scenario-process-rail",
+          "kind": "editable_flow_diagram",
+          "status": "decomposed_as_pattern"
+        },
+        {
+          "id": "scenario-component-sets",
+          "kind": "figma_component_sets",
+          "status": "promoted_v1_exact_geometry",
+          "componentSets": [
+            {
+              "name": "JByond/Deck/ScenarioProcessNodeExact/VariantSet",
+              "nodeId": "63:520",
+              "screenshot": "assets/components/scenario-process-node-exact-variant-set-63-520.png",
+              "sha256": "6236749db94fb9c264dbc4556e828e521c1b28026a22ff7f4ce70f2af3a98568"
+            },
+            {
+              "name": "JByond/Deck/ScenarioCardExact/VariantSet",
+              "nodeId": "63:537",
+              "screenshot": "assets/components/scenario-card-exact-variant-set-63-537.png",
+              "sha256": "7e062a939b4ea7f0d52a0e033dad0ed8aecc05dcc1f744cee1e002ade7e5770e"
+            }
+          ]
+        },
+        {
+          "id": "slide09-componentized-rebuild",
+          "kind": "figma_frame_screenshot",
+          "status": "qa_pass_byte_equal",
+          "nodeId": "64:490",
+          "path": "assets/rebuild-screenshots/09-user-scenario-componentized-64-490.png",
+          "sha256": "7b3218ece6438d6c8a8bfa9be2c5396cf0833deedca503c6384254f9a60df2de"
+        }
+      ],
+      "componentCandidates": [
+        "ProcessNode",
+        "DecisionDiamond",
+        "BranchGroup",
+        "ScenarioCard",
+        "CardCaption"
+      ],
+      "tokenFamilies": [
+        "assets",
+        "components",
+        "typography",
+        "strokes"
+      ],
+      "nextActions": [
+        "Promote decision diamond and connector set only if endpoint geometry remains byte-identical.",
+        "Convert scenario cards to a more flexible card API after font availability is resolved."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "64:490",
+        "name": "S09/UserScenario/Componentized Rebuild v1.0",
+        "componentSets": [
+          "63:520",
+          "63:537"
+        ],
+        "visualDiff": "qa/visual-diff/09-user-scenario-componentized-v1.0.json",
+        "similarity": 1.0,
+        "changedPixels": 0
+      }
+    },
+    {
+      "slideNo": 10,
+      "id": "10-expected-effects",
+      "sourceNodeId": "6:96",
+      "rebuildNodeId": "29:2",
+      "analysisDoc": "slides/10-expected-effects-source-analysis.md",
+      "baseline": {
+        "similarity": 0.999702449845679,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 617
+      },
+      "assetizationStatus": "experience_nodes_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "effect-axis-blocks",
+          "kind": "editable_metric_grid",
+          "status": "needs_component_promotion"
+        },
+        {
+          "id": "roi-scenario-metrics",
+          "kind": "editable_metric_block",
+          "status": "needs_evidence_linking"
+        },
+        {
+          "id": "transformation-labels",
+          "kind": "editable_text",
+          "status": "needs_typography_token_mapping"
+        },
+        {
+          "id": "experience-node-component-set",
+          "kind": "figma_component_set",
+          "status": "promoted_v1_exact_geometry",
+          "nodeId": "70:659",
+          "screenshot": "assets/components/experience-node-exact-variant-set-70-659.png",
+          "sha256": "a1660973f0b1e7210388e20417ef27a4464251c92c7862ea180e61ed2bce9972"
+        },
+        {
+          "id": "slide10-componentized-rebuild",
+          "kind": "figma_frame_screenshot",
+          "status": "qa_pass_99_873_percent",
+          "nodeId": "70:660",
+          "path": "assets/rebuild-screenshots/10-effects-componentized-70-660.png",
+          "sha256": "e2cd1a17f209b30290551d2f6db015e55dc7727901f9cdb0e83c77d1ea07afbd"
+        }
+      ],
+      "componentCandidates": [
+        "MetricBlock",
+        "TransformationAxisLabel",
+        "ScenarioAssumptionBox"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "semantic",
+        "qa"
+      ],
+      "nextActions": [
+        "Promote value-chain panel only after dense text clipping/drift check.",
+        "Keep ROI/NPV/time-saved values evidence-caveated before reuse."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "70:660",
+        "name": "S10/ExpectedEffects/Componentized Rebuild v1.0",
+        "componentSets": [
+          "70:659"
+        ],
+        "visualDiff": "qa/visual-diff/10-effects-componentized-v1.0.json",
+        "similarity": 0.9987331211419753,
+        "changedPixels": 2627
+      }
+    },
+    {
+      "slideNo": 11,
+      "id": "11-implementation-demo-plan",
+      "sourceNodeId": "6:1108",
+      "rebuildNodeId": "29:104",
+      "analysisDoc": "slides/11-implementation-demo-plan-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9998283179012346,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 356
+      },
+      "assetizationStatus": "demo_plan_rows_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "demo-ui-reference",
+          "kind": "product_ui_capture",
+          "status": "needs_export_if_image_fill"
+        },
+        {
+          "id": "mvp-checklist-row-set",
+          "kind": "editable_checklist_rows",
+          "status": "componentized_v1_0",
+          "nodeId": "72:661",
+          "path": "assets/components/mvp-checklist-row-exact-variant-set-72-661.png"
+        },
+        {
+          "id": "demo-plan-row-set",
+          "kind": "editable_step_pair_rows",
+          "status": "componentized_v1_0",
+          "nodeId": "72:697",
+          "path": "assets/components/demo-plan-row-exact-variant-set-72-697.png"
+        },
+        {
+          "id": "slide11-componentized-rebuild",
+          "kind": "figma_frame",
+          "status": "qa_pass",
+          "nodeId": "74:649",
+          "path": "assets/rebuild-screenshots/11-demo-plan-componentized-74-649.png"
+        }
+      ],
+      "componentCandidates": [
+        "MvpChecklistRowExact",
+        "DemoPlanRowExact",
+        "ProductScreenshotFrame"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "surfaces",
+        "assets"
+      ],
+      "nextActions": [
+        "Promote product screenshot/demo UI reference only if source image fills are isolated; keep header paragraph cloned until font runtime exposes Pretendard."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "74:649",
+        "componentSets": [
+          "72:661",
+          "72:697"
+        ],
+        "visualDiff": "qa/visual-diff/11-demo-plan-componentized-v1.0.json",
+        "similarity": 0.9999122299382716,
+        "changedPixels": 182,
+        "status": "pass"
+      }
+    },
+    {
+      "slideNo": 12,
+      "id": "12-closing-expansion",
+      "sourceNodeId": "6:983",
+      "rebuildNodeId": "29:151",
+      "analysisDoc": "slides/12-closing-expansion-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9999990354938272,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 2
+      },
+      "assetizationStatus": "bubbles_steps_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "expansion-orbit",
+          "kind": "editable_vector_diagram",
+          "status": "source_cloned_pending_orbit_component_promotion"
+        },
+        {
+          "id": "experience-benefit-bubble-set",
+          "kind": "editable_badge_set",
+          "status": "componentized_v1_0",
+          "nodeId": "75:690",
+          "path": "assets/components/experience-benefit-bubble-exact-variant-set-75-690.png"
+        },
+        {
+          "id": "expansion-step-set",
+          "kind": "editable_step_labels",
+          "status": "componentized_v1_0",
+          "nodeId": "75:703",
+          "path": "assets/components/expansion-step-exact-variant-set-75-703.png"
+        },
+        {
+          "id": "closing-wordmark",
+          "kind": "editable_text",
+          "status": "source_cloned_pending_typography_runtime"
+        },
+        {
+          "id": "slide12-componentized-rebuild",
+          "kind": "figma_frame",
+          "status": "qa_pass",
+          "nodeId": "77:678",
+          "path": "assets/rebuild-screenshots/12-expansion-componentized-77-678.png"
+        }
+      ],
+      "componentCandidates": [
+        "ExperienceBenefitBubbleExact",
+        "ExpansionStepExact",
+        "ExpansionOrbit",
+        "ClosingStatement"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "effects",
+        "surfaces"
+      ],
+      "nextActions": [
+        "Promote orbit vector/radius system only after z-order drift check; keep closing headline cloned until Pretendard runtime is available."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "77:678",
+        "componentSets": [
+          "75:690",
+          "75:703"
+        ],
+        "visualDiff": "qa/visual-diff/12-expansion-componentized-v1.0.json",
+        "similarity": 0.9999541859567901,
+        "changedPixels": 95,
+        "status": "pass"
+      }
+    },
+    {
+      "slideNo": 13,
+      "id": "13-appendix-references",
+      "sourceNodeId": "6:1586",
+      "rebuildNodeId": "29:214",
+      "analysisDoc": "slides/13-appendix-references-source-analysis.md",
+      "baseline": {
+        "similarity": 1.0,
+        "qaMethod": "figma_export_png_byte_equal",
+        "changedPixels": 0
+      },
+      "assetizationStatus": "reference_items_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "reference-item-2line-set",
+          "kind": "editable_reference_items",
+          "status": "componentized_v1_0",
+          "nodeId": "79:736",
+          "path": "assets/components/reference-item-2line-exact-variant-set-79-736.png"
+        },
+        {
+          "id": "reference-item-3line-set",
+          "kind": "editable_reference_items",
+          "status": "componentized_v1_0",
+          "nodeId": "79:832",
+          "path": "assets/components/reference-item-3line-exact-variant-set-79-832.png"
+        },
+        {
+          "id": "verification-summary-row-set",
+          "kind": "editable_verification_rows",
+          "status": "componentized_v1_0",
+          "nodeId": "79:849",
+          "path": "assets/components/verification-summary-row-exact-variant-set-79-849.png"
+        },
+        {
+          "id": "slide13-componentized-rebuild",
+          "kind": "figma_frame",
+          "status": "qa_pass",
+          "nodeId": "80:688",
+          "path": "assets/rebuild-screenshots/13-appendix-componentized-80-688.png"
+        },
+        {
+          "id": "evidence-ledger-normalization",
+          "kind": "structured_evidence_table",
+          "status": "pending_source_url_file_mapping"
+        }
+      ],
+      "componentCandidates": [
+        "ReferenceItem2LineExact",
+        "ReferenceItem3LineExact",
+        "VerificationSummaryRowExact",
+        "ReferenceColumn",
+        "EvidenceConfidenceTag"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "qa"
+      ],
+      "nextActions": [
+        "Normalize the 31 reference items into a structured evidence ledger with source URL/file provenance and verification status."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "80:688",
+        "componentSets": [
+          "79:736",
+          "79:832",
+          "79:849"
+        ],
+        "visualDiff": "qa/visual-diff/13-appendix-componentized-v1.0.json",
+        "similarity": 1.0,
+        "changedPixels": 0,
+        "status": "pass"
+      }
+    },
+    {
+      "slideNo": 14,
+      "id": "14-appendix-gantt",
+      "sourceNodeId": "6:1155",
+      "rebuildNodeId": "29:357",
+      "analysisDoc": "slides/14-appendix-gantt-source-analysis.md",
+      "baseline": {
+        "similarity": 0.9996238425925926,
+        "qaMethod": "full_screenshot_pixel_diff",
+        "changedPixels": 780
+      },
+      "assetizationStatus": "gantt_chart_componentized_v1_0_pass",
+      "materialUnits": [
+        {
+          "id": "gantt-date-tick-set",
+          "kind": "editable_date_grid",
+          "status": "componentized_v1_0",
+          "nodeId": "85:875",
+          "path": "assets/components/gantt-date-tick-exact-variant-set-85-875.png"
+        },
+        {
+          "id": "gantt-lane-meta-set",
+          "kind": "editable_gantt_lane_metadata",
+          "status": "componentized_v1_0",
+          "nodeId": "86:885",
+          "path": "assets/components/gantt-lane-meta-exact-variant-set-86-885.png"
+        },
+        {
+          "id": "gantt-task-bars",
+          "kind": "editable_timeline_bar_set",
+          "status": "componentized_v1_0",
+          "nodeId": "88:987",
+          "path": "assets/components/gantt-task-bar-exact-variant-set-88-987.png"
+        },
+        {
+          "id": "gantt-milestones",
+          "kind": "editable_marker_set",
+          "status": "componentized_v1_0",
+          "nodeId": "89:813",
+          "path": "assets/components/gantt-milestone-exact-variant-set-89-813.png"
+        },
+        {
+          "id": "slide14-componentized-rebuild",
+          "kind": "figma_frame",
+          "status": "qa_pass",
+          "nodeId": "90:777",
+          "path": "assets/rebuild-screenshots/14-gantt-componentized-90-777.png"
+        },
+        {
+          "id": "gantt-footer-evidence-box",
+          "kind": "editable_metadata_card",
+          "status": "documented_pattern_pending_component_promotion"
+        }
+      ],
+      "componentCandidates": [
+        "GanttDateTickExact",
+        "GanttLaneMetaExact",
+        "GanttTaskBarExact",
+        "GanttMilestoneExact",
+        "GanttEvidenceFooter"
+      ],
+      "tokenFamilies": [
+        "components",
+        "typography",
+        "strokes",
+        "semantic"
+      ],
+      "nextActions": [
+        "Promote the footer evidence/source box only if it repeats in later reporting decks; otherwise keep it as a documented one-off pattern."
+      ],
+      "componentizedRebuild": {
+        "nodeId": "90:777",
+        "componentSets": [
+          "85:875",
+          "86:885",
+          "88:987",
+          "89:813"
+        ],
+        "visualDiff": "qa/visual-diff/14-gantt-componentized-v1.0.json",
+        "similarity": 0.9997048611111111,
+        "changedPixels": 612,
+        "status": "pass"
+      }
+    }
+  ]
+}

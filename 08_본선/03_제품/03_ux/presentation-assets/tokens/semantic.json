@@ -1,0 +1,75 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation semantic tokens",
+    "created": "2026-07-08",
+    "status": "pilot"
+  },
+  "color": {
+    "background": {
+      "stage": { "$value": "{color.navy.940}", "$type": "color" },
+      "stageDeep": { "$value": "{color.navy.950}", "$type": "color" },
+      "stageGradientBase": { "$value": "{color.navy.900}", "$type": "color" },
+      "diagramPanel": { "$value": "{color.white.1000}", "$type": "color" },
+      "storySurface": { "$value": "{color.white.1000}", "$type": "color" },
+      "paleBlueNode": { "$value": "{color.blue.100}", "$type": "color" },
+      "paleBlueNodeAlt": { "$value": "{color.blue.080}", "$type": "color" },
+      "dangerNode": { "$value": "{color.pink.050}", "$type": "color" },
+      "inkPanel": { "$value": "{color.gray.900}", "$type": "color" }
+    },
+    "text": {
+      "primaryOnDark": { "$value": "{color.white.1000}", "$type": "color" },
+      "secondaryOnDark": { "$value": "rgba(255,255,255,0.80)", "$type": "color" },
+      "mutedOnDark": { "$value": "rgba(255,255,255,0.60)", "$type": "color" },
+      "ghostOnDark": { "$value": "rgba(255,255,255,0.50)", "$type": "color" },
+      "primaryOnLight": { "$value": "{color.gray.1000}", "$type": "color" },
+      "secondaryOnLight": { "$value": "{color.gray.500}", "$type": "color" }
+    },
+    "line": {
+      "white": { "$value": "{color.white.1000}", "$type": "color" },
+      "whiteSoft": { "$value": "rgba(255,255,255,0.70)", "$type": "color" },
+      "black": { "$value": "{color.gray.1000}", "$type": "color" },
+      "diagram": { "$value": "{color.gray.500}", "$type": "color" },
+      "accent": { "$value": "{color.blue.650}", "$type": "color" }
+    },
+    "accent": {
+      "glow": { "$value": "{color.blue.500}", "$type": "color" },
+      "badge": { "$value": "{color.blue.600}", "$type": "color" },
+      "vector": { "$value": "{color.blue.700}", "$type": "color" },
+      "focus": { "$value": "{color.status.info}", "$type": "color" }
+    },
+    "status": {
+      "success": { "$value": "{color.status.success}", "$type": "color" },
+      "warning": { "$value": "{color.status.warning}", "$type": "color" },
+      "danger": { "$value": "{color.status.danger}", "$type": "color" },
+      "info": { "$value": "{color.status.info}", "$type": "color" }
+    }
+  },
+  "layout": {
+    "frame": {
+      "width": { "$value": "{frame.deck.width}", "$type": "dimension" },
+      "height": { "$value": "{frame.deck.height}", "$type": "dimension" }
+    },
+    "margin": {
+      "x": { "$value": "{space.slideMarginX}", "$type": "dimension" },
+      "coverHeaderX": { "$value": "{space.coverHeaderX}", "$type": "dimension" },
+      "footerY": { "$value": "{space.footerY}", "$type": "dimension" }
+    },
+    "density": {
+      "diagramHigh": { "$value": "high", "$type": "string" },
+      "tableDense": { "$value": "dense", "$type": "string" },
+      "storyboard": { "$value": "medium", "$type": "string" }
+    }
+  },
+  "textRole": {
+    "coverEyebrow": { "$value": "{typography.role.coverEyebrow}", "$type": "typography" },
+    "coverStatement": { "$value": "{typography.role.coverStatement}", "$type": "typography" },
+    "coverWordmark": { "$value": "{typography.role.coverWordmark}", "$type": "typography" },
+    "slideSection": { "$value": "{typography.role.slideSection}", "$type": "typography" },
+    "slideHeadline": { "$value": "{typography.role.slideHeadline}", "$type": "typography" },
+    "diagramTitle": { "$value": "{typography.role.diagramTitle}", "$type": "typography" },
+    "tableBody": { "$value": "{typography.role.tableBody}", "$type": "typography" },
+    "flowMicro": { "$value": "{typography.role.flowMicro}", "$type": "typography" },
+    "storyCaption": { "$value": "{typography.role.storyCaption}", "$type": "typography" }
+  }
+}

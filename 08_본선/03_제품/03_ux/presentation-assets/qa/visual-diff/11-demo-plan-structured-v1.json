@@ -1,0 +1,29 @@
+{
+  "slide": "11",
+  "slug": "11-demo-plan",
+  "sourceNodeId": "6:1108",
+  "rebuildNodeId": "29:104",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/11-demo-plan-source-6-1108.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/11-demo-plan-structured-29-104.png",
+  "sourceSha256": "786196ab30b579399c6e0e1625cdd3366193a46d1d32eaaf2112655826cb0253",
+  "rebuildSha256": "16c11890e33a5f11bfa7c6cdcfe2920b7a38571bce66e40eb8ec4c7c50015bde",
+  "rgbaChangedPixels": 356,
+  "visibleChangedPixels": 356,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 0.0001716820987654321,
+  "visibleSimilarity": 0.9998283179012346,
+  "rmsRgbaNorm": 0.0002722187949038023,
+  "maxChannelDelta": 29,
+  "visibleDiffBbox": [
+    0,
+    26,
+    1918,
+    1076
+  ],
+  "qaStatus": "pass"
+}

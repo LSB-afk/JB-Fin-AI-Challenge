@@ -1,0 +1,29 @@
+{
+  "slide": "10",
+  "slug": "10-effects",
+  "sourceNodeId": "6:96",
+  "rebuildNodeId": "29:2",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/10-effects-source-6-96.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/10-effects-structured-29-2.png",
+  "sourceSha256": "778a702d4ae5452f56be5a9a639353bf5d7d6b42bb1175897b18a3c485295eda",
+  "rebuildSha256": "7340ec618e5622e510908862ce3d7543108474be3b25b5f2a438b6a02fc5b347",
+  "rgbaChangedPixels": 617,
+  "visibleChangedPixels": 617,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 0.0002975501543209877,
+  "visibleSimilarity": 0.999702449845679,
+  "rmsRgbaNorm": 0.0010901396052615255,
+  "maxChannelDelta": 33,
+  "visibleDiffBbox": [
+    104,
+    111,
+    1791,
+    992
+  ],
+  "qaStatus": "pass"
+}

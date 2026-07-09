@@ -1,0 +1,2909 @@
+{
+  "project": "JByond presentation deck assetization pilot",
+  "version": "pilot-2026-07-08",
+  "status": "full_deck_structured_plus_14_componentized_rebuilds",
+  "codexSkillPack": {
+    "version": "0.1.0",
+    "portableRoot": ".codex/presentation-assetization",
+    "runtimeSkill": ".agents/skills/figma-presentation-assetizer/SKILL.md",
+    "recommendedInvocation": "$figma-presentation-assetizer",
+    "references": {
+      "operatorKnowhow": ".codex/presentation-assetization/references/operator-knowhow.md",
+      "reusePlaybook": ".codex/presentation-assetization/references/reuse-playbook.md"
+    },
+    "validatedAt": "2026-07-09",
+    "scope": "repo-local portable package; global user skill install is intentionally out of scope"
+  },
+  "sourceFigma": {
+    "fileKey": "DOBJfqzxMZfVyq9UxnEm1r",
+    "fileName": "망상궤도",
+    "accessStatus": "metadata_and_use_figma_readonly_ok",
+    "lastAccessAttempt": "2026-07-08",
+    "topLevelPageCount": 28,
+    "primaryDeckPageId": "4595:2",
+    "primaryDeckPageName": "| -- JB금융그룹 Fin:AI Challenge",
+    "previousError": "Looks like you don't have edit access to this file. The file owner can share it with you and make you an editor."
+  },
+  "figmaConnectorAccess": {
+    "checkedAt": "2026-07-08",
+    "activeHandle": "김주용",
+    "preferredPlanName": "팀 망상궤도",
+    "preferredPlanKey": "team::1546424286556873672",
+    "availablePlanSeat": "Full",
+    "availablePlanTier": "student",
+    "canCreateOrEdit": true,
+    "note": "A5 Figma Slide Builder can proceed after an editable duplicate URL is provided, or after approval to create a fresh rebuild workspace in the preferred plan."
+  },
+  "figmaDuplicate": {
+    "url": "https://www.figma.com/design/h6RkEn7fGbTwZbzuwaHsWi",
+    "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "status": "working_file_with_user_pasted_original_slides_14_componentized_rebuilds_and_final_deck_page",
+    "note": "This started as a fresh rebuild workspace. The user then pasted the working original slide frames into Page 1, so the pasted 6:* nodes are now the primary editable study source."
+  },
+  "finalFigmaPage": {
+    "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "fileUrl": "https://www.figma.com/design/h6RkEn7fGbTwZbzuwaHsWi/JByond-%EB%B0%9C%ED%91%9C%EB%8D%B1-%EC%9E%90%EC%82%B0%ED%99%94-Pilot-Rebuild-2026-07-08",
+    "pageId": "106:1201",
+    "pageName": "99 Final Componentized Deck",
+    "createdAt": "2026-07-09",
+    "layout": {
+      "columns": 2,
+      "rows": 7,
+      "frameWidth": 1920,
+      "frameHeight": 1080,
+      "gapX": 240,
+      "gapY": 220
+    },
+    "movedNodeIdsPreserved": true,
+    "verifiedAt": "2026-07-09",
+    "verifiedFrameCount": 14,
+    "status": "ready_for_final_visual_review_in_figma",
+    "nodeMap": [
+      {
+        "slideNo": 1,
+        "nodeId": "93:1179",
+        "name": "S01/Summary/Final Componentized"
+      },
+      {
+        "slideNo": 2,
+        "nodeId": "49:76",
+        "name": "S02/Problem Definition/Final Componentized"
+      },
+      {
+        "slideNo": 3,
+        "nodeId": "58:183",
+        "name": "S03/Fragmentation/Final Componentized"
+      },
+      {
+        "slideNo": 4,
+        "nodeId": "54:150",
+        "name": "S04/Solution Overview/Final Componentized"
+      },
+      {
+        "slideNo": 5,
+        "nodeId": "98:1189",
+        "name": "S05/Key Feature UI/Final Componentized"
+      },
+      {
+        "slideNo": 6,
+        "nodeId": "101:1206",
+        "name": "S06/Key Feature Approval/Final Componentized"
+      },
+      {
+        "slideNo": 7,
+        "nodeId": "68:508",
+        "name": "S07/System Flow/Final Componentized"
+      },
+      {
+        "slideNo": 8,
+        "nodeId": "61:176",
+        "name": "S08/AI Loop/Final Componentized"
+      },
+      {
+        "slideNo": 9,
+        "nodeId": "64:490",
+        "name": "S09/User Scenario/Final Componentized"
+      },
+      {
+        "slideNo": 10,
+        "nodeId": "70:660",
+        "name": "S10/Business Model/Final Componentized"
+      },
+      {
+        "slideNo": 11,
+        "nodeId": "74:649",
+        "name": "S11/Roadmap/Final Componentized"
+      },
+      {
+        "slideNo": 12,
+        "nodeId": "77:678",
+        "name": "S12/Competition Strategy/Final Componentized"
+      },
+      {
+        "slideNo": 13,
+        "nodeId": "80:688",
+        "name": "S13/Impact/Final Componentized"
+      },
+      {
+        "slideNo": 14,
+        "nodeId": "90:777",
+        "name": "S14/Closing/Final Componentized"
+      }
+    ]
+  },
+  "pastedWorkingFigma": {
+    "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "pageId": "0:1",
+    "pageName": "Page 1",
+    "insertedByUser": true,
+    "verifiedAt": "2026-07-08",
+    "nodeMap": [
+      {
+        "slideNo": 1,
+        "nodeId": "6:198",
+        "name": "01 Summary "
+      },
+      {
+        "slideNo": 2,
+        "nodeId": "6:3",
+        "name": "02 제안솔루션"
+      },
+      {
+        "slideNo": 3,
+        "nodeId": "6:313",
+        "name": "03 "
+      },
+      {
+        "slideNo": 4,
+        "nodeId": "6:210",
+        "name": "04 주요기능"
+      },
+      {
+        "slideNo": 5,
+        "nodeId": "6:261",
+        "name": "05 주요기능"
+      },
+      {
+        "slideNo": 6,
+        "nodeId": "6:286",
+        "name": "주요기능"
+      },
+      {
+        "slideNo": 7,
+        "nodeId": "6:325",
+        "name": "데이터 및 활용 기술"
+      },
+      {
+        "slideNo": 8,
+        "nodeId": "6:592",
+        "name": "데이터 및 활용 기술"
+      },
+      {
+        "slideNo": 9,
+        "nodeId": "6:1046",
+        "name": "제안솔루션 / User Scenario"
+      },
+      {
+        "slideNo": 10,
+        "nodeId": "6:96",
+        "name": "기대효과"
+      },
+      {
+        "slideNo": 11,
+        "nodeId": "6:1108",
+        "name": "제안솔루션"
+      },
+      {
+        "slideNo": 12,
+        "nodeId": "6:983",
+        "name": "향후 확장성"
+      },
+      {
+        "slideNo": 13,
+        "nodeId": "6:1586",
+        "name": "Appendix — References 출처·검증 (통합)"
+      },
+      {
+        "slideNo": 14,
+        "nodeId": "6:1155",
+        "name": "데이터 및 활용 기술"
+      }
+    ]
+  },
+  "sourceReferences": {
+    "documentIndex": "INDEX.md",
+    "categoryIndexes": [
+      "indexes/01-overview.md",
+      "indexes/02-slides.md",
+      "indexes/03-design-system.md",
+      "indexes/04-assets.md",
+      "indexes/05-qa.md",
+      "indexes/06-process.md",
+      "indexes/07-handoff.md"
+    ],
+    "handoffPackage": {
+      "entry": "handoff/README.md",
+      "quickstart": "handoff/team-quickstart.md",
+      "aiReuseRunbook": "handoff/ai-reuse-runbook.md",
+      "figmaUsageGuide": "handoff/figma-usage-guide.md",
+      "shareChecklist": "handoff/share-checklist.md",
+      "shareableArchive": "../presentation-assets-handoff-2026-07-09.zip"
+    },
+    "deckDefinition": "deck-definition.md",
+    "deckAudit": "08_본선/05_제출/제출본/발표자료/발표자료-피그마-정합성체크.md",
+    "localExportFolder": "08_본선/05_제출/제출본/PPT/Figma",
+    "localPptx": "08_본선/05_제출/제출본/PPT/JBFinAI_JByond_본선_PPT.pptx",
+    "localPdf": "08_본선/05_제출/제출본/PPT/JBFinAI_JByond_본선_PPT.pdf",
+    "pdfOrderCheck": "qa/pdf-order-check.md"
+  },
+  "tokenSystem": {
+    "status": "expanded_machine_readable",
+    "index": "tokens/token-index.json",
+    "sourceOfTruth": [
+      "tokens/primitives.json",
+      "tokens/semantic.json",
+      "tokens/typography.json",
+      "tokens/fonts.json",
+      "tokens/effects.json",
+      "tokens/surfaces.json",
+      "tokens/components.json",
+      "tokens/slides.json",
+      "tokens/assets.json",
+      "tokens/qa-rules.json",
+      "tokens/assetization-backlog.json",
+      "tokens/figma-variable-map.json"
+    ],
+    "humanReadable": [
+      "tokens/README.md",
+      "tokens/token-notes.md",
+      "tokens/schema-extension.md",
+      "tokens/token-registry.csv",
+      "tokens/specimens/token-specimen.svg"
+    ],
+    "compatibilitySummary": "tokens/presentation-tokens.json"
+  },
+  "fontSources": {
+    "panchang": {
+      "provider": "Fontshare",
+      "url": "https://www.fontshare.com/?q=Panchang",
+      "css": "assets/fonts/panchang/fontshare-panchang.css",
+      "localWoff2": [
+        "assets/fonts/panchang/Panchang-Light.woff2",
+        "assets/fonts/panchang/Panchang-Regular.woff2",
+        "assets/fonts/panchang/Panchang-Medium.woff2",
+        "assets/fonts/panchang/Panchang-Semibold.woff2",
+        "assets/fonts/panchang/Panchang-Bold.woff2"
+      ],
+      "deckUsage": "Cover wordmark JByond, weight 500"
+    }
+  },
+  "figmaComponents": [
+    {
+      "id": "problem-case-card",
+      "name": "JByond/Deck/ProblemCaseCard",
+      "nodeId": "36:16",
+      "pageId": "1:4",
+      "sourceSlideNo": 2,
+      "sourceNodeId": "6:11",
+      "createdAt": "2026-07-09",
+      "status": "component_promoted_v1",
+      "screenshot": "assets/components/problem-case-card-36-16.png",
+      "notes": "Created from a duplicate of the pasted slide 02 representative case card. Original source and structured rebuild slides were not mutated."
+    },
+    {
+      "id": "problem-case-card-variant-set",
+      "name": "JByond/Deck/ProblemCaseCard/VariantSet",
+      "nodeId": "39:77",
+      "pageId": "1:4",
+      "sourceSlideNo": 2,
+      "sourceNodeIds": [
+        "6:11",
+        "6:55",
+        "6:69",
+        "6:25",
+        "6:39"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1",
+      "screenshot": "assets/components/problem-case-card-variant-set-39-77.png",
+      "variants": [
+        {
+          "nodeId": "39:16",
+          "size": "large",
+          "source": "capital"
+        },
+        {
+          "nodeId": "39:31",
+          "size": "large",
+          "source": "aqua"
+        },
+        {
+          "nodeId": "39:46",
+          "size": "large",
+          "source": "farm"
+        },
+        {
+          "nodeId": "39:61",
+          "size": "small",
+          "source": "student"
+        },
+        {
+          "nodeId": "39:76",
+          "size": "small",
+          "source": "aqua"
+        }
+      ],
+      "notes": "Created from source-preserving clones of slide 02 case cards. Original source and structured rebuild slides were not mutated."
+    },
+    {
+      "id": "limitation-row-variant-set",
+      "name": "JByond/Deck/LimitationRow/VariantSet",
+      "nodeId": "42:17",
+      "pageId": "1:4",
+      "sourceSlideNo": 2,
+      "sourceNodeIds": [
+        "6:84",
+        "6:89",
+        "6:92",
+        "6:87",
+        "6:90",
+        "6:93",
+        "6:88",
+        "6:91",
+        "6:94"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1",
+      "screenshot": "assets/components/limitation-row-variant-set-42-17.png",
+      "variants": [
+        {
+          "nodeId": "42:6",
+          "approach": "chatbot"
+        },
+        {
+          "nodeId": "42:11",
+          "approach": "dashboard"
+        },
+        {
+          "nodeId": "42:16",
+          "approach": "rpa"
+        }
+      ],
+      "notes": "Created from source-preserving clones of slide 02 existing-approach limitation rows. Child component bounds were widened to avoid screenshot text clipping."
+    },
+    {
+      "id": "limitation-row-exact-variant-set",
+      "name": "JByond/Deck/LimitationRowExact/VariantSet",
+      "nodeId": "48:88",
+      "pageId": "0:1",
+      "sourceSlideNo": 2,
+      "sourceNodeIds": [
+        "28:83",
+        "28:88",
+        "28:91",
+        "28:86",
+        "28:89",
+        "28:92",
+        "28:87",
+        "28:90",
+        "28:93"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/limitation-row-exact-variant-set-48-88.png",
+      "sha256": "248fc6b784655d94a8b07c710d32e38f19c83a4a12d9284dc211a09999d0af4a",
+      "variants": [
+        {
+          "nodeId": "48:76",
+          "approach": "chatbot"
+        },
+        {
+          "nodeId": "48:80",
+          "approach": "dashboard"
+        },
+        {
+          "nodeId": "48:84",
+          "approach": "rpa"
+        }
+      ],
+      "notes": "Exact-geometry variant set created after the broader 42:17 row component shifted row text/arrow positions in slide-level QA. Use this set for pixel-critical rebuilds."
+    },
+    {
+      "id": "solution-axis-column-exact-variant-set",
+      "name": "JByond/Deck/SolutionAxisColumnExact/VariantSet",
+      "nodeId": "53:174",
+      "pageId": "0:1",
+      "sourceSlideNo": 4,
+      "sourceNodeIds": [
+        "28:116",
+        "28:123",
+        "28:130"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/solution-axis-column-exact-variant-set-53-174.png",
+      "sha256": "772968d573a6ef4119f7653bc7060d4ee235cc6f7039a146cf8ebce5bf3c2b1e",
+      "variants": [
+        {
+          "nodeId": "53:157",
+          "axis": "affiliate"
+        },
+        {
+          "nodeId": "53:165",
+          "axis": "role"
+        },
+        {
+          "nodeId": "53:173",
+          "axis": "case"
+        }
+      ],
+      "notes": "Exact-geometry component set for slide 04 계열사 x 역할 x 케이스 structure columns."
+    },
+    {
+      "id": "solution-flow-step-exact-variant-set",
+      "name": "JByond/Deck/SolutionFlowStepExact/VariantSet",
+      "nodeId": "53:184",
+      "pageId": "0:1",
+      "sourceSlideNo": 4,
+      "sourceNodeIds": [
+        "28:147",
+        "28:149",
+        "28:151"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/solution-flow-step-exact-variant-set-53-184.png",
+      "sha256": "42400bc2fd80beb8f35b97974bec52519e91fbcd94cd94537ac86ab44fabf8cb",
+      "variants": [
+        {
+          "nodeId": "53:177",
+          "step": "agent-summary"
+        },
+        {
+          "nodeId": "53:180",
+          "step": "human-review"
+        },
+        {
+          "nodeId": "53:183",
+          "step": "next-role"
+        }
+      ],
+      "notes": "Exact-geometry component set for slide 04 Flow pill steps."
+    },
+    {
+      "id": "evidence-screenshot-exact-variant-set",
+      "name": "JByond/Deck/EvidenceScreenshotExact/VariantSet",
+      "nodeId": "58:175",
+      "pageId": "0:1",
+      "sourceSlideNo": 3,
+      "sourceNodeIds": [
+        "6:321",
+        "6:320"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/evidence-screenshot-exact-variant-set-58-175.png",
+      "sha256": "b653445d59e546b2fd507cbee2d50b77bfceb0b63d009d18ecd488e71e5ac244",
+      "variants": [
+        {
+          "nodeId": "58:172",
+          "shot": "left"
+        },
+        {
+          "nodeId": "58:174",
+          "shot": "right"
+        }
+      ],
+      "notes": "Exact-source variants for slide 03 regulation/article evidence image fills. Image fill hashes and crop geometry are preserved."
+    },
+    {
+      "id": "evidence-highlight-exact-variant-set",
+      "name": "JByond/Deck/EvidenceHighlightExact/VariantSet",
+      "nodeId": "58:182",
+      "pageId": "0:1",
+      "sourceSlideNo": 3,
+      "sourceNodeIds": [
+        "6:322",
+        "6:323",
+        "6:324"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/evidence-highlight-exact-variant-set-58-182.png",
+      "sha256": "3189769ba78c2bfa4262c681d9ed1f81ec98b4cddfd148c041f65d095d4c16d1",
+      "variants": [
+        {
+          "nodeId": "58:177",
+          "target": "left-heading"
+        },
+        {
+          "nodeId": "58:179",
+          "target": "left-small"
+        },
+        {
+          "nodeId": "58:181",
+          "target": "right-heading"
+        }
+      ],
+      "notes": "Exact-source variants for slide 03 blue evidence highlight overlays."
+    },
+    {
+      "id": "org-role-node-compact-exact-variant-set",
+      "name": "JByond/Deck/OrgRoleNodeCompactExact/VariantSet",
+      "nodeId": "60:372",
+      "pageId": "0:1",
+      "sourceSlideNo": 8,
+      "sourceNodeIds": [
+        "28:295",
+        "28:308",
+        "28:321",
+        "28:334",
+        "28:347",
+        "28:360",
+        "28:373",
+        "28:386",
+        "28:399",
+        "28:412",
+        "28:425",
+        "28:438",
+        "28:451",
+        "28:464"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/org-role-node-compact-exact-variant-set-60-372.png",
+      "sha256": "ae92106a63486fa727d15ecc65cc53d00d71d7219943edfdfba56ed1f0f967b5",
+      "variants": [
+        {
+          "nodeId": "60:189",
+          "role": "관리 건 운영 기능",
+          "sourceNodeId": "28:295"
+        },
+        {
+          "nodeId": "60:203",
+          "role": "정책금융 후보 검토",
+          "sourceNodeId": "28:308"
+        },
+        {
+          "nodeId": "60:217",
+          "role": "안내문 초안",
+          "sourceNodeId": "28:321"
+        },
+        {
+          "nodeId": "60:231",
+          "role": "근거 수집",
+          "sourceNodeId": "28:334"
+        },
+        {
+          "nodeId": "60:245",
+          "role": "서류 체크리스트",
+          "sourceNodeId": "28:347"
+        },
+        {
+          "nodeId": "60:259",
+          "role": "준법 검토",
+          "sourceNodeId": "28:360"
+        },
+        {
+          "nodeId": "60:273",
+          "role": "주의 신호 분류",
+          "sourceNodeId": "28:373"
+        },
+        {
+          "nodeId": "60:287",
+          "role": "사기 유의 신호 확인",
+          "sourceNodeId": "28:386"
+        },
+        {
+          "nodeId": "60:301",
+          "role": "주변 시세 비교",
+          "sourceNodeId": "28:399"
+        },
+        {
+          "nodeId": "60:315",
+          "role": "계약 전 체크리스트",
+          "sourceNodeId": "28:412"
+        },
+        {
+          "nodeId": "60:329",
+          "role": "상환 부담 검토",
+          "sourceNodeId": "28:425"
+        },
+        {
+          "nodeId": "60:343",
+          "role": "승인 전 고객 접촉 보류",
+          "sourceNodeId": "28:438"
+        },
+        {
+          "nodeId": "60:357",
+          "role": "주거비 부담 분석",
+          "sourceNodeId": "28:451"
+        },
+        {
+          "nodeId": "60:371",
+          "role": "출처 신뢰도 평가",
+          "sourceNodeId": "28:464"
+        }
+      ],
+      "notes": "Exact-geometry variants for slide 08 256x94 compact organization role cards."
+    },
+    {
+      "id": "org-role-node-tall-exact-variant-set",
+      "name": "JByond/Deck/OrgRoleNodeTallExact/VariantSet",
+      "nodeId": "60:505",
+      "pageId": "0:1",
+      "sourceSlideNo": 8,
+      "sourceNodeIds": [
+        "28:215",
+        "28:225",
+        "28:235",
+        "28:245",
+        "28:255",
+        "28:265",
+        "28:275",
+        "28:285",
+        "28:477",
+        "28:487",
+        "28:497",
+        "28:507"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/org-role-node-tall-exact-variant-set-60-505.png",
+      "sha256": "c206e6da06e6bd0f32be91a6083d985ab3ce9b26f99fe0eed9c64fa02eba2e2a",
+      "variants": [
+        {
+          "nodeId": "60:383",
+          "role": "전세위험 관리 리드",
+          "sourceNodeId": "28:215"
+        },
+        {
+          "nodeId": "60:394",
+          "role": "전세가율 확인 기능",
+          "sourceNodeId": "28:225"
+        },
+        {
+          "nodeId": "60:405",
+          "role": "등기상 유의 신호 확인 기능",
+          "sourceNodeId": "28:235"
+        },
+        {
+          "nodeId": "60:416",
+          "role": "임차인 자산노출 검토 기능",
+          "sourceNodeId": "28:245"
+        },
+        {
+          "nodeId": "60:427",
+          "role": "은행 상담 연결 지원 기능",
+          "sourceNodeId": "28:255"
+        },
+        {
+          "nodeId": "60:438",
+          "role": "주의 신호 조기확인 기능",
+          "sourceNodeId": "28:265"
+        },
+        {
+          "nodeId": "60:449",
+          "role": "상환 부담 검토 기능",
+          "sourceNodeId": "28:275"
+        },
+        {
+          "nodeId": "60:460",
+          "role": "정책금융 후보 검토 기능",
+          "sourceNodeId": "28:285"
+        },
+        {
+          "nodeId": "60:471",
+          "role": "관리 현황 분석 기능",
+          "sourceNodeId": "28:477"
+        },
+        {
+          "nodeId": "60:482",
+          "role": "RM 상담 지원 가능",
+          "sourceNodeId": "28:487"
+        },
+        {
+          "nodeId": "60:493",
+          "role": "계약 전 확인 가능",
+          "sourceNodeId": "28:497"
+        },
+        {
+          "nodeId": "60:504",
+          "role": "이상거래 유의 신호 확인 기능",
+          "sourceNodeId": "28:507"
+        }
+      ],
+      "notes": "Exact-geometry variants for slide 08 256x117 organization role cards."
+    },
+    {
+      "id": "org-gate-node-exact-variant-set",
+      "name": "JByond/Deck/OrgGateNodeExact/VariantSet",
+      "nodeId": "60:550",
+      "pageId": "0:1",
+      "sourceSlideNo": 8,
+      "sourceNodeIds": [
+        "28:517",
+        "28:534",
+        "28:546"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/org-gate-node-exact-variant-set-60-550.png",
+      "sha256": "a5d42b88ac5c0b7d14708678697b01cc0ef7f9fdb54a2f30d04c02e55ed7db04",
+      "variants": [
+        {
+          "nodeId": "60:523",
+          "gate": "human-final-approvers",
+          "sourceNodeId": "28:517"
+        },
+        {
+          "nodeId": "60:536",
+          "gate": "coordination",
+          "sourceNodeId": "28:534"
+        },
+        {
+          "nodeId": "60:549",
+          "gate": "compliance-coordination",
+          "sourceNodeId": "28:546"
+        }
+      ],
+      "notes": "Exact-geometry variants for slide 08 top approval/coordination cards. Duplicate source titles were disambiguated as coordination and compliance-coordination."
+    },
+    {
+      "id": "scenario-process-node-exact-variant-set",
+      "name": "JByond/Deck/ScenarioProcessNodeExact/VariantSet",
+      "nodeId": "63:520",
+      "pageId": "0:1",
+      "sourceSlideNo": 9,
+      "sourceNodeIds": [
+        "26:9",
+        "26:11",
+        "26:13",
+        "26:15",
+        "26:17",
+        "26:19",
+        "26:25",
+        "26:27",
+        "26:29",
+        "26:31"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/scenario-process-node-exact-variant-set-63-520.png",
+      "sha256": "6236749db94fb9c264dbc4556e828e521c1b28026a22ff7f4ce70f2af3a98568",
+      "variants": [
+        {
+          "nodeId": "63:492",
+          "step": "01-login-role",
+          "sourceNodeId": "26:9"
+        },
+        {
+          "nodeId": "63:495",
+          "step": "02-case-board",
+          "sourceNodeId": "26:11"
+        },
+        {
+          "nodeId": "63:498",
+          "step": "03-create-case",
+          "sourceNodeId": "26:13"
+        },
+        {
+          "nodeId": "63:501",
+          "step": "04-detail-evidence",
+          "sourceNodeId": "26:15"
+        },
+        {
+          "nodeId": "63:504",
+          "step": "05-agent-execution",
+          "sourceNodeId": "26:17"
+        },
+        {
+          "nodeId": "63:507",
+          "step": "06-approval-queue",
+          "sourceNodeId": "26:19"
+        },
+        {
+          "nodeId": "63:510",
+          "step": "07-customer-reply-queue",
+          "sourceNodeId": "26:25"
+        },
+        {
+          "nodeId": "63:513",
+          "step": "08-edit-draft-queue",
+          "sourceNodeId": "26:27"
+        },
+        {
+          "nodeId": "63:516",
+          "step": "09-block-rework",
+          "sourceNodeId": "26:29"
+        },
+        {
+          "nodeId": "63:519",
+          "step": "10-audit-log-seal",
+          "sourceNodeId": "26:31"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 09 process and branch nodes."
+    },
+    {
+      "id": "scenario-card-exact-variant-set",
+      "name": "JByond/Deck/ScenarioCardExact/VariantSet",
+      "nodeId": "63:537",
+      "pageId": "0:1",
+      "sourceSlideNo": 9,
+      "sourceNodeIds": [
+        "26:34",
+        "26:37",
+        "26:40",
+        "26:43"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/scenario-card-exact-variant-set-63-537.png",
+      "sha256": "7e062a939b4ea7f0d52a0e033dad0ed8aecc05dcc1f744cee1e002ade7e5770e",
+      "variants": [
+        {
+          "nodeId": "63:524",
+          "step": "01-risk-detected",
+          "sourceNodeId": "26:34"
+        },
+        {
+          "nodeId": "63:528",
+          "step": "02-agent-context",
+          "sourceNodeId": "26:37"
+        },
+        {
+          "nodeId": "63:532",
+          "step": "03-evidence-packet",
+          "sourceNodeId": "26:40"
+        },
+        {
+          "nodeId": "63:536",
+          "step": "04-approval-ledger",
+          "sourceNodeId": "26:43"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 09 story cards. Image fills and caption text are preserved from source."
+    },
+    {
+      "id": "system-flow-table-exact-variant-set",
+      "name": "JByond/Deck/SystemFlowTableExact/VariantSet",
+      "nodeId": "66:560",
+      "pageId": "0:1",
+      "sourceSlideNo": 7,
+      "sourceNodeIds": [
+        "25:4",
+        "25:22"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/system-flow-table-exact-variant-set-66-560.png",
+      "sha256": "b619c7688045bfe6be7ad819ceebc628a0af44f90775c29bd04ab20bdc1bba76",
+      "variants": [
+        {
+          "nodeId": "66:526",
+          "kind": "data-sources",
+          "sourceNodeId": "25:4"
+        },
+        {
+          "nodeId": "66:559",
+          "kind": "technology",
+          "sourceNodeId": "25:22"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 07 right-side data and technology tables."
+    },
+    {
+      "id": "entity-pill-exact-variant-set",
+      "name": "JByond/Deck/EntityPillExact/VariantSet",
+      "nodeId": "66:610",
+      "pageId": "0:1",
+      "sourceSlideNo": 7,
+      "sourceNodeIds": [
+        "25:217",
+        "25:223",
+        "25:229",
+        "25:235",
+        "25:241",
+        "25:247",
+        "25:253"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/entity-pill-exact-variant-set-66-610.png",
+      "sha256": "adb552d100fae0b102c1a23bd8a062b8716f1fd05c07c48f1380f24a6316e8ab",
+      "variants": [
+        {
+          "nodeId": "66:567",
+          "entity": "case",
+          "sourceNodeId": "25:217"
+        },
+        {
+          "nodeId": "66:574",
+          "entity": "agent-run",
+          "sourceNodeId": "25:223"
+        },
+        {
+          "nodeId": "66:581",
+          "entity": "agent",
+          "sourceNodeId": "25:229"
+        },
+        {
+          "nodeId": "66:588",
+          "entity": "skill",
+          "sourceNodeId": "25:235"
+        },
+        {
+          "nodeId": "66:595",
+          "entity": "evidence",
+          "sourceNodeId": "25:241"
+        },
+        {
+          "nodeId": "66:602",
+          "entity": "approval",
+          "sourceNodeId": "25:247"
+        },
+        {
+          "nodeId": "66:609",
+          "entity": "audit",
+          "sourceNodeId": "25:253"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 07 operational contract entity pills."
+    },
+    {
+      "id": "experience-node-exact-variant-set",
+      "name": "JByond/Deck/ExperienceNodeExact/VariantSet",
+      "nodeId": "70:659",
+      "pageId": "0:1",
+      "sourceSlideNo": 10,
+      "sourceNodeIds": [
+        "29:8",
+        "29:21",
+        "29:37",
+        "29:49",
+        "29:69"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/experience-node-exact-variant-set-70-659.png",
+      "sha256": "a1660973f0b1e7210388e20417ef27a4464251c92c7862ea180e61ed2bce9972",
+      "variants": [
+        {
+          "nodeId": "70:601",
+          "kind": "tx",
+          "sourceNodeId": "29:8"
+        },
+        {
+          "nodeId": "70:614",
+          "kind": "ax",
+          "sourceNodeId": "29:21"
+        },
+        {
+          "nodeId": "70:626",
+          "kind": "ux",
+          "sourceNodeId": "29:37"
+        },
+        {
+          "nodeId": "70:646",
+          "kind": "ex-px",
+          "sourceNodeId": "29:49"
+        },
+        {
+          "nodeId": "70:658",
+          "kind": "cx",
+          "sourceNodeId": "29:69"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 10 TX/AX/UX/EX-PX/CX experience map nodes."
+    },
+    {
+      "id": "mvp-checklist-row-exact-variant-set",
+      "name": "JByond/Deck/MvpChecklistRowExact/VariantSet",
+      "nodeId": "72:661",
+      "pageId": "0:1",
+      "sourceSlideNo": 11,
+      "sourceNodeIds": [
+        "29:112",
+        "29:114",
+        "29:116",
+        "29:118"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/mvp-checklist-row-exact-variant-set-72-661.png",
+      "sha256": "54aadea29cb81c83e1e8241bb9551d2d227d0af37dd0df763d5dbda9f7b1d040",
+      "variants": [
+        {
+          "nodeId": "72:651",
+          "item": "case-management",
+          "sourceNodeId": "29:112"
+        },
+        {
+          "nodeId": "72:654",
+          "item": "ai-agent-evidence",
+          "sourceNodeId": "29:114"
+        },
+        {
+          "nodeId": "72:657",
+          "item": "approval-structure",
+          "sourceNodeId": "29:116"
+        },
+        {
+          "nodeId": "72:660",
+          "item": "audit-log",
+          "sourceNodeId": "29:118"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 11 완료된 MVP checklist rows."
+    },
+    {
+      "id": "demo-plan-row-exact-variant-set",
+      "name": "JByond/Deck/DemoPlanRowExact/VariantSet",
+      "nodeId": "72:697",
+      "pageId": "0:1",
+      "sourceSlideNo": 11,
+      "sourceNodeIds": [
+        "29:121",
+        "29:127",
+        "29:133",
+        "29:139",
+        "29:145"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/demo-plan-row-exact-variant-set-72-697.png",
+      "sha256": "13125be3a47d2d61932d5eeb89b5e7532a4a242b158355a948742994732163e4",
+      "variants": [
+        {
+          "nodeId": "72:668",
+          "step": "risk-case",
+          "sourceNodeId": "29:121"
+        },
+        {
+          "nodeId": "72:675",
+          "step": "agent-run",
+          "sourceNodeId": "29:127"
+        },
+        {
+          "nodeId": "72:682",
+          "step": "evidence-package",
+          "sourceNodeId": "29:133"
+        },
+        {
+          "nodeId": "72:689",
+          "step": "compliance-approval",
+          "sourceNodeId": "29:139"
+        },
+        {
+          "nodeId": "72:696",
+          "step": "audit-log",
+          "sourceNodeId": "29:145"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 11 시연 계획 row pairs."
+    },
+    {
+      "id": "experience-benefit-bubble-exact-variant-set",
+      "name": "JByond/Deck/ExperienceBenefitBubbleExact/VariantSet",
+      "nodeId": "75:690",
+      "pageId": "0:1",
+      "sourceSlideNo": 12,
+      "sourceNodeIds": [
+        "29:188",
+        "29:191",
+        "29:194"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/experience-benefit-bubble-exact-variant-set-75-690.png",
+      "sha256": "84c03d077434f50f4cfe36b73b2eb27ffbc846f897e441cc8fcd12e84630f639",
+      "variants": [
+        {
+          "nodeId": "75:681",
+          "kind": "ax",
+          "sourceNodeId": "29:188"
+        },
+        {
+          "nodeId": "75:685",
+          "kind": "ex",
+          "sourceNodeId": "29:191"
+        },
+        {
+          "nodeId": "75:689",
+          "kind": "cx",
+          "sourceNodeId": "29:194"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 12 AX/EX/CX benefit bubbles."
+    },
+    {
+      "id": "expansion-step-exact-variant-set",
+      "name": "JByond/Deck/ExpansionStepExact/VariantSet",
+      "nodeId": "75:703",
+      "pageId": "0:1",
+      "sourceSlideNo": 12,
+      "sourceNodeIds": [
+        "29:204",
+        "29:206",
+        "29:208",
+        "29:210"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/expansion-step-exact-variant-set-75-703.png",
+      "sha256": "ddb8b9da13a45e40827f112a3702c6196030006d55e771f5bfa8e2f72bc4b85e",
+      "variants": [
+        {
+          "nodeId": "75:693",
+          "step": "ax-standardization",
+          "sourceNodeId": "29:204"
+        },
+        {
+          "nodeId": "75:696",
+          "step": "ai-agent-infra",
+          "sourceNodeId": "29:206"
+        },
+        {
+          "nodeId": "75:699",
+          "step": "agent-skill-log",
+          "sourceNodeId": "29:208"
+        },
+        {
+          "nodeId": "75:702",
+          "step": "rm-knowhow-asset",
+          "sourceNodeId": "29:210"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 12 right-side expansion step labels."
+    },
+    {
+      "id": "reference-item-2line-exact-variant-set",
+      "name": "JByond/Deck/ReferenceItem2LineExact/VariantSet",
+      "nodeId": "79:736",
+      "pageId": "0:1",
+      "sourceSlideNo": 13,
+      "sourceNodeIds": [
+        "29:223",
+        "29:226",
+        "29:237",
+        "29:244",
+        "29:247",
+        "29:273",
+        "29:297",
+        "29:301",
+        "29:304",
+        "29:307",
+        "29:310",
+        "29:317"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/reference-item-2line-exact-variant-set-79-736.png",
+      "sha256": "af37797ac2189edfb0d0f66951cd8de113c49b62f97e23a24a30e05e8b478996",
+      "variants": [
+        {
+          "nodeId": "79:691",
+          "item": "stat-victims",
+          "sourceNodeId": "29:223"
+        },
+        {
+          "nodeId": "79:695",
+          "item": "stat-hug",
+          "sourceNodeId": "29:226"
+        },
+        {
+          "nodeId": "79:699",
+          "item": "stat-closures",
+          "sourceNodeId": "29:237"
+        },
+        {
+          "nodeId": "79:703",
+          "item": "stat-delinquency",
+          "sourceNodeId": "29:244"
+        },
+        {
+          "nodeId": "79:707",
+          "item": "stat-jeonbuk-loan",
+          "sourceNodeId": "29:247"
+        },
+        {
+          "nodeId": "79:711",
+          "item": "law-network-separation",
+          "sourceNodeId": "29:273"
+        },
+        {
+          "nodeId": "79:715",
+          "item": "data-mock-case",
+          "sourceNodeId": "29:297"
+        },
+        {
+          "nodeId": "79:719",
+          "item": "tech-vanilla",
+          "sourceNodeId": "29:301"
+        },
+        {
+          "nodeId": "79:723",
+          "item": "tech-playwright",
+          "sourceNodeId": "29:304"
+        },
+        {
+          "nodeId": "79:727",
+          "item": "tech-harness",
+          "sourceNodeId": "29:307"
+        },
+        {
+          "nodeId": "79:731",
+          "item": "tech-ollama",
+          "sourceNodeId": "29:310"
+        },
+        {
+          "nodeId": "79:735",
+          "item": "tech-claude-codex",
+          "sourceNodeId": "29:317"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 13 two-line reference items."
+    },
+    {
+      "id": "reference-item-3line-exact-variant-set",
+      "name": "JByond/Deck/ReferenceItem3LineExact/VariantSet",
+      "nodeId": "79:832",
+      "pageId": "0:1",
+      "sourceSlideNo": 13,
+      "sourceNodeIds": [
+        "29:229",
+        "29:233",
+        "29:240",
+        "29:250",
+        "29:254",
+        "29:261",
+        "29:265",
+        "29:269",
+        "29:276",
+        "29:280",
+        "29:284",
+        "29:289",
+        "29:293",
+        "29:313",
+        "29:320",
+        "29:326",
+        "29:330",
+        "29:334",
+        "29:338"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/reference-item-3line-exact-variant-set-79-832.png",
+      "sha256": "aa1bc32bd9d126df9eec7107b7019fe73b34227c67dc3900f89c099f703fabe9",
+      "variants": [
+        {
+          "nodeId": "79:741",
+          "item": "stat-voice-loss",
+          "sourceNodeId": "29:229"
+        },
+        {
+          "nodeId": "79:746",
+          "item": "stat-voice-age",
+          "sourceNodeId": "29:233"
+        },
+        {
+          "nodeId": "79:751",
+          "item": "stat-loan-balance",
+          "sourceNodeId": "29:240"
+        },
+        {
+          "nodeId": "79:756",
+          "item": "stat-jb-profit",
+          "sourceNodeId": "29:250"
+        },
+        {
+          "nodeId": "79:761",
+          "item": "stat-jb-naver-mou",
+          "sourceNodeId": "29:254"
+        },
+        {
+          "nodeId": "79:766",
+          "item": "law-credit-priority",
+          "sourceNodeId": "29:261"
+        },
+        {
+          "nodeId": "79:771",
+          "item": "law-pseudonym",
+          "sourceNodeId": "29:265"
+        },
+        {
+          "nodeId": "79:776",
+          "item": "law-automated-eval",
+          "sourceNodeId": "29:269"
+        },
+        {
+          "nodeId": "79:781",
+          "item": "law-roadmap",
+          "sourceNodeId": "29:276"
+        },
+        {
+          "nodeId": "79:786",
+          "item": "law-ai-guideline",
+          "sourceNodeId": "29:280"
+        },
+        {
+          "nodeId": "79:791",
+          "item": "law-ai-basic-act",
+          "sourceNodeId": "29:284"
+        },
+        {
+          "nodeId": "79:796",
+          "item": "data-molit-openapi",
+          "sourceNodeId": "29:289"
+        },
+        {
+          "nodeId": "79:801",
+          "item": "data-nemotron",
+          "sourceNodeId": "29:293"
+        },
+        {
+          "nodeId": "79:806",
+          "item": "tech-exaone",
+          "sourceNodeId": "29:313"
+        },
+        {
+          "nodeId": "79:811",
+          "item": "tech-qwen",
+          "sourceNodeId": "29:320"
+        },
+        {
+          "nodeId": "79:816",
+          "item": "lit-gartner-tx",
+          "sourceNodeId": "29:326"
+        },
+        {
+          "nodeId": "79:821",
+          "item": "lit-service-profit-chain",
+          "sourceNodeId": "29:330"
+        },
+        {
+          "nodeId": "79:826",
+          "item": "lit-prediction-machines",
+          "sourceNodeId": "29:334"
+        },
+        {
+          "nodeId": "79:831",
+          "item": "lit-klm",
+          "sourceNodeId": "29:338"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 13 three-line reference items."
+    },
+    {
+      "id": "verification-summary-row-exact-variant-set",
+      "name": "JByond/Deck/VerificationSummaryRowExact/VariantSet",
+      "nodeId": "79:849",
+      "pageId": "0:1",
+      "sourceSlideNo": 13,
+      "sourceNodeIds": [
+        "29:344",
+        "29:347",
+        "29:350",
+        "29:353"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/verification-summary-row-exact-variant-set-79-849.png",
+      "sha256": "f7cf210303ef0befd331bdace9d90e76c3aa6cedbb91f69e10c73f17f9fef7c2",
+      "variants": [
+        {
+          "nodeId": "79:836",
+          "status": "full-confirmed",
+          "sourceNodeId": "29:344"
+        },
+        {
+          "nodeId": "79:840",
+          "status": "partial-confirmed",
+          "sourceNodeId": "29:347"
+        },
+        {
+          "nodeId": "79:844",
+          "status": "corrected",
+          "sourceNodeId": "29:350"
+        },
+        {
+          "nodeId": "79:848",
+          "status": "hallucination-zero",
+          "sourceNodeId": "29:353"
+        }
+      ],
+      "notes": "Exact-geometry variants for Slide 13 verification summary rows."
+    },
+    {
+      "id": "gantt-date-tick-exact-variant-set",
+      "name": "JByond/Deck/GanttDateTickExact/VariantSet",
+      "nodeId": "85:875",
+      "pageId": "0:1",
+      "sourceSlideNo": 14,
+      "sourceNodeIds": [
+        "29:368",
+        "29:371",
+        "29:374",
+        "29:377",
+        "29:380",
+        "29:383",
+        "29:386",
+        "29:389",
+        "29:392",
+        "29:395",
+        "29:398",
+        "29:401",
+        "29:404",
+        "29:407",
+        "29:410",
+        "29:413",
+        "29:416",
+        "29:419",
+        "29:422",
+        "29:425",
+        "29:428",
+        "29:431",
+        "29:434",
+        "29:437",
+        "29:440",
+        "29:443",
+        "29:446",
+        "29:449"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/gantt-date-tick-exact-variant-set-85-875.png",
+      "sha256": "ca8033ee82269dd00617d63edf2898c9fbcbb8e6c003a04ce7e59bdb13500626",
+      "variants": [
+        {
+          "nodeId": "85:777",
+          "date": "06/11",
+          "sourceNodeIds": [
+            "29:368",
+            "29:371"
+          ]
+        },
+        {
+          "nodeId": "85:784",
+          "date": "06/12",
+          "sourceNodeIds": [
+            "29:374",
+            "29:377"
+          ]
+        },
+        {
+          "nodeId": "85:791",
+          "date": "06/13",
+          "sourceNodeIds": [
+            "29:380",
+            "29:383"
+          ]
+        },
+        {
+          "nodeId": "85:798",
+          "date": "06/14",
+          "sourceNodeIds": [
+            "29:386",
+            "29:389"
+          ]
+        },
+        {
+          "nodeId": "85:805",
+          "date": "06/15",
+          "sourceNodeIds": [
+            "29:392",
+            "29:395"
+          ]
+        },
+        {
+          "nodeId": "85:812",
+          "date": "06/26",
+          "sourceNodeIds": [
+            "29:398",
+            "29:401"
+          ]
+        },
+        {
+          "nodeId": "85:819",
+          "date": "06/27",
+          "sourceNodeIds": [
+            "29:404",
+            "29:407"
+          ]
+        },
+        {
+          "nodeId": "85:826",
+          "date": "06/29",
+          "sourceNodeIds": [
+            "29:410",
+            "29:413"
+          ]
+        },
+        {
+          "nodeId": "85:833",
+          "date": "06/30",
+          "sourceNodeIds": [
+            "29:416",
+            "29:419"
+          ]
+        },
+        {
+          "nodeId": "85:840",
+          "date": "07/01",
+          "sourceNodeIds": [
+            "29:422",
+            "29:425"
+          ]
+        },
+        {
+          "nodeId": "85:847",
+          "date": "07/02",
+          "sourceNodeIds": [
+            "29:428",
+            "29:431"
+          ]
+        },
+        {
+          "nodeId": "85:854",
+          "date": "07/03",
+          "sourceNodeIds": [
+            "29:434",
+            "29:437"
+          ]
+        },
+        {
+          "nodeId": "85:861",
+          "date": "07/04",
+          "sourceNodeIds": [
+            "29:440",
+            "29:443"
+          ]
+        },
+        {
+          "nodeId": "85:868",
+          "date": "07/05",
+          "sourceNodeIds": [
+            "29:446",
+            "29:449"
+          ]
+        }
+      ],
+      "notes": "Exact slide 14 date label plus vertical grid-line variants."
+    },
+    {
+      "id": "gantt-lane-meta-exact-variant-set",
+      "name": "JByond/Deck/GanttLaneMetaExact/VariantSet",
+      "nodeId": "86:885",
+      "pageId": "0:1",
+      "sourceSlideNo": 14,
+      "sourceNodeIds": [
+        "29:452",
+        "29:455",
+        "29:457",
+        "29:459",
+        "29:461",
+        "29:481",
+        "29:484",
+        "29:486",
+        "29:488",
+        "29:490",
+        "29:510",
+        "29:513",
+        "29:515",
+        "29:517",
+        "29:519",
+        "29:539",
+        "29:542",
+        "29:544",
+        "29:546",
+        "29:548",
+        "29:577",
+        "29:580",
+        "29:582",
+        "29:584",
+        "29:586",
+        "29:615",
+        "29:618",
+        "29:620",
+        "29:622",
+        "29:624",
+        "29:644",
+        "29:647",
+        "29:649",
+        "29:651",
+        "29:653",
+        "29:673",
+        "29:676",
+        "29:678",
+        "29:680",
+        "29:682",
+        "29:702",
+        "29:705",
+        "29:707",
+        "29:709",
+        "29:711"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/gantt-lane-meta-exact-variant-set-86-885.png",
+      "sha256": "353f62399684f4438de5811d9f9291385d20f061382cb60c0130e8a6f60e45ff",
+      "variants": [
+        {
+          "nodeId": "86:777",
+          "lane": "01",
+          "title": "1. 문제정의/JB 리서치"
+        },
+        {
+          "nodeId": "86:789",
+          "lane": "02",
+          "title": "2. 제품 결정/범위 확정"
+        },
+        {
+          "nodeId": "86:801",
+          "lane": "03",
+          "title": "3. AI Agent 설계"
+        },
+        {
+          "nodeId": "86:813",
+          "lane": "04",
+          "title": "4. MVP 구현/고도화"
+        },
+        {
+          "nodeId": "86:825",
+          "lane": "05",
+          "title": "5. UX/UI·브랜딩·시연 화면"
+        },
+        {
+          "nodeId": "86:837",
+          "lane": "06",
+          "title": "6. 문서/기능명세/변경이력"
+        },
+        {
+          "nodeId": "86:849",
+          "lane": "07",
+          "title": "7. QA/검증/시연 안정화"
+        },
+        {
+          "nodeId": "86:861",
+          "lane": "08",
+          "title": "8. 운영 하네스/AI 협업 증빙"
+        },
+        {
+          "nodeId": "86:873",
+          "lane": "09",
+          "title": "9. 발표/시연/리허설"
+        }
+      ],
+      "notes": "Exact slide 14 lane shell plus title/progress/human-owner/AI-owner metadata variants."
+    },
+    {
+      "id": "gantt-task-bar-exact-variant-set",
+      "name": "JByond/Deck/GanttTaskBarExact/VariantSet",
+      "nodeId": "88:987",
+      "pageId": "0:1",
+      "sourceSlideNo": 14,
+      "sourceNodeIds": [
+        "29:463",
+        "29:466",
+        "29:468",
+        "29:470",
+        "29:472",
+        "29:475",
+        "29:477",
+        "29:479",
+        "29:492",
+        "29:495",
+        "29:497",
+        "29:499",
+        "29:501",
+        "29:504",
+        "29:506",
+        "29:508",
+        "29:521",
+        "29:524",
+        "29:526",
+        "29:528",
+        "29:530",
+        "29:533",
+        "29:535",
+        "29:537",
+        "29:550",
+        "29:553",
+        "29:555",
+        "29:557",
+        "29:559",
+        "29:562",
+        "29:564",
+        "29:566",
+        "29:568",
+        "29:571",
+        "29:573",
+        "29:575",
+        "29:588",
+        "29:591",
+        "29:593",
+        "29:595",
+        "29:597",
+        "29:600",
+        "29:602",
+        "29:604",
+        "29:606",
+        "29:609",
+        "29:611",
+        "29:613",
+        "29:626",
+        "29:629",
+        "29:631",
+        "29:633",
+        "29:635",
+        "29:638",
+        "29:640",
+        "29:642",
+        "29:655",
+        "29:658",
+        "29:660",
+        "29:662",
+        "29:664",
+        "29:667",
+        "29:669",
+        "29:671",
+        "29:684",
+        "29:687",
+        "29:689",
+        "29:691",
+        "29:693",
+        "29:696",
+        "29:698",
+        "29:700",
+        "29:713",
+        "29:716",
+        "29:718",
+        "29:720",
+        "29:722",
+        "29:725",
+        "29:727",
+        "29:729",
+        "29:731",
+        "29:734",
+        "29:736",
+        "29:738"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/gantt-task-bar-exact-variant-set-88-987.png",
+      "sha256": "9c8faffde639f091afafe62b05ab46e02980b0a7c8c4c6e8ce09276cfe9bb608",
+      "variants": [
+        {
+          "nodeId": "88:777",
+          "task": "01"
+        },
+        {
+          "nodeId": "88:787",
+          "task": "02"
+        },
+        {
+          "nodeId": "88:797",
+          "task": "03"
+        },
+        {
+          "nodeId": "88:807",
+          "task": "04"
+        },
+        {
+          "nodeId": "88:817",
+          "task": "05"
+        },
+        {
+          "nodeId": "88:827",
+          "task": "06"
+        },
+        {
+          "nodeId": "88:837",
+          "task": "07"
+        },
+        {
+          "nodeId": "88:847",
+          "task": "08"
+        },
+        {
+          "nodeId": "88:857",
+          "task": "09"
+        },
+        {
+          "nodeId": "88:867",
+          "task": "10"
+        },
+        {
+          "nodeId": "88:877",
+          "task": "11"
+        },
+        {
+          "nodeId": "88:887",
+          "task": "12"
+        },
+        {
+          "nodeId": "88:897",
+          "task": "13"
+        },
+        {
+          "nodeId": "88:907",
+          "task": "14"
+        },
+        {
+          "nodeId": "88:917",
+          "task": "15"
+        },
+        {
+          "nodeId": "88:927",
+          "task": "16"
+        },
+        {
+          "nodeId": "88:937",
+          "task": "17"
+        },
+        {
+          "nodeId": "88:947",
+          "task": "18"
+        },
+        {
+          "nodeId": "88:957",
+          "task": "19"
+        },
+        {
+          "nodeId": "88:967",
+          "task": "20"
+        },
+        {
+          "nodeId": "88:977",
+          "task": "21"
+        }
+      ],
+      "notes": "Exact slide 14 task bar variants; each variant contains bar background and three text groups."
+    },
+    {
+      "id": "gantt-milestone-exact-variant-set",
+      "name": "JByond/Deck/GanttMilestoneExact/VariantSet",
+      "nodeId": "89:813",
+      "pageId": "0:1",
+      "sourceSlideNo": 14,
+      "sourceNodeIds": [
+        "29:740",
+        "29:743",
+        "29:745",
+        "29:748",
+        "29:750",
+        "29:753",
+        "29:755",
+        "29:758",
+        "29:760",
+        "29:763",
+        "29:765",
+        "29:768"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/gantt-milestone-exact-variant-set-89-813.png",
+      "sha256": "5d221c82a50e01a2f1f6c697df905bd6322f6e44a40f05375f83058ece5d6eae",
+      "variants": [
+        {
+          "nodeId": "89:777",
+          "milestone": "01",
+          "label": "예선 제출",
+          "sourceNodeIds": [
+            "29:740",
+            "29:743"
+          ]
+        },
+        {
+          "nodeId": "89:783",
+          "milestone": "02",
+          "label": "본선 안내",
+          "sourceNodeIds": [
+            "29:745",
+            "29:748"
+          ]
+        },
+        {
+          "nodeId": "89:789",
+          "milestone": "03",
+          "label": "제품§1",
+          "sourceNodeIds": [
+            "29:750",
+            "29:753"
+          ]
+        },
+        {
+          "nodeId": "89:795",
+          "milestone": "04",
+          "label": "MVP/Viz",
+          "sourceNodeIds": [
+            "29:755",
+            "29:758"
+          ]
+        },
+        {
+          "nodeId": "89:801",
+          "milestone": "05",
+          "label": "동기화",
+          "sourceNodeIds": [
+            "29:760",
+            "29:763"
+          ]
+        },
+        {
+          "nodeId": "89:807",
+          "milestone": "06",
+          "label": "발표·시연",
+          "sourceNodeIds": [
+            "29:765",
+            "29:768"
+          ]
+        }
+      ],
+      "notes": "Exact slide 14 milestone marker variants; each variant contains vertical marker and bottom label."
+    },
+    {
+      "id": "cover-media-stack-exact",
+      "name": "JByond/Deck/CoverMediaStackExact",
+      "nodeId": "92:1179",
+      "pageId": "0:1",
+      "sourceSlideNo": 1,
+      "sourceNodeIds": [
+        "22:3",
+        "22:7",
+        "22:8",
+        "22:9",
+        "22:10"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_promoted_v1_exact_geometry",
+      "screenshot": "assets/components/cover-media-stack-exact-92-1179.png",
+      "sha256": "b422fe91a3aae75cbe6e51ec3762780c28b1e82b81080d4f691f57a54eb19de4",
+      "notes": "Exact Slide 01 cover media stack: stage image, laptop product image, hand accent, and bottom veil overlays. Image fills are preserved from source."
+    },
+    {
+      "id": "cover-header-exact",
+      "name": "JByond/Deck/CoverHeaderExact",
+      "nodeId": "92:1188",
+      "pageId": "0:1",
+      "sourceSlideNo": 1,
+      "sourceNodeId": "22:4",
+      "createdAt": "2026-07-09",
+      "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+      "screenshot": "assets/components/cover-header-exact-92-1188.png",
+      "sha256": "3ad28d2c03ffb2a43eced43ab2a89c5709b433e634875c145bee743e0587ebc3",
+      "notes": "Exact Slide 01 header cloned without text mutation because Pretendard is unavailable to the plugin runtime; source font metadata is preserved."
+    },
+    {
+      "id": "cover-footer-exact",
+      "name": "JByond/Deck/CoverFooterExact",
+      "nodeId": "92:1189",
+      "pageId": "0:1",
+      "sourceSlideNo": 1,
+      "sourceNodeIds": [
+        "22:11",
+        "22:12"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+      "screenshot": "assets/components/cover-footer-exact-92-1189.png",
+      "sha256": "842ed6682daaa878f0d84d8e77dfee802c00445d93da10f0cca63cd4b0b52c1f",
+      "notes": "Exact Slide 01 footer pair cloned without text mutation because Pretendard is unavailable to the plugin runtime; source font metadata is preserved."
+    },
+    {
+      "id": "cover-wordmark-exact",
+      "name": "JByond/Deck/CoverWordmarkExact",
+      "nodeId": "92:1192",
+      "pageId": "0:1",
+      "sourceSlideNo": 1,
+      "sourceNodeId": "22:13",
+      "createdAt": "2026-07-09",
+      "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+      "screenshot": "assets/components/cover-wordmark-exact-92-1192.png",
+      "sha256": "4362489446af8c75f1d4c0e78e80f02bba74e614efbb1de84ee0e0f87550d30c",
+      "notes": "Exact Slide 01 Panchang wordmark component preserving text metadata and gradient fill."
+    },
+    {
+      "id": "feature-callout-top-exact-variant-set",
+      "name": "JByond/Deck/FeatureCalloutTopExact/VariantSet",
+      "nodeId": "95:1197",
+      "pageId": "0:1",
+      "sourceSlideNo": 5,
+      "sourceNodeIds": [
+        "6:271",
+        "6:274"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry_partial_slide05",
+      "screenshot": "assets/components/feature-callout-top-exact-variant-set-95-1197.png",
+      "sha256": "c0b37df3475e83596f97c4149dad88794a2358af3d0b0f3616e53100ad79d794",
+      "variants": [
+        {
+          "nodeId": "95:1192",
+          "kind": "CaseBoard",
+          "sourceNodeId": "6:271"
+        },
+        {
+          "nodeId": "95:1196",
+          "kind": "RiskSignal",
+          "sourceNodeId": "6:274"
+        }
+      ],
+      "notes": "Exact Slide 05 top callout labels promoted from small child IDs without traversing full slide frame."
+    },
+    {
+      "id": "feature-callout-right-exact-variant-set",
+      "name": "JByond/Deck/FeatureCalloutRightExact/VariantSet",
+      "nodeId": "96:1195",
+      "pageId": "0:1",
+      "sourceSlideNo": 5,
+      "sourceNodeIds": [
+        "6:277",
+        "6:279",
+        "6:278",
+        "6:280"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry_partial_slide05",
+      "screenshot": "assets/components/feature-callout-right-exact-variant-set-96-1195.png",
+      "sha256": "9ccd5763a2f22d581488e850793293d315cb16945c7c4278e80d2df1e5d8c5de",
+      "variants": [
+        {
+          "nodeId": "96:1189",
+          "kind": "AgentRun",
+          "sourceNodeIds": [
+            "6:277",
+            "6:279"
+          ]
+        },
+        {
+          "nodeId": "96:1192",
+          "kind": "EvidencePack",
+          "sourceNodeIds": [
+            "6:278",
+            "6:280"
+          ]
+        }
+      ],
+      "notes": "Exact Slide 05 right callout labels promoted from small text-node pairs without traversing full slide frame."
+    },
+    {
+      "id": "approval-audit-callout-exact-variant-set",
+      "name": "JByond/Deck/ApprovalAuditCalloutExact/VariantSet",
+      "nodeId": "101:1205",
+      "pageId": "0:1",
+      "sourceSlideNo": 6,
+      "sourceNodeIds": [
+        "6:309",
+        "6:305"
+      ],
+      "createdAt": "2026-07-09",
+      "status": "component_set_promoted_v1_exact_geometry_slide06",
+      "screenshot": "assets/components/approval-audit-callout-exact-variant-set-101-1205.png",
+      "sha256": "a844bc9379a837795a46a47ac7e879007b4d636c9274b32766d6869bb933e25b",
+      "variants": [
+        {
+          "nodeId": "101:1200",
+          "kind": "L0L4Gate",
+          "sourceNodeId": "6:309"
+        },
+        {
+          "nodeId": "101:1204",
+          "kind": "AuditLogAgent",
+          "sourceNodeId": "6:305"
+        }
+      ],
+      "notes": "Exact Slide 06 approval/audit callout labels promoted from selected child IDs without traversing full slide frame."
+    }
+  ],
+  "finalPdf": {
+    "path": "08_본선/05_제출/제출본/PPT/JBFinAI_JByond_본선_PPT.pdf",
+    "pageCount": 14,
+    "pageSizePts": "960 x 540",
+    "embeddedImagePerPage": 1,
+    "embeddedImageSize": "1920x1080",
+    "orderMatchesLocalFigmaExports": true,
+    "exactShaMatchesLocalExports": false,
+    "exactShaNote": "PowerPoint PDF export recompressed JPEG images; page order was verified by PDF image list and visual/perceptual match."
+  },
+  "structuredRebuilds": {
+    "01-summary": {
+      "sourceNodeId": "6:198",
+      "nodeId": "22:2",
+      "name": "S01/Summary/Structured Rebuild v1.0",
+      "createdAt": "2026-07-09",
+      "sourceScreenshot": "assets/rebuild-screenshots/01-summary-source-6-198.png",
+      "rebuildScreenshot": "assets/rebuild-screenshots/01-summary-structured-22-2.png",
+      "visualDiff": {
+        "status": "pixel_identical",
+        "size": "1920x1080",
+        "changedPixels": 0,
+        "totalPixels": 2073600,
+        "changedRatio": 0,
+        "similarity": 1,
+        "rmsRgbaNorm": 0
+      },
+      "qualityGate": "pass_visual_clone_pending_font_install_for_future_text_mutation"
+    },
+    "07-system-flow": {
+      "sourceNodeId": "6:325",
+      "nodeId": "25:2",
+      "name": "S07/SystemFlow/Structured Rebuild v1.0",
+      "createdAt": "2026-07-09",
+      "sourceScreenshot": "assets/rebuild-screenshots/07-system-flow-source-6-325.png",
+      "rebuildScreenshot": "assets/rebuild-screenshots/07-system-flow-structured-25-2.png",
+      "visualDiff": {
+        "status": "pass_above_98_percent",
+        "size": "1920x1080",
+        "changedPixels": 512,
+        "totalPixels": 2073600,
+        "changedRatio": 0.0002469136,
+        "similarity": 0.9997530864,
+        "rmsRgbaNorm": 0.0010272472,
+        "diffBbox": [
+          1409,
+          436,
+          1676,
+          672
+        ]
+      },
+      "qualityGate": "pass_visual_clone_pending_right_table_micro_diff_review"
+    },
+    "09-user-scenario": {
+      "sourceNodeId": "6:1046",
+      "nodeId": "26:2",
+      "name": "S09/UserScenario/Structured Rebuild v1.0",
+      "createdAt": "2026-07-09",
+      "sourceScreenshot": "assets/rebuild-screenshots/09-user-scenario-source-6-1046.png",
+      "rebuildScreenshot": "assets/rebuild-screenshots/09-user-scenario-structured-26-2.png",
+      "visualDiff": {
+        "status": "pixel_identical",
+        "size": "1920x1080",
+        "changedPixels": 0,
+        "totalPixels": 2073600,
+        "changedRatio": 0,
+        "similarity": 1,
+        "rmsRgbaNorm": 0
+      },
+      "qualityGate": "pass_visual_clone_pending_font_install_for_future_text_mutation"
+    }
+  },
+  "agents": {
+    "A0": {
+      "name": "Orchestrator",
+      "owns": [
+        "README.md",
+        "manifest.json",
+        "qa/rebuild-diff.md"
+      ]
+    },
+    "A1": {
+      "name": "Figma Reverse Engineer",
+      "owns": [
+        "slides/*-source-analysis.md",
+        "assets/source-screenshots/*"
+      ]
+    },
+    "A2": {
+      "name": "Token Cartographer",
+      "owns": [
+        "tokens/*"
+      ]
+    },
+    "A3": {
+      "name": "Component Architect",
+      "owns": [
+        "components/*"
+      ]
+    },
+    "A4": {
+      "name": "Asset Harvester",
+      "owns": [
+        "assets/*"
+      ]
+    },
+    "A5": {
+      "name": "Figma Slide Builder",
+      "owns": [
+        "Figma duplicate only"
+      ]
+    },
+    "A6": {
+      "name": "Visual QA Judge",
+      "owns": [
+        "qa/*"
+      ]
+    },
+    "A7": {
+      "name": "AI Process Librarian",
+      "owns": [
+        "process/*"
+      ]
+    },
+    "A8": {
+      "name": "Evidence Recorder",
+      "owns": [
+        "08_본선/04_증빙/** append-only logs"
+      ]
+    }
+  },
+  "slides": [
+    {
+      "id": "01-summary",
+      "slideNo": 1,
+      "title": "Summary",
+      "deckAuditNodeId": "4915:2719",
+      "providedRequestNodeIdCandidate": "5053:11835",
+      "sourceScreenshot": "assets/source-screenshots/01-summary.jpg",
+      "pastedWorkingNodeId": "6:198",
+      "pastedWorkingScreenshot": "assets/pasted-working-screenshots/01-summary-6-198.png",
+      "analysisDoc": "slides/01-summary-source-analysis.md",
+      "sourceNodeAccess": "metadata_ok",
+      "rebuildPriority": 1,
+      "rebuildRole": "calibration_slide",
+      "failedExperimentNodeId": "5:2",
+      "structuredRebuildNodeId": "22:2",
+      "structuredRebuildScreenshot": "assets/rebuild-screenshots/01-summary-structured-22-2.png",
+      "qaStatus": "structured_rebuild_v1_pixel_identical_to_pasted_source"
+    },
+    {
+      "id": "07-system-flow",
+      "slideNo": 7,
+      "title": "데이터 및 활용 기술",
+      "deckAuditNodeId": "4877:1440",
+      "providedRequestNodeIdCandidate": "5053:11964",
+      "sourceScreenshot": "assets/source-screenshots/07-system-flow.jpg",
+      "pastedWorkingNodeId": "6:325",
+      "pastedWorkingScreenshot": "assets/pasted-working-screenshots/07-system-flow-6-325.png",
+      "analysisDoc": "slides/07-system-flow-source-analysis.md",
+      "sourceNodeAccess": "metadata_ok",
+      "rebuildPriority": 2,
+      "rebuildRole": "complex_system_flow",
+      "structuredRebuildNodeId": "25:2",
+      "structuredRebuildScreenshot": "assets/rebuild-screenshots/07-system-flow-structured-25-2.png",
+      "qaStatus": "structured_rebuild_v1_pass_99_9753_percent_similarity"
+    },
+    {
+      "id": "09-user-scenario",
+      "slideNo": 9,
+      "title": "User Scenario",
+      "deckAuditNodeId": "4915:2636",
+      "providedRequestNodeIdCandidate": "5053:12685",
+      "sourceScreenshot": "assets/source-screenshots/09-user-scenario.jpg",
+      "pastedWorkingNodeId": "6:1046",
+      "pastedWorkingScreenshot": "assets/pasted-working-screenshots/09-user-scenario-6-1046.png",
+      "analysisDoc": "slides/09-user-scenario-source-analysis.md",
+      "sourceNodeAccess": "metadata_ok",
+      "rebuildPriority": 3,
+      "rebuildRole": "scenario_storyboard",
+      "structuredRebuildNodeId": "26:2",
+      "structuredRebuildScreenshot": "assets/rebuild-screenshots/09-user-scenario-structured-26-2.png",
+      "qaStatus": "structured_rebuild_v1_pixel_identical_to_pasted_source"
+    }
+  ],
+  "qualityGates": {
+    "slide": [
+      "1920x1080",
+      "editable_text",
+      "reusable_components",
+      "no_full_slide_flatten_image",
+      "no_visible_text_clipping"
+    ],
+    "token": [
+      "primitive_semantic_component_layers",
+      "slide_tokens",
+      "asset_tokens",
+      "qa_rules",
+      "figma_variable_map"
+    ],
+    "asset": [
+      "source_path",
+      "usage_slide",
+      "origin_or_derivative",
+      "extraction_status"
+    ],
+    "qa": [
+      "source_vs_rebuild_screenshot",
+      "diff_notes",
+      "iteration_log",
+      "remaining_risks",
+      "full_deck_structured_audit"
+    ]
+  },
+  "fullDeckStructuredAudit": {
+    "path": "qa/visual-diff/full-deck-structured-audit-2026-07-09.json",
+    "generatedAt": "2026-07-09",
+    "totalSlides": 14,
+    "passSlides": 14,
+    "minSimilarity": 0.9996238425925926,
+    "qualityTarget": 0.98,
+    "byteEqualOnlySlides": [
+      3,
+      5,
+      6,
+      13
+    ],
+    "pixelDiffSlides": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+    ],
+    "remainingDeepWork": "All 14 slides have accepted componentized rebuilds above the 98% visual gate. Remaining optional work is deeper atomization of connector/orbit/ops-panel one-off patterns, not visual parity.",
+    "sourceAnalysisDocs": "sourceAnalysisDocs"
+  },
+  "fullDeckStructuredRebuilds": [
+    {
+      "slideNo": 1,
+      "sourceNodeId": "6:198",
+      "structuredRebuildNodeId": "22:2",
+      "structuredRebuildName": "S01/Summary/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 1,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": "01-summary-structured-v1.json",
+      "scopeStatus": "cover_media_header_footer_wordmark_componentized_v1_0_pass",
+      "analysisDoc": "slides/01-summary-source-analysis.md",
+      "componentizedRebuildNodeId": "93:1179",
+      "componentizedRebuildName": "S01/Summary/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 1.0,
+      "componentizedChangedPixels": 0,
+      "componentizedVisualDiff": "01-summary-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 2,
+      "sourceNodeId": "6:3",
+      "structuredRebuildNodeId": "28:2",
+      "structuredRebuildName": "S02/ProblemDefinition/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9999802276234568,
+      "changedPixels": 41,
+      "qaStatus": "pass",
+      "visualDiff": "02-problem-structured-v1.json",
+      "scopeStatus": "case_cards_and_limitation_rows_componentized_v1_2_pass",
+      "analysisDoc": "slides/02-problem-definition-source-analysis.md",
+      "componentizedRebuildNodeId": "49:76",
+      "componentizedRebuildName": "S02/ProblemDefinition/Componentized Rebuild v1.2",
+      "componentizedSimilarity": 0.9997815393518519,
+      "componentizedChangedPixels": 453,
+      "componentizedVisualDiff": "02-problem-componentized-v1.2.json"
+    },
+    {
+      "slideNo": 3,
+      "sourceNodeId": "6:313",
+      "structuredRebuildNodeId": "28:95",
+      "structuredRebuildName": "S03/ProblemDefinition/Structured Rebuild v1.0",
+      "qaMethod": "figma_export_png_byte_equal",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": null,
+      "scopeStatus": "evidence_screenshots_and_highlights_componentized_v1_0_pass",
+      "analysisDoc": "slides/03-problem-evidence-source-analysis.md",
+      "componentizedRebuildNodeId": "58:183",
+      "componentizedRebuildName": "S03/ProblemEvidence/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 1.0,
+      "componentizedChangedPixels": 0,
+      "componentizedVisualDiff": "03-problem-evidence-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 4,
+      "sourceNodeId": "6:210",
+      "structuredRebuildNodeId": "28:108",
+      "structuredRebuildName": "S04/SolutionOverview/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9999951774691358,
+      "changedPixels": 10,
+      "qaStatus": "pass",
+      "visualDiff": "04-solution-structured-v1.json",
+      "scopeStatus": "solution_axis_columns_and_flow_steps_componentized_v1_0_pass",
+      "analysisDoc": "slides/04-solution-overview-source-analysis.md",
+      "componentizedRebuildNodeId": "54:150",
+      "componentizedRebuildName": "S04/SolutionOverview/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 0.9999657600308642,
+      "componentizedChangedPixels": 71,
+      "componentizedVisualDiff": "04-solution-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 5,
+      "sourceNodeId": "6:261",
+      "structuredRebuildNodeId": "28:159",
+      "structuredRebuildName": "S05/KeyFeature/Structured Rebuild v1.0",
+      "qaMethod": "figma_export_png_byte_equal",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": null,
+      "scopeStatus": "root_structured_clone_pending_deep_taxonomy_asset_extraction",
+      "analysisDoc": "slides/05-key-feature-ui-source-analysis.md"
+    },
+    {
+      "slideNo": 6,
+      "sourceNodeId": "6:286",
+      "structuredRebuildNodeId": "28:184",
+      "structuredRebuildName": "S06/KeyFeature/Structured Rebuild v1.0",
+      "qaMethod": "figma_export_png_byte_equal",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": null,
+      "scopeStatus": "root_structured_clone_pending_deep_taxonomy_asset_extraction",
+      "analysisDoc": "slides/06-key-feature-approval-source-analysis.md"
+    },
+    {
+      "slideNo": 7,
+      "sourceNodeId": "6:325",
+      "structuredRebuildNodeId": "25:2",
+      "structuredRebuildName": "S07/SystemFlow/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9997530864,
+      "changedPixels": 512,
+      "qaStatus": "pass",
+      "visualDiff": "07-system-flow-structured-v1.json",
+      "scopeStatus": "tables_and_entity_pills_componentized_v1_0_pass",
+      "analysisDoc": "slides/07-system-flow-source-analysis.md",
+      "componentizedRebuildNodeId": "68:508",
+      "componentizedRebuildName": "S07/SystemFlow/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 0.9995273919753086,
+      "componentizedChangedPixels": 980,
+      "componentizedVisualDiff": "07-system-flow-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 8,
+      "sourceNodeId": "6:592",
+      "structuredRebuildNodeId": "28:211",
+      "structuredRebuildName": "S08/AIOrgChart/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9999995177469135,
+      "changedPixels": 1,
+      "qaStatus": "pass",
+      "visualDiff": "08-ai-org-structured-v1.json",
+      "scopeStatus": "org_role_and_gate_cards_componentized_v1_0_pass",
+      "analysisDoc": "slides/08-ai-org-chart-source-analysis.md",
+      "componentizedRebuildNodeId": "61:176",
+      "componentizedRebuildName": "S08/AIOrgChart/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 0.9999146412037037,
+      "componentizedChangedPixels": 177,
+      "componentizedVisualDiff": "08-ai-org-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 9,
+      "sourceNodeId": "6:1046",
+      "structuredRebuildNodeId": "26:2",
+      "structuredRebuildName": "S09/UserScenario/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 1,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": "09-user-scenario-structured-v1.json",
+      "scopeStatus": "process_nodes_and_scenario_cards_componentized_v1_0_pass",
+      "analysisDoc": "slides/09-user-scenario-source-analysis.md",
+      "componentizedRebuildNodeId": "64:490",
+      "componentizedRebuildName": "S09/UserScenario/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 1.0,
+      "componentizedChangedPixels": 0,
+      "componentizedVisualDiff": "09-user-scenario-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 10,
+      "sourceNodeId": "6:96",
+      "structuredRebuildNodeId": "29:2",
+      "structuredRebuildName": "S10/ExpectedEffects/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.999702449845679,
+      "changedPixels": 617,
+      "qaStatus": "pass",
+      "visualDiff": "10-effects-structured-v1.json",
+      "scopeStatus": "experience_nodes_componentized_v1_0_pass",
+      "analysisDoc": "slides/10-expected-effects-source-analysis.md",
+      "componentizedRebuildNodeId": "70:660",
+      "componentizedRebuildName": "S10/ExpectedEffects/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 0.9987331211419753,
+      "componentizedChangedPixels": 2627,
+      "componentizedVisualDiff": "10-effects-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 11,
+      "sourceNodeId": "6:1108",
+      "structuredRebuildNodeId": "29:104",
+      "structuredRebuildName": "S11/ImplementationDemoPlan/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9998283179012346,
+      "changedPixels": 356,
+      "qaStatus": "pass",
+      "visualDiff": "11-demo-plan-structured-v1.json",
+      "scopeStatus": "componentized_rows_v1_0_pass",
+      "analysisDoc": "slides/11-implementation-demo-plan-source-analysis.md",
+      "componentizedRebuildNodeId": "74:649",
+      "componentizedSimilarity": 0.9999122299382716,
+      "componentizedChangedPixels": 182,
+      "componentizedVisualDiff": "11-demo-plan-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 12,
+      "sourceNodeId": "6:983",
+      "structuredRebuildNodeId": "29:151",
+      "structuredRebuildName": "S12/ClosingExpansion/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9999990354938272,
+      "changedPixels": 2,
+      "qaStatus": "pass",
+      "visualDiff": "12-expansion-structured-v1.json",
+      "scopeStatus": "bubbles_steps_componentized_v1_0_pass",
+      "analysisDoc": "slides/12-closing-expansion-source-analysis.md",
+      "componentizedRebuildNodeId": "77:678",
+      "componentizedRebuildName": "S12/ClosingExpansion/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 0.9999541859567901,
+      "componentizedChangedPixels": 95,
+      "componentizedVisualDiff": "12-expansion-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 13,
+      "sourceNodeId": "6:1586",
+      "structuredRebuildNodeId": "29:214",
+      "structuredRebuildName": "S13/AppendixReferences/Structured Rebuild v1.0",
+      "qaMethod": "figma_export_png_byte_equal",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "qaStatus": "pass",
+      "visualDiff": null,
+      "scopeStatus": "reference_items_componentized_v1_0_pass",
+      "analysisDoc": "slides/13-appendix-references-source-analysis.md",
+      "componentizedRebuildNodeId": "80:688",
+      "componentizedRebuildName": "S13/AppendixReferences/Componentized Rebuild v1.0",
+      "componentizedSimilarity": 1.0,
+      "componentizedChangedPixels": 0,
+      "componentizedVisualDiff": "13-appendix-componentized-v1.0.json"
+    },
+    {
+      "slideNo": 14,
+      "sourceNodeId": "6:1155",
+      "structuredRebuildNodeId": "29:357",
+      "structuredRebuildName": "S14/AppendixGantt/Structured Rebuild v1.0",
+      "qaMethod": "full_screenshot_pixel_diff",
+      "similarity": 0.9996238425925926,
+      "changedPixels": 780,
+      "qaStatus": "pass",
+      "visualDiff": "14-gantt-structured-v1.json",
+      "scopeStatus": "gantt_chart_componentized_v1_0_pass",
+      "analysisDoc": "slides/14-appendix-gantt-source-analysis.md",
+      "componentizedRebuildNodeId": "90:777",
+      "componentizedVisualDiff": "qa/visual-diff/14-gantt-componentized-v1.0.json"
+    }
+  ],
+  "sourceAnalysisDocs": [
+    {
+      "slideNo": 1,
+      "path": "slides/01-summary-source-analysis.md"
+    },
+    {
+      "slideNo": 2,
+      "path": "slides/02-problem-definition-source-analysis.md"
+    },
+    {
+      "slideNo": 3,
+      "path": "slides/03-problem-evidence-source-analysis.md"
+    },
+    {
+      "slideNo": 4,
+      "path": "slides/04-solution-overview-source-analysis.md"
+    },
+    {
+      "slideNo": 5,
+      "path": "slides/05-key-feature-ui-source-analysis.md"
+    },
+    {
+      "slideNo": 6,
+      "path": "slides/06-key-feature-approval-source-analysis.md"
+    },
+    {
+      "slideNo": 7,
+      "path": "slides/07-system-flow-source-analysis.md"
+    },
+    {
+      "slideNo": 8,
+      "path": "slides/08-ai-org-chart-source-analysis.md"
+    },
+    {
+      "slideNo": 9,
+      "path": "slides/09-user-scenario-source-analysis.md"
+    },
+    {
+      "slideNo": 10,
+      "path": "slides/10-expected-effects-source-analysis.md"
+    },
+    {
+      "slideNo": 11,
+      "path": "slides/11-implementation-demo-plan-source-analysis.md"
+    },
+    {
+      "slideNo": 12,
+      "path": "slides/12-closing-expansion-source-analysis.md"
+    },
+    {
+      "slideNo": 13,
+      "path": "slides/13-appendix-references-source-analysis.md"
+    },
+    {
+      "slideNo": 14,
+      "path": "slides/14-appendix-gantt-source-analysis.md"
+    }
+  ],
+  "componentizedRebuilds": [
+    {
+      "slideNo": 1,
+      "version": "v1.0",
+      "nodeId": "93:1179",
+      "name": "S01/Summary/Componentized Rebuild v1.0",
+      "components": [
+        "92:1179",
+        "92:1188",
+        "92:1189",
+        "92:1192"
+      ],
+      "screenshot": "assets/rebuild-screenshots/01-summary-componentized-93-1179.png",
+      "visualDiff": "qa/visual-diff/01-summary-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "exactChangedPixels": 923512,
+      "exactSimilarity": 0.554633487654321,
+      "maxChannelDelta": 1,
+      "status": "pass_tolerance_delta_le_1_4_component_instances_preserved"
+    },
+    {
+      "slideNo": 2,
+      "version": "v1.1",
+      "nodeId": "46:2",
+      "name": "S02/ProblemDefinition/Componentized Rebuild v1.1",
+      "componentSets": [
+        "39:77",
+        "42:17"
+      ],
+      "screenshot": "assets/rebuild-screenshots/02-problem-componentized-46-2.png",
+      "visualDiff": "qa/visual-diff/02-problem-componentized-v1.1.json",
+      "similarity": 0.9938806905864197,
+      "changedPixels": 12689,
+      "status": "pass_98_gate_but_rejected_for_row_geometry_drift"
+    },
+    {
+      "slideNo": 2,
+      "version": "v1.2",
+      "nodeId": "49:76",
+      "name": "S02/ProblemDefinition/Componentized Rebuild v1.2",
+      "componentSets": [
+        "39:77",
+        "48:88"
+      ],
+      "screenshot": "assets/rebuild-screenshots/02-problem-componentized-49-76.png",
+      "visualDiff": "qa/visual-diff/02-problem-componentized-v1.2.json",
+      "similarity": 0.9997815393518519,
+      "changedPixels": 453,
+      "status": "pass_99_978_percent_similarity_component_instances_preserved"
+    },
+    {
+      "slideNo": 3,
+      "version": "v1.0",
+      "nodeId": "58:183",
+      "name": "S03/ProblemEvidence/Componentized Rebuild v1.0",
+      "componentSets": [
+        "58:175",
+        "58:182"
+      ],
+      "screenshot": "assets/rebuild-screenshots/03-problem-evidence-componentized-58-183.png",
+      "visualDiff": "qa/visual-diff/03-problem-evidence-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "status": "pass_100_percent_similarity_component_instances_preserved"
+    },
+    {
+      "slideNo": 4,
+      "version": "v1.0",
+      "nodeId": "54:150",
+      "name": "S04/SolutionOverview/Componentized Rebuild v1.0",
+      "componentSets": [
+        "53:174",
+        "53:184"
+      ],
+      "screenshot": "assets/rebuild-screenshots/04-solution-componentized-54-150.png",
+      "visualDiff": "qa/visual-diff/04-solution-componentized-v1.0.json",
+      "similarity": 0.9999657600308642,
+      "changedPixels": 71,
+      "status": "pass_99_996_percent_similarity_component_instances_preserved"
+    },
+    {
+      "slideNo": 5,
+      "version": "v1.0",
+      "nodeId": "98:1189",
+      "name": "S05/KeyFeatureUI/Componentized Rebuild v1.0",
+      "componentSets": [
+        "95:1197",
+        "96:1195"
+      ],
+      "componentInstances": [
+        "98:1214",
+        "98:1217",
+        "98:1220",
+        "98:1223"
+      ],
+      "hiddenOriginalCalloutNodeIds": [
+        "98:1199",
+        "98:1202",
+        "98:1205",
+        "98:1206",
+        "98:1207",
+        "98:1208"
+      ],
+      "screenshot": "assets/rebuild-screenshots/05-key-feature-ui-componentized-98-1189.png",
+      "sourceScreenshot": "assets/rebuild-screenshots/05-key-feature-ui-source-6-261.png",
+      "visualDiff": "qa/visual-diff/05-key-feature-ui-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "status": "pass_100_percent_similarity_4_component_instances_preserved",
+      "notes": "Built from verified structured baseline with original callout layers hidden and promoted callout component instances placed at source coordinates. Node 6:285 was not directly accessed."
+    },
+    {
+      "slideNo": 6,
+      "version": "v1.0",
+      "nodeId": "101:1206",
+      "name": "S06/KeyFeatureApproval/Componentized Rebuild v1.0",
+      "componentSets": [
+        "101:1205"
+      ],
+      "componentInstances": [
+        "101:1233",
+        "101:1236"
+      ],
+      "hiddenOriginalCalloutNodeIds": [
+        "101:1225",
+        "101:1229"
+      ],
+      "screenshot": "assets/rebuild-screenshots/06-key-feature-approval-componentized-101-1206.png",
+      "sourceScreenshot": "assets/rebuild-screenshots/06-key-feature-approval-source-6-286.png",
+      "visualDiff": "qa/visual-diff/06-key-feature-approval-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "status": "pass_100_percent_similarity_2_component_instances_preserved",
+      "notes": "Built from verified structured baseline with original approval/audit callout layers hidden and promoted callout component instances placed at source coordinates. Node 6:304 was not directly accessed."
+    },
+    {
+      "slideNo": 8,
+      "version": "v1.0",
+      "nodeId": "61:176",
+      "name": "S08/AIOrgChart/Componentized Rebuild v1.0",
+      "componentSets": [
+        "60:372",
+        "60:505",
+        "60:550"
+      ],
+      "screenshot": "assets/rebuild-screenshots/08-ai-org-componentized-61-176.png",
+      "visualDiff": "qa/visual-diff/08-ai-org-componentized-v1.0.json",
+      "similarity": 0.9999146412037037,
+      "changedPixels": 177,
+      "status": "pass_99_991_percent_similarity_29_component_instances_preserved"
+    },
+    {
+      "slideNo": 9,
+      "version": "v1.0",
+      "nodeId": "64:490",
+      "name": "S09/UserScenario/Componentized Rebuild v1.0",
+      "componentSets": [
+        "63:520",
+        "63:537"
+      ],
+      "screenshot": "assets/rebuild-screenshots/09-user-scenario-componentized-64-490.png",
+      "visualDiff": "qa/visual-diff/09-user-scenario-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "status": "pass_100_percent_similarity_14_component_instances_preserved"
+    },
+    {
+      "slideNo": 7,
+      "version": "v1.0",
+      "nodeId": "68:508",
+      "name": "S07/SystemFlow/Componentized Rebuild v1.0",
+      "componentSets": [
+        "66:560",
+        "66:610"
+      ],
+      "screenshot": "assets/rebuild-screenshots/07-system-flow-componentized-68-508.png",
+      "visualDiff": "qa/visual-diff/07-system-flow-componentized-v1.0.json",
+      "similarity": 0.9995273919753086,
+      "changedPixels": 980,
+      "status": "pass_99_953_percent_similarity_9_component_instances_preserved"
+    },
+    {
+      "slideNo": 10,
+      "version": "v1.0",
+      "nodeId": "70:660",
+      "name": "S10/ExpectedEffects/Componentized Rebuild v1.0",
+      "componentSets": [
+        "70:659"
+      ],
+      "screenshot": "assets/rebuild-screenshots/10-effects-componentized-70-660.png",
+      "visualDiff": "qa/visual-diff/10-effects-componentized-v1.0.json",
+      "similarity": 0.9987331211419753,
+      "changedPixels": 2627,
+      "status": "pass_99_873_percent_similarity_5_component_instances_preserved"
+    },
+    {
+      "slideNo": 11,
+      "version": "v1.0",
+      "nodeId": "74:649",
+      "name": "S11/ImplementationDemoPlan/Componentized Rebuild v1.0",
+      "componentSets": [
+        "72:661",
+        "72:697"
+      ],
+      "screenshot": "assets/rebuild-screenshots/11-demo-plan-componentized-74-649.png",
+      "visualDiff": "qa/visual-diff/11-demo-plan-componentized-v1.0.json",
+      "similarity": 0.9999122299382716,
+      "changedPixels": 182,
+      "status": "pass_99_991_percent_similarity_9_component_instances_preserved"
+    },
+    {
+      "slideNo": 12,
+      "version": "v1.0",
+      "nodeId": "77:678",
+      "name": "S12/ClosingExpansion/Componentized Rebuild v1.0",
+      "componentSets": [
+        "75:690",
+        "75:703"
+      ],
+      "screenshot": "assets/rebuild-screenshots/12-expansion-componentized-77-678.png",
+      "visualDiff": "qa/visual-diff/12-expansion-componentized-v1.0.json",
+      "similarity": 0.9999541859567901,
+      "changedPixels": 95,
+      "status": "pass_99_995_percent_similarity_7_component_instances_preserved"
+    },
+    {
+      "slideNo": 13,
+      "version": "v1.0",
+      "nodeId": "80:688",
+      "name": "S13/AppendixReferences/Componentized Rebuild v1.0",
+      "componentSets": [
+        "79:736",
+        "79:832",
+        "79:849"
+      ],
+      "screenshot": "assets/rebuild-screenshots/13-appendix-componentized-80-688.png",
+      "visualDiff": "qa/visual-diff/13-appendix-componentized-v1.0.json",
+      "similarity": 1.0,
+      "changedPixels": 0,
+      "status": "pass_100_percent_similarity_35_component_instances_preserved"
+    },
+    {
+      "slideNo": 14,
+      "version": "v1.0",
+      "nodeId": "90:777",
+      "name": "S14/AppendixGantt/Componentized Rebuild v1.0",
+      "componentSets": [
+        "85:875",
+        "86:885",
+        "88:987",
+        "89:813"
+      ],
+      "screenshot": "assets/rebuild-screenshots/14-gantt-componentized-90-777.png",
+      "visualDiff": "qa/visual-diff/14-gantt-componentized-v1.0.json",
+      "similarity": 0.9997048611111111,
+      "changedPixels": 612,
+      "status": "pass_99_970_percent_similarity_50_component_instances_preserved"
+    }
+  ],
+  "fontRuntime": {
+    "lastCheckedAt": "2026-07-09",
+    "availableFamiliesObserved": [
+      "Inter"
+    ],
+    "panchangAvailableInPluginRuntime": false,
+    "pretendardAvailableInPluginRuntime": false,
+    "policy": "Preserve pasted source text nodes for visual fidelity; do not mutate text/font properties until Panchang and Pretendard are installed/enabled in Figma runtime."
+  }
+}

@@ -1,0 +1,1632 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation component tokens",
+    "created": "2026-07-08",
+    "status": "pilot",
+    "componentNamespace": "JByond/Deck"
+  },
+  "component": {
+    "FrameDark": {
+      "$type": "component",
+      "$value": {
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "background": "{color.background.stage}",
+        "gradient": "{gradient.stageStandard}",
+        "variants": {
+          "cover": {
+            "gradient": "{gradient.stageCover}"
+          },
+          "standard": {
+            "gradient": "{gradient.stageStandard}"
+          },
+          "deep": {
+            "background": "{color.background.stageDeep}"
+          }
+        }
+      }
+    },
+    "FooterMeta": {
+      "$type": "component",
+      "$value": {
+        "xLeft": 38,
+        "xRight": 1524,
+        "y": 1021,
+        "leftTextStyle": "{typography.role.footerLeft}",
+        "rightTextStyle": "{typography.role.footerRight}",
+        "height": 28,
+        "variants": {
+          "cover": {
+            "showPageNumber": false
+          },
+          "numbered": {
+            "showPageNumber": true,
+            "pageNumberX": 1840,
+            "pageNumberY": 1019
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceNodes": [
+          "5053:11844",
+          "5053:11845"
+        ]
+      }
+    },
+    "SlideHeader": {
+      "$type": "component",
+      "$value": {
+        "variants": {
+          "coverCentered": {
+            "x": 288,
+            "y": 79,
+            "width": 1344,
+            "height": 155,
+            "eyebrowStyle": "{typography.role.coverEyebrow}",
+            "statementStyle": "{typography.role.coverStatement}",
+            "gap": 23
+          },
+          "leftStandard": {
+            "x": 57,
+            "y": 55,
+            "width": 969,
+            "height": 158,
+            "sectionStyle": "{typography.role.slideSection}",
+            "headlineStyle": "{typography.role.slideHeadline}",
+            "gap": 41
+          },
+          "scenarioCentered": {
+            "x": 420,
+            "y": 80,
+            "width": 1080,
+            "height": 248,
+            "badgeStyle": "{typography.role.scenarioBadge}",
+            "headlineStyle": "{typography.role.scenarioHeadline}",
+            "gap": 28
+          }
+        }
+      }
+    },
+    "SectionBadge": {
+      "$type": "component",
+      "$value": {
+        "height": 50,
+        "radius": "{radius.xs}",
+        "textStyle": "{typography.role.scenarioBadge}",
+        "paddingX": 18,
+        "paddingY": 0,
+        "variants": {
+          "plain": {
+            "background": "transparent"
+          },
+          "pill": {
+            "background": "{color.accent.badge}"
+          }
+        },
+        "slots": {
+          "label": {
+            "type": "text",
+            "editable": true
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceNode": "6:1046"
+      }
+    },
+    "HeroWordmark": {
+      "$type": "component",
+      "$value": {
+        "textStyle": "{typography.role.coverWordmark}",
+        "x": 84,
+        "y": 414,
+        "width": 1764,
+        "height": 330,
+        "content": "JByond",
+        "editableText": true
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11846"
+      }
+    },
+    "ProductShotLaptop": {
+      "$type": "component",
+      "$value": {
+        "x": 447,
+        "y": 257,
+        "width": 1026,
+        "height": 702,
+        "imageTreatment": "{imageTreatment.coverLaptopMockup}",
+        "shadow": "{shadow.productShot}"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11841"
+      }
+    },
+    "SystemFlowPanel": {
+      "$type": "component",
+      "$value": {
+        "x": 57,
+        "y": 271,
+        "width": 1076,
+        "height": 750.3684,
+        "background": "{color.background.diagramPanel}",
+        "radius": "{radius.panel}",
+        "titleStyle": "{typography.role.diagramTitle}",
+        "density": "high"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12021"
+      }
+    },
+    "FlowStageHeader": {
+      "$type": "component",
+      "$value": {
+        "height": 34.9228,
+        "radius": "{radius.sm}",
+        "background": "{color.accent.badge}",
+        "textStyle": "{typography.role.flowHeader}",
+        "variants": {
+          "signal": {
+            "width": 159.5123
+          },
+          "security": {
+            "width": 158.5684
+          },
+          "caseHub": {
+            "width": 164.2316
+          },
+          "aiSupport": {
+            "width": 196.3228
+          },
+          "approval": {
+            "width": 135.9158
+          },
+          "execution": {
+            "width": 133.0842
+          }
+        }
+      }
+    },
+    "FlowNode": {
+      "$type": "component",
+      "$value": {
+        "padding": 8.8246,
+        "radius": "{radius.sm}",
+        "titleStyle": "{typography.role.flowNodeTitle}",
+        "bodyStyle": "{typography.role.flowMicro}",
+        "stroke": "{strokeStyle.diagramHairline}",
+        "variants": {
+          "neutral": {
+            "background": "{color.background.diagramPanel}"
+          },
+          "security": {
+            "background": "{color.background.paleBlueNode}"
+          },
+          "ai": {
+            "background": "{color.background.paleBlueNodeAlt}"
+          },
+          "approval": {
+            "background": "{color.background.dangerNode}"
+          },
+          "execution": {
+            "background": "{color.background.diagramPanel}"
+          }
+        }
+      }
+    },
+    "FlowConnector": {
+      "$type": "component",
+      "$value": {
+        "stroke": "{strokeStyle.flowConnector}",
+        "variants": {
+          "straight": {
+            "elbow": false,
+            "dashed": false
+          },
+          "elbow": {
+            "elbow": true,
+            "dashed": false
+          },
+          "dashed": {
+            "elbow": false,
+            "dashed": true
+          }
+        },
+        "props": {
+          "direction": [
+            "right",
+            "down",
+            "left",
+            "up"
+          ],
+          "arrow": [
+            "none",
+            "end"
+          ]
+        }
+      }
+    },
+    "EntityPill": {
+      "$type": "component",
+      "$value": {
+        "height": 45,
+        "radius": "{radius.sm}",
+        "paddingX": 14,
+        "paddingY": 8,
+        "titleStyle": "{typography.role.flowNodeTitle}",
+        "subtitleStyle": "{typography.role.flowMicro}",
+        "variants": {
+          "case": {
+            "background": "{color.background.paleBlueNode}"
+          },
+          "agentRun": {
+            "background": "{color.background.paleBlueNodeAlt}"
+          },
+          "approval": {
+            "background": "{color.background.dangerNode}"
+          }
+        },
+        "slots": {
+          "label": {
+            "type": "text",
+            "editable": true
+          },
+          "subtitle": {
+            "type": "text",
+            "editable": true
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:325"
+      }
+    },
+    "EntityRail": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/EntityRail",
+        "itemComponent": "{component.EntityPill}",
+        "layout": "horizontal",
+        "gap": 14,
+        "x": 85,
+        "y": 810,
+        "width": 1006.1516,
+        "height": 161.902
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:325"
+      }
+    },
+    "DarkTable": {
+      "$type": "component",
+      "$value": {
+        "x": 1180,
+        "y": 293,
+        "width": 683,
+        "height": 718.0496,
+        "headerStyle": "{typography.role.tableHeader}",
+        "bodyStyle": "{typography.role.tableBody}",
+        "textColor": "rgba(255,255,255,0.90)",
+        "divider": "{strokeStyle.flowConnector}",
+        "columnRatios": [
+          0.225,
+          0.366,
+          0.409
+        ],
+        "variants": {
+          "data": {
+            "rowCount": 3,
+            "height": 307.3945
+          },
+          "tech": {
+            "rowCount": 7,
+            "height": 390.6551
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11965"
+      }
+    },
+    "TableRow": {
+      "$type": "component",
+      "$value": {
+        "height": "variable",
+        "columns": 3,
+        "bodyStyle": "{typography.role.tableBody}",
+        "divider": "{strokeStyle.flowConnector}",
+        "slots": {
+          "label": {
+            "type": "text",
+            "editable": true
+          },
+          "description": {
+            "type": "text",
+            "editable": true
+          },
+          "evidence": {
+            "type": "text",
+            "editable": true
+          }
+        },
+        "variants": {
+          "default": {
+            "emphasis": false,
+            "muted": false
+          },
+          "emphasis": {
+            "emphasis": true,
+            "muted": false
+          },
+          "muted": {
+            "emphasis": false,
+            "muted": true
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:325"
+      }
+    },
+    "ProcessNode": {
+      "$type": "component",
+      "$value": {
+        "height": 39,
+        "radius": "{radius.xs}",
+        "background": "{color.accent.badge}",
+        "textStyle": "{typography.role.scenarioProcess}",
+        "paddingX": 10,
+        "paddingY": 10,
+        "connector": "{strokeStyle.scenarioConnector}"
+      }
+    },
+    "ProcessRail": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ProcessRail",
+        "itemComponent": "{component.ProcessNode}",
+        "connector": "{component.FlowConnector}",
+        "layout": "horizontal",
+        "x": 93,
+        "y": 367,
+        "width": 1715,
+        "height": 179,
+        "slots": {
+          "steps": {
+            "type": "collection",
+            "editable": true
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:1046"
+      }
+    },
+    "DecisionDiamond": {
+      "$type": "component",
+      "$value": {
+        "width": 118.7939,
+        "height": 118.7939,
+        "labelStyle": "{typography.role.scenarioProcess}",
+        "stroke": "{strokeStyle.scenarioConnector}",
+        "branches": [
+          "send",
+          "revise",
+          "block"
+        ]
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12704"
+      }
+    },
+    "BranchGroup": {
+      "$type": "component",
+      "$value": {
+        "layout": "horizontal",
+        "itemSpacing": 20,
+        "connector": "{strokeStyle.scenarioConnector}",
+        "slots": {
+          "items": {
+            "type": "collection",
+            "editable": true
+          }
+        },
+        "variants": {
+          "threeWay": {
+            "itemCount": 3
+          },
+          "twoWay": {
+            "itemCount": 2
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:1046"
+      }
+    },
+    "ScenarioCard": {
+      "$type": "component",
+      "$value": {
+        "imageHeight": 267,
+        "captionY": 289,
+        "captionStyle": "{typography.role.storyCaption}",
+        "imageTreatment": "{imageTreatment.scenarioCardImage}",
+        "gap": 20,
+        "variants": {
+          "step1": {
+            "width": 393,
+            "height": 349
+          },
+          "step2": {
+            "width": 434,
+            "height": 352
+          },
+          "step3": {
+            "width": 415,
+            "height": 349
+          },
+          "step4": {
+            "width": 432,
+            "height": 352
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12716"
+      }
+    },
+    "CardCaption": {
+      "$type": "component",
+      "$value": {
+        "height": "hug",
+        "captionStyle": "{typography.role.storyCaption}",
+        "slots": {
+          "stepNo": {
+            "type": "text",
+            "editable": true
+          },
+          "text": {
+            "type": "text",
+            "editable": true
+          }
+        },
+        "variants": {
+          "left": {
+            "align": "left"
+          },
+          "center": {
+            "align": "center"
+          }
+        }
+      },
+      "$extensions": {
+        "figmaSourceSlideNode": "6:1046"
+      }
+    },
+    "UseCaseLabel": {
+      "$type": "component",
+      "$value": {
+        "x": 83,
+        "y": 573,
+        "width": 399,
+        "height": 30,
+        "labelStyle": "{typography.role.useCaseLabel}",
+        "valueStyle": "{typography.role.useCaseText}"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12744"
+      }
+    },
+    "LimitationRow": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/LimitationRow",
+        "componentSetNodeId": "42:17",
+        "sourceSlideNodeId": "6:3",
+        "sourceNodeGroups": {
+          "chatbot": [
+            "6:84",
+            "6:89",
+            "6:92"
+          ],
+          "dashboard": [
+            "6:87",
+            "6:90",
+            "6:93"
+          ],
+          "rpa": [
+            "6:88",
+            "6:91",
+            "6:94"
+          ]
+        },
+        "layout": "horizontal",
+        "width": 820,
+        "height": 40,
+        "slots": {
+          "approach": {
+            "type": "text",
+            "editable": true
+          },
+          "arrow": {
+            "type": "vector",
+            "editable": true
+          },
+          "limitation": {
+            "type": "text",
+            "editable": true
+          }
+        },
+        "variants": {
+          "chatbot": {
+            "approach": "챗봇",
+            "nodeId": "42:6"
+          },
+          "dashboard": {
+            "approach": "대시보드",
+            "nodeId": "42:11"
+          },
+          "rpa": {
+            "approach": "RPA",
+            "nodeId": "42:16"
+          }
+        },
+        "textMutationPolicy": "Do not edit text until Pretendard is available in Figma runtime; current component preserves cloned source text nodes."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1",
+        "screenshot": "assets/components/limitation-row-variant-set-42-17.png",
+        "fitPolicy": "Broad reusable row component; use LimitationRowExact for pixel-critical slide 02 rebuilds."
+      }
+    },
+    "LimitationRowExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/LimitationRowExact",
+        "componentSetNodeId": "48:88",
+        "sourceSlideNodeId": "28:2",
+        "sourceNodeGroups": {
+          "chatbot": [
+            "28:83",
+            "28:88",
+            "28:91"
+          ],
+          "dashboard": [
+            "28:86",
+            "28:89",
+            "28:92"
+          ],
+          "rpa": [
+            "28:87",
+            "28:90",
+            "28:93"
+          ]
+        },
+        "layout": "absolute-source-geometry",
+        "width": 762,
+        "height": 33,
+        "origin": {
+          "x": 1042,
+          "yByVariant": {
+            "chatbot": 914,
+            "dashboard": 946,
+            "rpa": 979
+          }
+        },
+        "slots": {
+          "approach": {
+            "type": "text",
+            "editable": true,
+            "x": 0,
+            "y": 0
+          },
+          "arrow": {
+            "type": "vector",
+            "editable": true
+          },
+          "limitation": {
+            "type": "text",
+            "editable": true,
+            "x": 146,
+            "y": 0
+          }
+        },
+        "variants": {
+          "chatbot": {
+            "approach": "챗봇",
+            "nodeId": "48:76"
+          },
+          "dashboard": {
+            "approach": "대시보드",
+            "nodeId": "48:80"
+          },
+          "rpa": {
+            "approach": "RPA",
+            "nodeId": "48:84"
+          }
+        },
+        "textMutationPolicy": "Do not edit text until Pretendard is available in Figma runtime; component preserves cloned source text nodes."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/limitation-row-exact-variant-set-48-88.png",
+        "slide02ComponentizedRebuildNodeId": "49:76",
+        "slide02Similarity": 0.9997815393518519
+      }
+    },
+    "SolutionAxisColumnExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/SolutionAxisColumnExact",
+        "componentSetNodeId": "53:174",
+        "sourceSlideNodeId": "28:108",
+        "sourceNodeIds": [
+          "28:116",
+          "28:123",
+          "28:130"
+        ],
+        "layout": "absolute-source-geometry",
+        "variants": {
+          "affiliate": {
+            "axis": "기관",
+            "nodeId": "53:157"
+          },
+          "role": {
+            "axis": "역할",
+            "nodeId": "53:165"
+          },
+          "case": {
+            "axis": "케이스",
+            "nodeId": "53:173"
+          }
+        },
+        "textMutationPolicy": "Do not edit text until Pretendard is available in Figma runtime; component preserves cloned source text nodes."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/solution-axis-column-exact-variant-set-53-174.png",
+        "slide04ComponentizedRebuildNodeId": "54:150",
+        "slide04Similarity": 0.9999657600308642
+      }
+    },
+    "SolutionFlowStepExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/SolutionFlowStepExact",
+        "componentSetNodeId": "53:184",
+        "sourceSlideNodeId": "28:108",
+        "sourceNodeIds": [
+          "28:147",
+          "28:149",
+          "28:151"
+        ],
+        "layout": "absolute-source-geometry",
+        "variants": {
+          "agent-summary": {
+            "label": "AI Agent 정리",
+            "nodeId": "53:177"
+          },
+          "human-review": {
+            "label": "담당자 확인",
+            "nodeId": "53:180"
+          },
+          "next-role": {
+            "label": "다음 역할 전달",
+            "nodeId": "53:183"
+          }
+        },
+        "textMutationPolicy": "Do not edit text until Pretendard is available in Figma runtime; component preserves cloned source text nodes."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/solution-flow-step-exact-variant-set-53-184.png",
+        "slide04ComponentizedRebuildNodeId": "54:150",
+        "slide04Similarity": 0.9999657600308642
+      }
+    },
+    "EvidenceScreenshotExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/EvidenceScreenshotExact",
+        "componentSetNodeId": "58:175",
+        "sourceSlideNodeId": "6:313",
+        "sourceNodeIds": [
+          "6:321",
+          "6:320"
+        ],
+        "layout": "absolute-source-geometry",
+        "variants": {
+          "left": {
+            "shot": "regulation-evidence",
+            "nodeId": "58:172",
+            "sourceNodeId": "6:321"
+          },
+          "right": {
+            "shot": "article-evidence",
+            "nodeId": "58:174",
+            "sourceNodeId": "6:320"
+          }
+        },
+        "imagePolicy": "Raster evidence captures are preserved as source image fills; placement remains editable through component instances."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/evidence-screenshot-exact-variant-set-58-175.png",
+        "sha256": "b653445d59e546b2fd507cbee2d50b77bfceb0b63d009d18ecd488e71e5ac244",
+        "slide03ComponentizedRebuildNodeId": "58:183",
+        "slide03Similarity": 1.0
+      }
+    },
+    "EvidenceHighlightExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/EvidenceHighlightExact",
+        "componentSetNodeId": "58:182",
+        "sourceSlideNodeId": "6:313",
+        "sourceNodeIds": [
+          "6:322",
+          "6:323",
+          "6:324"
+        ],
+        "layout": "absolute-source-geometry",
+        "variants": {
+          "left-heading": {
+            "target": "left-heading",
+            "nodeId": "58:177",
+            "sourceNodeId": "6:322"
+          },
+          "left-small": {
+            "target": "left-small",
+            "nodeId": "58:179",
+            "sourceNodeId": "6:323"
+          },
+          "right-heading": {
+            "target": "right-heading",
+            "nodeId": "58:181",
+            "sourceNodeId": "6:324"
+          }
+        },
+        "fill": {
+          "color": "#9DB6FF",
+          "opacity": 0.3
+        },
+        "imagePolicy": "Editable highlight overlays stay separate from evidence screenshots."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/evidence-highlight-exact-variant-set-58-182.png",
+        "sha256": "3189769ba78c2bfa4262c681d9ed1f81ec98b4cddfd148c041f65d095d4c16d1",
+        "slide03ComponentizedRebuildNodeId": "58:183",
+        "slide03Similarity": 1.0
+      }
+    },
+    "OrgRoleNodeCompactExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/OrgRoleNodeCompactExact",
+        "componentSetNodeId": "60:372",
+        "sourceSlideNodeId": "28:211",
+        "sourceNodeIds": [
+          "28:295",
+          "28:308",
+          "28:321",
+          "28:334",
+          "28:347",
+          "28:360",
+          "28:373",
+          "28:386",
+          "28:399",
+          "28:412",
+          "28:425",
+          "28:438",
+          "28:451",
+          "28:464"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Role",
+        "variantCount": 14,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/org-role-node-compact-exact-variant-set-60-372.png",
+        "sha256": "ae92106a63486fa727d15ecc65cc53d00d71d7219943edfdfba56ed1f0f967b5",
+        "slide08ComponentizedRebuildNodeId": "61:176",
+        "slide08Similarity": 0.9999146412037037
+      }
+    },
+    "OrgRoleNodeTallExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/OrgRoleNodeTallExact",
+        "componentSetNodeId": "60:505",
+        "sourceSlideNodeId": "28:211",
+        "sourceNodeIds": [
+          "28:215",
+          "28:225",
+          "28:235",
+          "28:245",
+          "28:255",
+          "28:265",
+          "28:275",
+          "28:285",
+          "28:477",
+          "28:487",
+          "28:497",
+          "28:507"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Role",
+        "variantCount": 12,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/org-role-node-tall-exact-variant-set-60-505.png",
+        "sha256": "c206e6da06e6bd0f32be91a6083d985ab3ce9b26f99fe0eed9c64fa02eba2e2a",
+        "slide08ComponentizedRebuildNodeId": "61:176",
+        "slide08Similarity": 0.9999146412037037
+      }
+    },
+    "OrgGateNodeExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/OrgGateNodeExact",
+        "componentSetNodeId": "60:550",
+        "sourceSlideNodeId": "28:211",
+        "sourceNodeIds": [
+          "28:517",
+          "28:534",
+          "28:546"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Gate",
+        "variantCount": 3,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/org-gate-node-exact-variant-set-60-550.png",
+        "sha256": "a5d42b88ac5c0b7d14708678697b01cc0ef7f9fdb54a2f30d04c02e55ed7db04",
+        "slide08ComponentizedRebuildNodeId": "61:176",
+        "slide08Similarity": 0.9999146412037037
+      }
+    },
+    "ScenarioProcessNodeExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ScenarioProcessNodeExact",
+        "componentSetNodeId": "63:520",
+        "sourceSlideNodeId": "26:2",
+        "sourceNodeIds": [
+          "26:9",
+          "26:11",
+          "26:13",
+          "26:15",
+          "26:17",
+          "26:19",
+          "26:25",
+          "26:27",
+          "26:29",
+          "26:31"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Step",
+        "variantCount": 10,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/scenario-process-node-exact-variant-set-63-520.png",
+        "sha256": "6236749db94fb9c264dbc4556e828e521c1b28026a22ff7f4ce70f2af3a98568",
+        "slide09ComponentizedRebuildNodeId": "64:490",
+        "slide09Similarity": 1.0
+      }
+    },
+    "ScenarioCardExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ScenarioCardExact",
+        "componentSetNodeId": "63:537",
+        "sourceSlideNodeId": "26:2",
+        "sourceNodeIds": [
+          "26:34",
+          "26:37",
+          "26:40",
+          "26:43"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Step",
+        "variantCount": 4,
+        "imagePolicy": "Card illustrations remain source image fills; captions remain editable source text."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/scenario-card-exact-variant-set-63-537.png",
+        "sha256": "7e062a939b4ea7f0d52a0e033dad0ed8aecc05dcc1f744cee1e002ade7e5770e",
+        "slide09ComponentizedRebuildNodeId": "64:490",
+        "slide09Similarity": 1.0
+      }
+    },
+    "SystemFlowTableExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/SystemFlowTableExact",
+        "componentSetNodeId": "66:560",
+        "sourceSlideNodeId": "25:2",
+        "sourceNodeIds": [
+          "25:4",
+          "25:22"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 2,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/system-flow-table-exact-variant-set-66-560.png",
+        "sha256": "b619c7688045bfe6be7ad819ceebc628a0af44f90775c29bd04ab20bdc1bba76",
+        "slide07ComponentizedRebuildNodeId": "68:508",
+        "slide07Similarity": 0.9995273919753086
+      }
+    },
+    "EntityPillExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/EntityPillExact",
+        "componentSetNodeId": "66:610",
+        "sourceSlideNodeId": "25:2",
+        "sourceNodeIds": [
+          "25:217",
+          "25:223",
+          "25:229",
+          "25:235",
+          "25:241",
+          "25:247",
+          "25:253"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Entity",
+        "variantCount": 7,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/entity-pill-exact-variant-set-66-610.png",
+        "sha256": "adb552d100fae0b102c1a23bd8a062b8716f1fd05c07c48f1380f24a6316e8ab",
+        "slide07ComponentizedRebuildNodeId": "68:508",
+        "slide07Similarity": 0.9995273919753086
+      }
+    },
+    "ExperienceNodeExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ExperienceNodeExact",
+        "componentSetNodeId": "70:659",
+        "sourceSlideNodeId": "29:2",
+        "sourceNodeIds": [
+          "29:8",
+          "29:21",
+          "29:37",
+          "29:49",
+          "29:69"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 5,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/experience-node-exact-variant-set-70-659.png",
+        "sha256": "a1660973f0b1e7210388e20417ef27a4464251c92c7862ea180e61ed2bce9972",
+        "slide10ComponentizedRebuildNodeId": "70:660",
+        "slide10Similarity": 0.9987331211419753
+      }
+    },
+    "MvpChecklistRowExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/MvpChecklistRowExact",
+        "componentSetNodeId": "72:661",
+        "sourceSlideNodeId": "29:104",
+        "sourceNodeIds": [
+          "29:112",
+          "29:114",
+          "29:116",
+          "29:118"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Item",
+        "variantCount": 4,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/mvp-checklist-row-exact-variant-set-72-661.png",
+        "sha256": "54aadea29cb81c83e1e8241bb9551d2d227d0af37dd0df763d5dbda9f7b1d040",
+        "slide11ComponentizedRebuildNodeId": "74:649",
+        "slide11Similarity": 0.9999122299382716
+      }
+    },
+    "DemoPlanRowExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/DemoPlanRowExact",
+        "componentSetNodeId": "72:697",
+        "sourceSlideNodeId": "29:104",
+        "sourceNodeIds": [
+          "29:121",
+          "29:127",
+          "29:133",
+          "29:139",
+          "29:145"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Step",
+        "variantCount": 5,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/demo-plan-row-exact-variant-set-72-697.png",
+        "sha256": "13125be3a47d2d61932d5eeb89b5e7532a4a242b158355a948742994732163e4",
+        "slide11ComponentizedRebuildNodeId": "74:649",
+        "slide11Similarity": 0.9999122299382716
+      }
+    },
+    "ExperienceBenefitBubbleExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ExperienceBenefitBubbleExact",
+        "componentSetNodeId": "75:690",
+        "sourceSlideNodeId": "29:151",
+        "sourceNodeIds": [
+          "29:188",
+          "29:191",
+          "29:194"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 3,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/experience-benefit-bubble-exact-variant-set-75-690.png",
+        "sha256": "84c03d077434f50f4cfe36b73b2eb27ffbc846f897e441cc8fcd12e84630f639",
+        "slide12ComponentizedRebuildNodeId": "77:678",
+        "slide12Similarity": 0.9999541859567901
+      }
+    },
+    "ExpansionStepExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ExpansionStepExact",
+        "componentSetNodeId": "75:703",
+        "sourceSlideNodeId": "29:151",
+        "sourceNodeIds": [
+          "29:204",
+          "29:206",
+          "29:208",
+          "29:210"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Step",
+        "variantCount": 4,
+        "textMutationPolicy": "Preserve cloned Pretendard text nodes until font is available."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/expansion-step-exact-variant-set-75-703.png",
+        "sha256": "ddb8b9da13a45e40827f112a3702c6196030006d55e771f5bfa8e2f72bc4b85e",
+        "slide12ComponentizedRebuildNodeId": "77:678",
+        "slide12Similarity": 0.9999541859567901
+      }
+    },
+    "ReferenceItem2LineExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ReferenceItem2LineExact",
+        "componentSetNodeId": "79:736",
+        "sourceSlideNodeId": "29:214",
+        "sourceNodeIds": [
+          "29:223",
+          "29:226",
+          "29:237",
+          "29:244",
+          "29:247",
+          "29:273",
+          "29:297",
+          "29:301",
+          "29:304",
+          "29:307",
+          "29:310",
+          "29:317"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Item",
+        "variantCount": 12,
+        "textMutationPolicy": "Preserve cloned Inter/Roboto Mono text nodes and source line breaks."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/reference-item-2line-exact-variant-set-79-736.png",
+        "sha256": "af37797ac2189edfb0d0f66951cd8de113c49b62f97e23a24a30e05e8b478996",
+        "slide13ComponentizedRebuildNodeId": "80:688",
+        "slide13Similarity": 1.0
+      }
+    },
+    "ReferenceItem3LineExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ReferenceItem3LineExact",
+        "componentSetNodeId": "79:832",
+        "sourceSlideNodeId": "29:214",
+        "sourceNodeIds": [
+          "29:229",
+          "29:233",
+          "29:240",
+          "29:250",
+          "29:254",
+          "29:261",
+          "29:265",
+          "29:269",
+          "29:276",
+          "29:280",
+          "29:284",
+          "29:289",
+          "29:293",
+          "29:313",
+          "29:320",
+          "29:326",
+          "29:330",
+          "29:334",
+          "29:338"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Item",
+        "variantCount": 19,
+        "textMutationPolicy": "Preserve cloned Inter/Roboto Mono text nodes and source line breaks."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/reference-item-3line-exact-variant-set-79-832.png",
+        "sha256": "aa1bc32bd9d126df9eec7107b7019fe73b34227c67dc3900f89c099f703fabe9",
+        "slide13ComponentizedRebuildNodeId": "80:688",
+        "slide13Similarity": 1.0
+      }
+    },
+    "VerificationSummaryRowExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/VerificationSummaryRowExact",
+        "componentSetNodeId": "79:849",
+        "sourceSlideNodeId": "29:214",
+        "sourceNodeIds": [
+          "29:344",
+          "29:347",
+          "29:350",
+          "29:353"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Status",
+        "variantCount": 4,
+        "textMutationPolicy": "Preserve cloned Inter/Roboto Mono text nodes and source line breaks."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/verification-summary-row-exact-variant-set-79-849.png",
+        "sha256": "f7cf210303ef0befd331bdace9d90e76c3aa6cedbb91f69e10c73f17f9fef7c2",
+        "slide13ComponentizedRebuildNodeId": "80:688",
+        "slide13Similarity": 1.0
+      }
+    },
+    "GanttDateTickExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/GanttDateTickExact",
+        "componentSetNodeId": "85:875",
+        "sourceSlideNodeId": "29:357",
+        "sourceNodeIds": [
+          "29:368",
+          "29:371",
+          "29:374",
+          "29:377",
+          "29:380",
+          "29:383",
+          "29:386",
+          "29:389",
+          "29:392",
+          "29:395",
+          "29:398",
+          "29:401",
+          "29:404",
+          "29:407",
+          "29:410",
+          "29:413",
+          "29:416",
+          "29:419",
+          "29:422",
+          "29:425",
+          "29:428",
+          "29:431",
+          "29:434",
+          "29:437",
+          "29:440",
+          "29:443",
+          "29:446",
+          "29:449"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Index, Date",
+        "variantCount": 14,
+        "textMutationPolicy": "Preserve cloned Inter text nodes and source line breaks; do not retype until font runtime is stable."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/gantt-date-tick-exact-variant-set-85-875.png",
+        "sha256": "ca8033ee82269dd00617d63edf2898c9fbcbb8e6c003a04ce7e59bdb13500626",
+        "slide14ComponentizedRebuildNodeId": "90:777",
+        "slide14Similarity": 0.9997048611111111
+      }
+    },
+    "GanttLaneMetaExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/GanttLaneMetaExact",
+        "componentSetNodeId": "86:885",
+        "sourceSlideNodeId": "29:357",
+        "sourceNodeIds": [
+          "29:452",
+          "29:455",
+          "29:457",
+          "29:459",
+          "29:461",
+          "29:481",
+          "29:484",
+          "29:486",
+          "29:488",
+          "29:490",
+          "29:510",
+          "29:513",
+          "29:515",
+          "29:517",
+          "29:519",
+          "29:539",
+          "29:542",
+          "29:544",
+          "29:546",
+          "29:548",
+          "29:577",
+          "29:580",
+          "29:582",
+          "29:584",
+          "29:586",
+          "29:615",
+          "29:618",
+          "29:620",
+          "29:622",
+          "29:624",
+          "29:644",
+          "29:647",
+          "29:649",
+          "29:651",
+          "29:653",
+          "29:673",
+          "29:676",
+          "29:678",
+          "29:680",
+          "29:682",
+          "29:702",
+          "29:705",
+          "29:707",
+          "29:709",
+          "29:711"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Lane",
+        "variantCount": 9,
+        "textMutationPolicy": "Preserve cloned Inter text nodes and source line breaks; do not retype until font runtime is stable."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/gantt-lane-meta-exact-variant-set-86-885.png",
+        "sha256": "353f62399684f4438de5811d9f9291385d20f061382cb60c0130e8a6f60e45ff",
+        "slide14ComponentizedRebuildNodeId": "90:777",
+        "slide14Similarity": 0.9997048611111111
+      }
+    },
+    "GanttTaskBarExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/GanttTaskBarExact",
+        "componentSetNodeId": "88:987",
+        "sourceSlideNodeId": "29:357",
+        "sourceNodeIds": [
+          "29:463",
+          "29:466",
+          "29:468",
+          "29:470",
+          "29:472",
+          "29:475",
+          "29:477",
+          "29:479",
+          "29:492",
+          "29:495",
+          "29:497",
+          "29:499",
+          "29:501",
+          "29:504",
+          "29:506",
+          "29:508",
+          "29:521",
+          "29:524",
+          "29:526",
+          "29:528",
+          "29:530",
+          "29:533",
+          "29:535",
+          "29:537",
+          "29:550",
+          "29:553",
+          "29:555",
+          "29:557",
+          "29:559",
+          "29:562",
+          "29:564",
+          "29:566",
+          "29:568",
+          "29:571",
+          "29:573",
+          "29:575",
+          "29:588",
+          "29:591",
+          "29:593",
+          "29:595",
+          "29:597",
+          "29:600",
+          "29:602",
+          "29:604",
+          "29:606",
+          "29:609",
+          "29:611",
+          "29:613",
+          "29:626",
+          "29:629",
+          "29:631",
+          "29:633",
+          "29:635",
+          "29:638",
+          "29:640",
+          "29:642",
+          "29:655",
+          "29:658",
+          "29:660",
+          "29:662",
+          "29:664",
+          "29:667",
+          "29:669",
+          "29:671",
+          "29:684",
+          "29:687",
+          "29:689",
+          "29:691",
+          "29:693",
+          "29:696",
+          "29:698",
+          "29:700",
+          "29:713",
+          "29:716",
+          "29:718",
+          "29:720",
+          "29:722",
+          "29:725",
+          "29:727",
+          "29:729",
+          "29:731",
+          "29:734",
+          "29:736",
+          "29:738"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Task",
+        "variantCount": 21,
+        "textMutationPolicy": "Preserve cloned Inter text nodes and source line breaks; do not retype until font runtime is stable."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/gantt-task-bar-exact-variant-set-88-987.png",
+        "sha256": "9c8faffde639f091afafe62b05ab46e02980b0a7c8c4c6e8ce09276cfe9bb608",
+        "slide14ComponentizedRebuildNodeId": "90:777",
+        "slide14Similarity": 0.9997048611111111
+      }
+    },
+    "GanttMilestoneExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/GanttMilestoneExact",
+        "componentSetNodeId": "89:813",
+        "sourceSlideNodeId": "29:357",
+        "sourceNodeIds": [
+          "29:740",
+          "29:743",
+          "29:745",
+          "29:748",
+          "29:750",
+          "29:753",
+          "29:755",
+          "29:758",
+          "29:760",
+          "29:763",
+          "29:765",
+          "29:768"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Milestone",
+        "variantCount": 6,
+        "textMutationPolicy": "Preserve cloned Inter text nodes and source line breaks; do not retype until font runtime is stable."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/gantt-milestone-exact-variant-set-89-813.png",
+        "sha256": "5d221c82a50e01a2f1f6c697df905bd6322f6e44a40f05375f83058ece5d6eae",
+        "slide14ComponentizedRebuildNodeId": "90:777",
+        "slide14Similarity": 0.9997048611111111
+      }
+    },
+    "CoverMediaStackExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/CoverMediaStackExact",
+        "componentNodeId": "92:1179",
+        "sourceSlideNodeId": "22:2",
+        "sourceNodeIds": [
+          "22:3",
+          "22:7",
+          "22:8",
+          "22:9",
+          "22:10"
+        ],
+        "layout": "absolute-source-geometry",
+        "materialRole": "cover-media-stack",
+        "instanceCountInSlide01": 1
+      },
+      "$extensions": {
+        "status": "component_promoted_v1_exact_geometry",
+        "screenshot": "assets/components/cover-media-stack-exact-92-1179.png",
+        "sha256": "b422fe91a3aae75cbe6e51ec3762780c28b1e82b81080d4f691f57a54eb19de4",
+        "slide01ComponentizedRebuildNodeId": "93:1179",
+        "slide01Similarity": 1.0
+      }
+    },
+    "CoverHeaderExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/CoverHeaderExact",
+        "componentNodeId": "92:1188",
+        "sourceSlideNodeId": "22:2",
+        "sourceNodeId": "22:4",
+        "layout": "absolute-source-geometry",
+        "textMutationPolicy": "Do not mutate text via plugin until Pretendard is available; preserve source font metadata."
+      },
+      "$extensions": {
+        "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+        "screenshot": "assets/components/cover-header-exact-92-1188.png",
+        "sha256": "3ad28d2c03ffb2a43eced43ab2a89c5709b433e634875c145bee743e0587ebc3",
+        "slide01ComponentizedRebuildNodeId": "93:1179",
+        "slide01Similarity": 1.0
+      }
+    },
+    "CoverFooterExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/CoverFooterExact",
+        "componentNodeId": "92:1189",
+        "sourceSlideNodeId": "22:2",
+        "sourceNodeIds": [
+          "22:11",
+          "22:12"
+        ],
+        "layout": "absolute-source-geometry",
+        "textMutationPolicy": "Do not mutate text via plugin until Pretendard is available; preserve source font metadata."
+      },
+      "$extensions": {
+        "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+        "screenshot": "assets/components/cover-footer-exact-92-1189.png",
+        "sha256": "842ed6682daaa878f0d84d8e77dfee802c00445d93da10f0cca63cd4b0b52c1f",
+        "slide01ComponentizedRebuildNodeId": "93:1179",
+        "slide01Similarity": 1.0
+      }
+    },
+    "CoverWordmarkExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/CoverWordmarkExact",
+        "componentNodeId": "92:1192",
+        "sourceSlideNodeId": "22:2",
+        "sourceNodeId": "22:13",
+        "layout": "absolute-source-geometry",
+        "font": "Panchang Medium",
+        "textMutationPolicy": "Preserve source text metadata; use Panchang Medium when rebuilding outside Figma."
+      },
+      "$extensions": {
+        "status": "component_promoted_v1_exact_geometry_no_text_mutation",
+        "screenshot": "assets/components/cover-wordmark-exact-92-1192.png",
+        "sha256": "4362489446af8c75f1d4c0e78e80f02bba74e614efbb1de84ee0e0f87550d30c",
+        "slide01ComponentizedRebuildNodeId": "93:1179",
+        "slide01Similarity": 1.0
+      }
+    },
+    "FeatureCalloutTopExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/FeatureCalloutTopExact/VariantSet",
+        "componentSetNodeId": "95:1197",
+        "sourceSlideNodeId": "6:261",
+        "sourceNodeIds": [
+          "6:271",
+          "6:274"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 2,
+        "textMutationPolicy": "Preserve source text metadata; do not mutate Pretendard text through plugin runtime."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry_partial_slide05",
+        "screenshot": "assets/components/feature-callout-top-exact-variant-set-95-1197.png",
+        "sha256": "c0b37df3475e83596f97c4149dad88794a2358af3d0b0f3616e53100ad79d794"
+      }
+    },
+    "FeatureCalloutRightExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/FeatureCalloutRightExact/VariantSet",
+        "componentSetNodeId": "96:1195",
+        "sourceSlideNodeId": "6:261",
+        "sourceNodeIds": [
+          "6:277",
+          "6:279",
+          "6:278",
+          "6:280"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 2,
+        "textMutationPolicy": "Preserve source text metadata; do not mutate Pretendard text through plugin runtime."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry_partial_slide05",
+        "screenshot": "assets/components/feature-callout-right-exact-variant-set-96-1195.png",
+        "sha256": "9ccd5763a2f22d581488e850793293d315cb16945c7c4278e80d2df1e5d8c5de"
+      }
+    },
+    "ApprovalAuditCalloutExact": {
+      "$type": "component",
+      "$value": {
+        "component": "JByond/Deck/ApprovalAuditCalloutExact/VariantSet",
+        "componentSetNodeId": "101:1205",
+        "sourceSlideNodeId": "6:286",
+        "sourceNodeIds": [
+          "6:309",
+          "6:305"
+        ],
+        "layout": "absolute-source-geometry",
+        "variantAxis": "Kind",
+        "variantCount": 2,
+        "textMutationPolicy": "Preserve source text metadata; do not mutate Pretendard text through plugin runtime."
+      },
+      "$extensions": {
+        "status": "component_set_promoted_v1_exact_geometry_slide06",
+        "screenshot": "assets/components/approval-audit-callout-exact-variant-set-101-1205.png",
+        "sha256": "a844bc9379a837795a46a47ac7e879007b4d636c9274b32766d6869bb933e25b"
+      }
+    }
+  }
+}

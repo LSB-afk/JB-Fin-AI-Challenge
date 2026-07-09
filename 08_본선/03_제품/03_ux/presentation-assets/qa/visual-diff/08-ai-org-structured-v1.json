@@ -1,0 +1,29 @@
+{
+  "slide": "08",
+  "slug": "08-ai-org",
+  "sourceNodeId": "6:592",
+  "rebuildNodeId": "28:211",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/08-ai-org-source-6-592.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/08-ai-org-structured-28-211.png",
+  "sourceSha256": "f669a38421997d28160af805cec1f00005b6ce09a34ccf934652e5f0b55271e5",
+  "rebuildSha256": "7feb1733025c3da5e9909d3fb63d61a04698d7de6389b66c6b8c387857c454b5",
+  "rgbaChangedPixels": 1,
+  "visibleChangedPixels": 1,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 4.822530864197531e-07,
+  "visibleSimilarity": 0.9999995177469135,
+  "rmsRgbaNorm": 4.0093768693724014e-05,
+  "maxChannelDelta": 17,
+  "visibleDiffBbox": [
+    1734,
+    977,
+    1735,
+    978
+  ],
+  "qaStatus": "pass"
+}

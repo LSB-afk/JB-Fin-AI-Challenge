@@ -1,0 +1,37 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "slideId": "01-summary",
+  "checkedAt": "2026-07-09",
+  "figma": {
+    "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "sourceNodeId": "6:198",
+    "rebuildNodeId": "22:2",
+    "rebuildName": "S01/Summary/Structured Rebuild v1.0"
+  },
+  "images": {
+    "source": "assets/rebuild-screenshots/01-summary-source-6-198.png",
+    "rebuild": "assets/rebuild-screenshots/01-summary-structured-22-2.png",
+    "sha256": {
+      "source": "6ada89581dc01b4f247661a4caffe9b08c6e89625af6ecb8c75a13d5a8337b5f",
+      "rebuild": "6ada89581dc01b4f247661a4caffe9b08c6e89625af6ecb8c75a13d5a8337b5f"
+    }
+  },
+  "metrics": {
+    "sameSize": true,
+    "width": 1920,
+    "height": 1080,
+    "changedPixels": 0,
+    "totalPixels": 2073600,
+    "changedRatio": 0,
+    "similarity": 1,
+    "rmsRgbaNorm": 0,
+    "diffBbox": null,
+    "channelExtrema": [[0, 0], [0, 0], [0, 0], [0, 0]]
+  },
+  "status": "pass_pixel_identical",
+  "caveats": [
+    "Pretendard and Panchang still report hasMissingFont=true through the Figma Plugin API.",
+    "The clone passes visual QA because text nodes were cloned without font mutation.",
+    "Future text editing must wait for font activation or use a verified font replacement loop."
+  ]
+}

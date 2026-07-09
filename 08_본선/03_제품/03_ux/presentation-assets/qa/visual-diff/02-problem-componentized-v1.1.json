@@ -1,0 +1,55 @@
+{
+  "slide": "02",
+  "slug": "02-problem-componentized",
+  "sourceNodeId": "6:3",
+  "structuredBaselineNodeId": "28:2",
+  "componentizedNodeId": "46:2",
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/02-problem-source-6-3.png",
+  "structuredScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/02-problem-structured-28-2.png",
+  "componentizedScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/02-problem-componentized-46-2.png",
+  "diffScreenshot": "08_본선/03_제품/03_ux/presentation-assets/qa/visual-diff/02-problem-componentized-v1.1-diff.png",
+  "sourceSha256": "2b7d4c4ff452a8fa690ccb48d993dad8d13323e56a2a62dad03ee212b81e9454",
+  "structuredSha256": "ed30ecf82eee3617dc2987403e61b652809835d77d8853527cfddf87d8abc030",
+  "componentizedSha256": "a632d2baefe4d35232d82ca8254e37829dedd553bd34ba95c274539772072e7d",
+  "sourceVsComponentized": {
+    "size": [
+      1920,
+      1080
+    ],
+    "sameSize": true,
+    "rgbaChangedPixels": 12689,
+    "visibleChangedPixels": 12689,
+    "totalPixels": 2073600,
+    "visibleChangedRatio": 0.006119309413580247,
+    "visibleSimilarity": 0.9938806905864197,
+    "rmsRgbaNorm": 0.03599490163013135,
+    "maxChannelDelta": 245,
+    "visibleDiffBbox": [
+      1,
+      23,
+      1919,
+      1056
+    ]
+  },
+  "structuredVsComponentized": {
+    "size": [
+      1920,
+      1080
+    ],
+    "sameSize": true,
+    "rgbaChangedPixels": 12719,
+    "visibleChangedPixels": 12719,
+    "totalPixels": 2073600,
+    "visibleChangedRatio": 0.006133777006172839,
+    "visibleSimilarity": 0.9938662229938272,
+    "rmsRgbaNorm": 0.03599492936839124,
+    "maxChannelDelta": 245,
+    "visibleDiffBbox": [
+      1,
+      23,
+      1919,
+      1056
+    ]
+  },
+  "qaStatus": "pass"
+}

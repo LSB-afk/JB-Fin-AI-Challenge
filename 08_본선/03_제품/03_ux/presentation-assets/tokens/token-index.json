@@ -1,0 +1,96 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "JByond Presentation Token System",
+  "version": "pilot-2026-07-08.2",
+  "status": "figma_read_extracted",
+  "source": {
+    "figmaFileKey": "DOBJfqzxMZfVyq9UxnEm1r",
+    "workingFigmaFileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "slides": {
+      "01-summary": "5053:11835",
+      "07-system-flow": "5053:11964",
+      "09-user-scenario": "5053:12685"
+    },
+    "pastedWorkingSlides": {
+      "01-summary": "6:198",
+      "07-system-flow": "6:325",
+      "09-user-scenario": "6:1046"
+    },
+    "sourcePriority": [
+      "pastedWorkingSlides",
+      "slides",
+      "localPixelReferences",
+      "finalPdfOrder"
+    ],
+    "extractedAt": "2026-07-08"
+  },
+  "layers": [
+    {
+      "name": "primitive",
+      "file": "primitives.json",
+      "purpose": "Raw color, typography, spacing, radius, stroke, shadow, frame values from Figma and local reference screenshots."
+    },
+    {
+      "name": "semantic",
+      "file": "semantic.json",
+      "purpose": "Purpose aliases for stage, surface, text, line, status, and deck role usage."
+    },
+    {
+      "name": "typography",
+      "file": "typography.json",
+      "purpose": "Text role specs with Figma source values, fallback policy, and rebuild constraints."
+    },
+    {
+      "name": "fontAsset",
+      "file": "fonts.json",
+      "purpose": "Font provenance, local files, hashes, Figma availability, and missing-font risk per deck font."
+    },
+    {
+      "name": "effects",
+      "file": "effects.json",
+      "purpose": "Gradients, overlays, masks, image treatments, strokes, and glow recipes."
+    },
+    {
+      "name": "surface",
+      "file": "surfaces.json",
+      "purpose": "Glass, stage, panel, table, and image-mask surface recipes that combine fill, opacity, blur, border, and blend mode."
+    },
+    {
+      "name": "component",
+      "file": "components.json",
+      "purpose": "Component-level tokens for deck frames, headers, flow nodes, dark tables, and scenario cards."
+    },
+    {
+      "name": "slide",
+      "file": "slides.json",
+      "purpose": "Slide-specific layout zones, anchors, source node mapping, and composition contracts."
+    },
+    {
+      "name": "asset",
+      "file": "assets.json",
+      "purpose": "Image/raster/editable boundaries, crop policies, source paths, and Figma image-fill node mapping."
+    },
+    {
+      "name": "qa",
+      "file": "qa-rules.json",
+      "purpose": "Machine-readable gates for rebuild QA, visual diff, and editable-layer checks."
+    },
+    {
+      "name": "assetizationBacklog",
+      "file": "assetization-backlog.json",
+      "purpose": "Machine-readable slide-level extraction, component-promotion, token-family, and QA backlog for all 14 slides."
+    },
+    {
+      "name": "figma",
+      "file": "figma-variable-map.json",
+      "purpose": "Figma variable/style/component mapping for A5 Builder."
+    }
+  ],
+  "humanIndexes": [
+    "token-notes.md",
+    "schema-extension.md",
+    "token-registry.csv",
+    "specimens/token-specimen.svg"
+  ],
+  "compatibilityFile": "presentation-tokens.json"
+}

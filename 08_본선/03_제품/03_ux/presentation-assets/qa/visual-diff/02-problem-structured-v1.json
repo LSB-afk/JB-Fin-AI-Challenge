@@ -1,0 +1,29 @@
+{
+  "slide": "02",
+  "slug": "02-problem",
+  "sourceNodeId": "6:3",
+  "rebuildNodeId": "28:2",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/02-problem-source-6-3.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/02-problem-structured-28-2.png",
+  "sourceSha256": "2b7d4c4ff452a8fa690ccb48d993dad8d13323e56a2a62dad03ee212b81e9454",
+  "rebuildSha256": "ed30ecf82eee3617dc2987403e61b652809835d77d8853527cfddf87d8abc030",
+  "rgbaChangedPixels": 41,
+  "visibleChangedPixels": 41,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 1.9772376543209878e-05,
+  "visibleSimilarity": 0.9999802276234568,
+  "rmsRgbaNorm": 6.324007908351373e-05,
+  "maxChannelDelta": 13,
+  "visibleDiffBbox": [
+    55,
+    30,
+    1916,
+    1035
+  ],
+  "qaStatus": "pass"
+}

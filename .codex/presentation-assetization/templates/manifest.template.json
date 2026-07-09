@@ -1,0 +1,54 @@
+{
+  "project": "{{deck_name}} presentation deck assetization",
+  "version": "assetization-YYYY-MM-DD",
+  "status": "initialized",
+  "sourceFigma": {
+    "url": "",
+    "fileKey": "",
+    "accessStatus": "unknown"
+  },
+  "figmaDuplicate": {
+    "url": "",
+    "fileKey": "",
+    "status": "not_created"
+  },
+  "codexSkillPack": {
+    "version": "0.1.0",
+    "portableRoot": ".codex/presentation-assetization",
+    "runtimeSkill": ".agents/skills/figma-presentation-assetizer/SKILL.md",
+    "recommendedInvocation": "$figma-presentation-assetizer",
+    "references": {
+      "operatorKnowhow": ".codex/presentation-assetization/references/operator-knowhow.md",
+      "reusePlaybook": ".codex/presentation-assetization/references/reuse-playbook.md"
+    }
+  },
+  "finalFigmaPage": {
+    "fileKey": "",
+    "pageId": "",
+    "pageName": "",
+    "verifiedFrameCount": 0,
+    "nodeMap": []
+  },
+  "sourceReferences": {
+    "documentIndex": "INDEX.md",
+    "deckDefinition": "deck-definition.md",
+    "handoffPackage": {
+      "entry": "handoff/README.md",
+      "quickstart": "handoff/team-quickstart.md",
+      "aiReuseRunbook": "handoff/ai-reuse-runbook.md",
+      "figmaUsageGuide": "handoff/figma-usage-guide.md",
+      "shareChecklist": "handoff/share-checklist.md"
+    }
+  },
+  "tokenSystem": {
+    "index": "tokens/token-index.json",
+    "status": "initialized"
+  },
+  "qualityGates": {
+    "frameSize": "1920x1080",
+    "minSimilarity": 0.98,
+    "noFullSlideFlatten": true,
+    "visualQaRequired": true
+  },
+  "slides": []
+}

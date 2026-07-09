@@ -1,0 +1,113 @@
+{
+  "$schema": "JByond presentation deck design tokens",
+  "meta": {
+    "source": "JByond presentation-assets pilot",
+    "created": "2026-07-08",
+    "baseTokenFile": "08_본선/03_제품/03_ux/tokens/jb-console-tokens.json",
+    "status": "compatibility_summary_superseded_by_split_tokens",
+    "openIssues": [
+      "Use token-index.json and split token files as source of truth.",
+      "Figma variables/styles/components still need to be created in duplicate or rebuild workspace.",
+      "Pilot slides are 01, 07, 09. Component candidates from neighboring slides are included only when reusable."
+    ]
+  },
+  "color": {
+    "deck.bg.navy": "#08124A",
+    "deck.bg.navyDeep": "#000832",
+    "deck.bg.brandNavy": "#0B235B",
+    "deck.bg.blueGlow": "#6583EC",
+    "deck.bg.whitePanel": "#FFFFFF",
+    "deck.bg.whiteMuted": "#F8F8F8",
+    "deck.text.primaryOnDark": "#FFFFFF",
+    "deck.text.secondaryOnDark": "rgba(255,255,255,0.72)",
+    "deck.text.mutedOnDark": "rgba(255,255,255,0.48)",
+    "deck.text.primaryOnLight": "#111827",
+    "deck.text.secondaryOnLight": "#4B5563",
+    "deck.surface.glass": "rgba(255,255,255,0.10)",
+    "deck.surface.diagramPanel": "#FFFFFF",
+    "deck.surface.storyCard": "#FFFFFF",
+    "deck.border.hairlineOnDark": "rgba(255,255,255,0.42)",
+    "deck.border.callout": "rgba(255,255,255,0.55)",
+    "deck.border.diagram": "#D1D5DB",
+    "deck.highlight.fill": "rgba(92,130,255,0.72)",
+    "deck.highlight.text": "#FFFFFF",
+    "deck.status.info": "#1C56FF",
+    "deck.status.warning": "#F59E0B",
+    "deck.status.success": "#10B981",
+    "deck.status.danger": "#DC2626",
+    "deck.status.neutral": "#64748B"
+  },
+  "typography": {
+    "deck.font.family": "Pretendard, SUIT Variable, -apple-system, system-ui, sans-serif",
+    "deck.eyebrow": { "size": 20, "weight": 600, "lineHeight": 1.35 },
+    "deck.heroTitle": { "size": 300, "weight": 500, "lineHeight": 1.1, "letterSpacing": "9%" },
+    "deck.title": { "size": 44, "weight": 700, "lineHeight": 1.22 },
+    "deck.statement": { "size": 34, "weight": 600, "lineHeight": 1.34 },
+    "deck.diagramTitle": { "size": 28, "weight": 700, "lineHeight": 1.2 },
+    "deck.flowLabel": { "size": 15, "weight": 500, "lineHeight": 1.25 },
+    "deck.tableHeader": { "size": 16, "weight": 600, "lineHeight": 1.4 },
+    "deck.tableBody": { "size": 15, "weight": 500, "lineHeight": 1.5 },
+    "deck.body": { "size": 20, "weight": 500, "lineHeight": 1.55 },
+    "deck.caption": { "size": 16, "weight": 500, "lineHeight": 1.45 },
+    "deck.footer": { "size": 25, "weight": 400, "lineHeight": 1.1 },
+    "deck.pageNumber": { "size": 18, "weight": 500, "lineHeight": 1.2 }
+  },
+  "layout": {
+    "deck.frame.width": 1920,
+    "deck.frame.height": 1080,
+    "deck.margin.x": 92,
+    "deck.margin.y": 80,
+    "deck.grid.gutter": 32,
+    "deck.content.maxWidth": 1740,
+    "deck.footer.y": 1028,
+    "deck.systemFlow.leftPanelWidth": 1078,
+    "deck.systemFlow.rightPanelWidth": 684,
+    "deck.scenario.cardGap": 20,
+    "deck.scenario.cardWidth": 393,
+    "deck.scenario.cardHeight": 268
+  },
+  "spacing": {
+    "deck.space.2": 8,
+    "deck.space.3": 12,
+    "deck.space.4": 16,
+    "deck.space.5": 20,
+    "deck.space.6": 24,
+    "deck.space.8": 32,
+    "deck.space.10": 40,
+    "deck.space.12": 48,
+    "deck.space.16": 64,
+    "deck.space.20": 80
+  },
+  "radius": {
+    "deck.radius.card": 12,
+    "deck.radius.panel": 16,
+    "deck.radius.pill": 999,
+    "deck.radius.productShot": 18,
+    "deck.radius.diagramNode": 14,
+    "deck.radius.storyCard": 8
+  },
+  "shadow": {
+    "deck.shadow.productShot": "0 24px 80px rgba(0,0,0,0.35)",
+    "deck.shadow.card": "0 12px 36px rgba(0,0,0,0.22)",
+    "deck.shadow.glow": "0 0 80px rgba(28,86,255,0.35)"
+  },
+  "stroke": {
+    "deck.stroke.callout": 1,
+    "deck.stroke.diagram": 1.5,
+    "deck.stroke.focusBox": 3,
+    "deck.stroke.table": 1
+  },
+  "semantic": {
+    "deck.bg.stage": "deck.bg.navy",
+    "deck.bg.heroImageOverlay": "deck.bg.blueGlow",
+    "deck.text.statementStrong": "deck.text.primaryOnDark",
+    "deck.text.statementMuted": "deck.text.secondaryOnDark",
+    "deck.mark.highlight": "deck.highlight.fill",
+    "deck.surface.diagramPanel": "deck.bg.whitePanel",
+    "deck.surface.glassCard": "deck.surface.glass",
+    "deck.line.callout": "deck.border.callout",
+    "deck.line.flow": "deck.border.hairlineOnDark",
+    "deck.badge.section": "deck.highlight.fill",
+    "deck.footer.pageNumber": "deck.text.primaryOnDark"
+  }
+}

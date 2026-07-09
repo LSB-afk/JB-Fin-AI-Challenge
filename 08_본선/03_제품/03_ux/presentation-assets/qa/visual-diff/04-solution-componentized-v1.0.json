@@ -1,0 +1,60 @@
+{
+  "slide": "04",
+  "slug": "04-solution-componentized",
+  "sourceNodeId": "6:210",
+  "structuredBaselineNodeId": "28:108",
+  "componentizedNodeId": "54:150",
+  "componentizedLoop": "v1.0-axis-and-flow-step-exact",
+  "componentSets": [
+    "53:174",
+    "53:184"
+  ],
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/04-solution-source-6-210.png",
+  "structuredScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/04-solution-structured-28-108.png",
+  "componentizedScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/04-solution-componentized-54-150.png",
+  "diffScreenshot": "08_본선/03_제품/03_ux/presentation-assets/qa/visual-diff/04-solution-componentized-v1.0-diff.png",
+  "sourceSha256": "0674d6b5b5c50badfe8f44bddac84704a80cb2aa488ac0b61c62fb03eea9c263",
+  "structuredSha256": "848eaba31d26c625010ab34bafbe126e73d04d9747e964b1615f5aa4908beb58",
+  "componentizedSha256": "5f05155adb58a20dab0aa94a44198809e4ade4b01e6a4ad4f13e1725173e5235",
+  "sourceVsComponentized": {
+    "size": [
+      1920,
+      1080
+    ],
+    "sameSize": true,
+    "rgbaChangedPixels": 71,
+    "visibleChangedPixels": 71,
+    "totalPixels": 2073600,
+    "visibleChangedRatio": 3.423996913580247e-05,
+    "visibleSimilarity": 0.9999657600308642,
+    "rmsRgbaNorm": 0.00028611300855775314,
+    "maxChannelDelta": 32,
+    "visibleDiffBbox": [
+      104,
+      537,
+      578,
+      925
+    ]
+  },
+  "structuredVsComponentized": {
+    "size": [
+      1920,
+      1080
+    ],
+    "sameSize": true,
+    "rgbaChangedPixels": 67,
+    "visibleChangedPixels": 67,
+    "totalPixels": 2073600,
+    "visibleChangedRatio": 3.2310956790123456e-05,
+    "visibleSimilarity": 0.9999676890432099,
+    "rmsRgbaNorm": 0.00026797302592995346,
+    "maxChannelDelta": 32,
+    "visibleDiffBbox": [
+      104,
+      537,
+      578,
+      928
+    ]
+  },
+  "qaStatus": "pass"
+}

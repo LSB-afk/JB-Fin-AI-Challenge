@@ -1,0 +1,29 @@
+{
+  "slide": "04",
+  "slug": "04-solution",
+  "sourceNodeId": "6:210",
+  "rebuildNodeId": "28:108",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/04-solution-source-6-210.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/04-solution-structured-28-108.png",
+  "sourceSha256": "0674d6b5b5c50badfe8f44bddac84704a80cb2aa488ac0b61c62fb03eea9c263",
+  "rebuildSha256": "848eaba31d26c625010ab34bafbe126e73d04d9747e964b1615f5aa4908beb58",
+  "rgbaChangedPixels": 10,
+  "visibleChangedPixels": 10,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 4.822530864197531e-06,
+  "visibleSimilarity": 0.9999951774691358,
+  "rmsRgbaNorm": 0.00011796215016646812,
+  "maxChannelDelta": 19,
+  "visibleDiffBbox": [
+    145,
+    602,
+    500,
+    929
+  ],
+  "qaStatus": "pass"
+}

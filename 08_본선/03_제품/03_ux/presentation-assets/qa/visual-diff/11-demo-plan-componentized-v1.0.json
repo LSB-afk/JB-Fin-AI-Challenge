@@ -1,0 +1,33 @@
+{
+  "slideNo": 11,
+  "version": "v1.0",
+  "sourceNodeId": "6:1108",
+  "baselineNodeId": "29:104",
+  "rebuiltNodeId": "74:649",
+  "name": "S11/ImplementationDemoPlan/Componentized Rebuild v1.0",
+  "componentSets": [
+    "72:661",
+    "72:697"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/11-demo-plan-source-6-1108.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/11-demo-plan-componentized-74-649.png",
+  "diffImage": "qa/visual-diff/11-demo-plan-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 182,
+  "similarity": 0.9999122299382716,
+  "maxChannelDelta": 29,
+  "changedBoundingBox": [
+    0,
+    26,
+    1917,
+    1074
+  ],
+  "rmsRgbaNormalized": 0.00035837165799251043,
+  "qaStatus": "pass",
+  "sourceSha256": "786196ab30b579399c6e0e1625cdd3366193a46d1d32eaaf2112655826cb0253",
+  "rebuiltSha256": "4238d370a91201e4268cc4015cc29ded60ae05f76e2676f847bb09ff26340776",
+  "notes": "Pixel diff between source slide 6:1108 and componentized rebuild 74:649. Four MVP checklist rows and five demo plan rows are replaced with exact component instances; background, header, column titles, and paragraph remain cloned source layers.",
+  "diffSha256": "ba14ac34e0856bc8102cfd83b3460061cb26df6d0ef80641037d0340b3eef2f8"
+}

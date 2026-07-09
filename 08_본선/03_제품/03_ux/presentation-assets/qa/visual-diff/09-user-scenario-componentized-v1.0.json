@@ -1,0 +1,27 @@
+{
+  "slideNo": 9,
+  "version": "v1.0",
+  "sourceNodeId": "6:1046",
+  "baselineNodeId": "26:2",
+  "rebuiltNodeId": "64:490",
+  "name": "S09/UserScenario/Componentized Rebuild v1.0",
+  "componentSets": [
+    "63:520",
+    "63:537"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/09-user-scenario-source-6-1046.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/09-user-scenario-componentized-64-490.png",
+  "diffImage": "qa/visual-diff/09-user-scenario-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "maxChannelDelta": 0,
+  "changedBoundingBox": null,
+  "qaStatus": "pass",
+  "sourceSha256": "7b3218ece6438d6c8a8bfa9be2c5396cf0833deedca503c6384254f9a60df2de",
+  "rebuiltSha256": "7b3218ece6438d6c8a8bfa9be2c5396cf0833deedca503c6384254f9a60df2de",
+  "diffSha256": "f9708f9f8361d467ddfc7575e35f49343096b3b5a76cd81faf9b1dfc99462381",
+  "notes": "Pixel diff between source slide 6:1046 and componentized rebuild 64:490. Process nodes and scenario cards are replaced with exact component instances; decision diamond and connectors remain cloned source layers."
+}

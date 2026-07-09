@@ -1,0 +1,29 @@
+{
+  "slide": "12",
+  "slug": "12-expansion",
+  "sourceNodeId": "6:983",
+  "rebuildNodeId": "29:151",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/12-expansion-source-6-983.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/12-expansion-structured-29-151.png",
+  "sourceSha256": "76dd768fa111e7d3f85a36d08fd74363a7886195e5840a6496b8668f785d52fd",
+  "rebuildSha256": "99431b3801d126c6c7e219c54e70af788f0a9100326591230479926911b5f5a1",
+  "rgbaChangedPixels": 2,
+  "visibleChangedPixels": 2,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 9.645061728395062e-07,
+  "visibleSimilarity": 0.9999990354938272,
+  "rmsRgbaNorm": 2.2703338780682282e-05,
+  "maxChannelDelta": 9,
+  "visibleDiffBbox": [
+    1298,
+    969,
+    1473,
+    973
+  ],
+  "qaStatus": "pass"
+}

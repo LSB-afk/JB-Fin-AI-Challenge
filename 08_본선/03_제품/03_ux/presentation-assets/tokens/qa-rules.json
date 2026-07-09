@@ -1,0 +1,69 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation QA rules",
+    "created": "2026-07-08",
+    "status": "pilot"
+  },
+  "rules": {
+    "frame": {
+      "width": 1920,
+      "height": 1080,
+      "tolerancePx": 0
+    },
+    "editableLayer": {
+      "forbidFullSlideRaster": true,
+      "minimumEditableTextNodes": {
+        "01-summary": 5,
+        "07-system-flow": 90,
+        "09-user-scenario": 19
+      },
+      "allowedRasterNodeRoles": ["background", "mockup", "story-image"]
+    },
+    "text": {
+      "noVisibleClipping": true,
+      "noUnintendedOverlap": true,
+      "minimumFontSizePx": 10,
+      "preferredMinimumBodyPx": 15,
+      "mixedTextRequiresExplicitRuns": true
+    },
+    "tokenUsage": {
+      "noRawHexInBuilder": true,
+      "noRawFontSizeInBuilder": true,
+      "allowedRawValues": ["source node id", "temporary measurement during extraction"],
+      "requiredTokenFiles": [
+        "primitives.json",
+        "semantic.json",
+        "typography.json",
+        "effects.json",
+        "components.json",
+        "slides.json",
+        "assets.json",
+        "figma-variable-map.json"
+      ]
+    },
+    "visualDiff": {
+      "sourceReference": "local JPG export",
+      "pixelTolerancePerChannelForFigmaInstanceQuantization": 1,
+      "toleranceRule": "Exact pixel deltas with maxChannelDelta <= 1 may pass when no visible layout, text, or crop drift is present; keep exactChangedPixels as a secondary metric.",
+      "threshold": {
+        "coverCalibration": 0.08,
+        "diagramDense": 0.12,
+        "scenario": 0.1
+      },
+      "manualChecks": ["layout hierarchy", "text readability", "image crop", "brand presence"]
+    },
+    "componentization": {
+      "repeatedElementThreshold": 2,
+      "requiredComponents": [
+        "FrameDark",
+        "SlideHeader",
+        "FooterMeta",
+        "FlowNode",
+        "DarkTable",
+        "ProcessNode",
+        "ScenarioCard"
+      ]
+    }
+  }
+}

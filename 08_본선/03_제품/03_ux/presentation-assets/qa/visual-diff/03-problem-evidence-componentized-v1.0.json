@@ -1,0 +1,26 @@
+{
+  "slideNo": 3,
+  "version": "v1.0",
+  "sourceNodeId": "6:313",
+  "rebuiltNodeId": "58:183",
+  "name": "S03/ProblemEvidence/Componentized Rebuild v1.0",
+  "componentSets": [
+    "58:175",
+    "58:182"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/03-problem-evidence-source-6-313.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/03-problem-evidence-componentized-58-183.png",
+  "diffImage": "qa/visual-diff/03-problem-evidence-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "maxChannelDelta": 0,
+  "changedBoundingBox": null,
+  "qaStatus": "pass",
+  "sourceSha256": "9eb99b723c6f9d591742ae65e1dc5e9e050d4dc3ed2991ea8f758df67cad6b31",
+  "rebuiltSha256": "9eb99b723c6f9d591742ae65e1dc5e9e050d4dc3ed2991ea8f758df67cad6b31",
+  "diffSha256": "f9708f9f8361d467ddfc7575e35f49343096b3b5a76cd81faf9b1dfc99462381",
+  "notes": "Pixel diff between source slide 6:313 and componentized rebuild 58:183. Component instances replace evidence screenshots and highlight overlays while preserving source image fills."
+}

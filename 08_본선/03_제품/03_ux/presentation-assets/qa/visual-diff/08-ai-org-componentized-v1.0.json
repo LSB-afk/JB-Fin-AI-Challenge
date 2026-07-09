@@ -1,0 +1,33 @@
+{
+  "slideNo": 8,
+  "version": "v1.0",
+  "sourceNodeId": "6:592",
+  "baselineNodeId": "28:211",
+  "rebuiltNodeId": "61:176",
+  "name": "S08/AIOrgChart/Componentized Rebuild v1.0",
+  "componentSets": [
+    "60:372",
+    "60:505",
+    "60:550"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/08-ai-org-source-6-592.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/08-ai-org-componentized-61-176.png",
+  "diffImage": "qa/visual-diff/08-ai-org-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 177,
+  "similarity": 0.9999146412037037,
+  "maxChannelDelta": 32,
+  "changedBoundingBox": [
+    194,
+    352,
+    1858,
+    1013
+  ],
+  "qaStatus": "pass",
+  "sourceSha256": "f669a38421997d28160af805cec1f00005b6ce09a34ccf934652e5f0b55271e5",
+  "rebuiltSha256": "f331f55cae8abfac303e562dacc69a582e7892f6aadb313c8297673ba6146820",
+  "diffSha256": "4676b8105519692161738c6cdcbfd1fc2b2214df8bcf75b3925fcd60d4731642",
+  "notes": "Pixel diff between source slide 6:592 and componentized rebuild 61:176. 29 org/gate cards are replaced with exact component instances; connectors and ops panel remain cloned source layers."
+}

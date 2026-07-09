@@ -1,0 +1,346 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation typography tokens",
+    "source": "Figma text extraction from 5053:11835, 5053:11964, 5053:12685",
+    "created": "2026-07-08",
+    "status": "figma_read_extracted"
+  },
+  "fontStacks": {
+    "deckKorean": {
+      "$value": "Pretendard, SUIT Variable, -apple-system, system-ui, sans-serif",
+      "$type": "fontFamily"
+    },
+    "deckDisplay": {
+      "$value": "Panchang, Pretendard, sans-serif",
+      "$type": "fontFamily"
+    }
+  },
+  "role": {
+    "coverEyebrow": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "SemiBold",
+        "fontWeight": 600,
+        "fontSize": 25,
+        "lineHeight": "110%",
+        "letterSpacing": "0",
+        "textAlign": "CENTER",
+        "color": "rgba(255,255,255,0.60)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11838",
+        "pastedWorkingNode": "6:201",
+        "structuredNode": "22:5",
+        "fontAsset": "{fontAsset.pretendard.semibold}",
+        "hasMissingFont": true,
+        "sample": "Local Guard OS | Summary"
+      }
+    },
+    "coverStatement": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 40,
+        "lineHeight": "130%",
+        "letterSpacing": "-2%",
+        "textAlign": "CENTER",
+        "maxLines": 2
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11839",
+        "pastedWorkingNode": "6:202",
+        "structuredNode": "22:6",
+        "fontAsset": "{fontAsset.pretendard.medium}",
+        "hasMissingFont": true,
+        "sample": "금융 Case가 들어오면..."
+      }
+    },
+    "coverWordmark": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Panchang",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 300,
+        "lineHeight": "110%",
+        "letterSpacing": "9%",
+        "textAlign": "LEFT",
+        "fill": "linear-gradient(#FFFFFF, #FFFFFF)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11846",
+        "pastedWorkingNode": "6:209",
+        "structuredNode": "22:13",
+        "fontAsset": "{fontAsset.panchang.medium}",
+        "hasMissingFont": true,
+        "sample": "JByond"
+      }
+    },
+    "footerLeft": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 25,
+        "lineHeight": "110%",
+        "letterSpacing": "0",
+        "color": "#F8F8F8"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11844",
+        "pastedWorkingNode": "6:207",
+        "structuredNode": "22:11",
+        "fontAsset": "{fontAsset.pretendard.regular}",
+        "hasMissingFont": true
+      }
+    },
+    "footerRight": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 25,
+        "lineHeight": "110%",
+        "letterSpacing": "0",
+        "color": "rgba(255,255,255,0.80)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11845",
+        "pastedWorkingNode": "6:208",
+        "structuredNode": "22:12",
+        "fontAsset": "{fontAsset.pretendard.regular}",
+        "hasMissingFont": true
+      }
+    },
+    "slideSection": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 22,
+        "lineHeight": "150%",
+        "letterSpacing": "0",
+        "color": "rgba(255,255,255,0.70)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12019"
+      }
+    },
+    "slideHeadline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Mixed",
+        "fontWeight": "mixed",
+        "fontSize": 35,
+        "lineHeight": "120%",
+        "letterSpacing": "0",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12020",
+        "note": "Figma node has mixed weight; preserve emphasis by nested text runs in rebuild."
+      }
+    },
+    "diagramTitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "SemiBold",
+        "fontWeight": 600,
+        "fontSize": 28.3158,
+        "lineHeight": "130%",
+        "letterSpacing": "-2%",
+        "textAlign": "CENTER",
+        "color": "#000000"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12022"
+      }
+    },
+    "tableHeader": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 16.4294,
+        "lineHeight": "150%",
+        "letterSpacing": "-2.2%",
+        "color": "rgba(255,255,255,0.90)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11967"
+      }
+    },
+    "tableBody": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 15.5227,
+        "lineHeight": "150%",
+        "letterSpacing": "-2.2%",
+        "color": "rgba(255,255,255,0.90)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:11988"
+      }
+    },
+    "flowHeader": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 18.1574,
+        "lineHeight": "140%",
+        "letterSpacing": "-0.38px",
+        "textAlign": "CENTER",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12153"
+      }
+    },
+    "flowNodeTitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 17.6491,
+        "lineHeight": "130%",
+        "letterSpacing": "-2%",
+        "textAlign": "CENTER",
+        "color": "#000000"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12170"
+      }
+    },
+    "flowMicro": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 11.3263,
+        "lineHeight": "130%",
+        "letterSpacing": "-2%",
+        "textAlign": "CENTER",
+        "color": "#000000"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12172",
+        "minReadableSize": 10
+      }
+    },
+    "scenarioBadge": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 36,
+        "lineHeight": "140%",
+        "letterSpacing": "0",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12690"
+      }
+    },
+    "scenarioHeadline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Mixed",
+        "fontWeight": "mixed",
+        "fontSize": 56.1889,
+        "lineHeight": "140%",
+        "letterSpacing": "-0.62px",
+        "textAlign": "CENTER",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12691"
+      }
+    },
+    "scenarioProcess": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 15,
+        "lineHeight": "130%",
+        "letterSpacing": "-2%",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12701"
+      }
+    },
+    "storyCaption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 20,
+        "lineHeight": "150%",
+        "letterSpacing": "-0.86px",
+        "textAlign": "CENTER",
+        "color": "rgba(255,255,255,0.80)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12725"
+      }
+    },
+    "useCaseLabel": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 20,
+        "lineHeight": "150%",
+        "letterSpacing": "-0.86px",
+        "color": "#FFFFFF"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12745"
+      }
+    },
+    "useCaseText": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Pretendard",
+        "fontStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 20,
+        "lineHeight": "140%",
+        "letterSpacing": "-2.2%",
+        "color": "rgba(255,255,255,0.50)"
+      },
+      "$extensions": {
+        "figmaSourceNode": "5053:12746"
+      }
+    }
+  },
+  "constraints": {
+    "editableTextRequired": true,
+    "mixedStylePolicy": "Represent mixed Figma text nodes as editable text with explicit nested emphasis spans or separate text layers.",
+    "minimumPresentationTextPx": 10,
+    "preferredMinimumBodyPx": 15
+  }
+}

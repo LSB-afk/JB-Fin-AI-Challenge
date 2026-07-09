@@ -1,0 +1,35 @@
+{
+  "slideNo": 14,
+  "version": "v1.0",
+  "sourceNodeId": "6:1155",
+  "baselineNodeId": "29:357",
+  "rebuiltNodeId": "90:777",
+  "name": "S14/AppendixGantt/Componentized Rebuild v1.0",
+  "componentSets": [
+    "85:875",
+    "86:885",
+    "88:987",
+    "89:813"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/14-gantt-source-6-1155.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/14-gantt-componentized-90-777.png",
+  "diffImage": "qa/visual-diff/14-gantt-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 612,
+  "similarity": 0.9997048611111111,
+  "maxChannelDelta": 32,
+  "changedBoundingBox": [
+    13,
+    42,
+    1894,
+    1019
+  ],
+  "rmsRgbaNormalized": 0.0006181617279873839,
+  "qaStatus": "pass",
+  "sourceSha256": "3ae9e1faa4882b07d066177fef441d092f8dc201118c697a5a3d4e72866935a3",
+  "rebuiltSha256": "3b01973e90ea32e0fe83442757bfbfb72a68b95b3057dcfc1bbebbd0b0e4e32a",
+  "notes": "Pixel diff between source slide 6:1155 and componentized rebuild 90:777. Fourteen date ticks, nine lane metadata rows, twenty-one task bars, and six milestone markers are replaced with exact component instances; header note, footer legend/evidence box, and base slide frame remain cloned source layers.",
+  "diffSha256": "f62ed0574f4b10e2e39aed165e67a333d469ee2e0766dfbbd7ee7171548f64c9"
+}

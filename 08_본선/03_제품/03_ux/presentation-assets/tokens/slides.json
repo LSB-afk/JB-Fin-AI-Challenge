@@ -1,0 +1,313 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation slide composition tokens",
+    "created": "2026-07-08",
+    "status": "pilot_3_deep_tokens_full_14_clone_audit",
+    "frame": {
+      "width": 1920,
+      "height": 1080
+    },
+    "fullDeckStructuredAudit": "../qa/visual-diff/full-deck-structured-audit-2026-07-09.json",
+    "scopeNote": "Slides 01, 07, 09 have deep slide composition tokens. Other slides have source-preserving structured clone baselines and are tracked in slides/full-deck-deep-assetization-backlog.md."
+  },
+  "slides": {
+    "01-summary": {
+      "$type": "slide",
+      "$value": {
+        "sourceNodeId": "6:198",
+        "sourceRefs": {
+          "figmaOriginalNodeId": "5053:11835",
+          "pastedWorkingNodeId": "6:198",
+          "structuredRebuildNodeId": "22:2",
+          "localPixelReference": "assets/rebuild-screenshots/01-summary-source-6-198.png",
+          "sourcePriority": [
+            "pastedWorkingNodeId",
+            "figmaOriginalNodeId",
+            "localPixelReference",
+            "finalPdf"
+          ]
+        },
+        "sourceName": "01 Summary",
+        "role": "calibration_cover",
+        "stage": "{component.FrameDark.cover}",
+        "zones": {
+          "header": {
+            "x": 288,
+            "y": 79,
+            "width": 1344,
+            "height": 155,
+            "component": "{component.SlideHeader.coverCentered}"
+          },
+          "backgroundImage": {
+            "x": 357,
+            "y": 234,
+            "width": 1205,
+            "height": 904,
+            "assetPolicy": "raster_reference_allowed"
+          },
+          "laptop": {
+            "x": 447,
+            "y": 257,
+            "width": 1026,
+            "height": 702,
+            "component": "{component.ProductShotLaptop}"
+          },
+          "wordmark": {
+            "x": 84,
+            "y": 414,
+            "width": 1764,
+            "height": 330,
+            "component": "{component.HeroWordmark}"
+          },
+          "footerLeft": {
+            "x": 38,
+            "y": 1021,
+            "width": 301,
+            "height": 28
+          },
+          "footerRight": {
+            "x": 1524,
+            "y": 1021,
+            "width": 365,
+            "height": 28
+          }
+        },
+        "layerOrder": [
+          "stage",
+          "backgroundImage",
+          "laptop",
+          "veils",
+          "wordmark",
+          "header",
+          "footer"
+        ],
+        "editableRequirements": [
+          "header text",
+          "wordmark",
+          "footer text"
+        ],
+        "visualQa": "qa/visual-diff/01-summary-structured-v1.json"
+      }
+    },
+    "07-system-flow": {
+      "$type": "slide",
+      "$value": {
+        "sourceNodeId": "6:325",
+        "sourceRefs": {
+          "figmaOriginalNodeId": "5053:11964",
+          "pastedWorkingNodeId": "6:325",
+          "structuredRebuildNodeId": "25:2",
+          "localPixelReference": "assets/rebuild-screenshots/07-system-flow-source-6-325.png",
+          "sourcePriority": [
+            "pastedWorkingNodeId",
+            "figmaOriginalNodeId",
+            "localPixelReference",
+            "finalPdf"
+          ]
+        },
+        "sourceName": "데이터 및 활용 기술",
+        "role": "system_flow_and_technical_tables",
+        "stage": "{component.FrameDark.standard}",
+        "zones": {
+          "header": {
+            "x": 57,
+            "y": 55,
+            "width": 969,
+            "height": 158,
+            "component": "{component.SlideHeader.leftStandard}"
+          },
+          "diagramPanel": {
+            "x": 57,
+            "y": 271,
+            "width": 1076,
+            "height": 750.3684,
+            "component": "{component.SystemFlowPanel}"
+          },
+          "diagramTitle": {
+            "x": 357,
+            "y": 313,
+            "width": 461,
+            "height": 37,
+            "style": "{typography.role.diagramTitle}"
+          },
+          "flowColumns": {
+            "origin": {
+              "x": 82,
+              "y": 375
+            },
+            "columns": [
+              {
+                "name": "사용자 신호",
+                "x": 82,
+                "width": 159.5123
+              },
+              {
+                "name": "반입 / 보안",
+                "x": 251.8936,
+                "width": 158.5684
+              },
+              {
+                "name": "Case Hub",
+                "x": 424.6199,
+                "width": 164.2316
+              },
+              {
+                "name": "AI 업무지원",
+                "x": 603.0093,
+                "width": 196.3228
+              },
+              {
+                "name": "사람승인",
+                "x": 813.4901,
+                "width": 135.9158
+              },
+              {
+                "name": "통계 실행",
+                "x": 957.9006,
+                "width": 133.0842
+              }
+            ],
+            "headerY": 375,
+            "bodyY": 419.3614,
+            "headerHeight": 34.9228
+          },
+          "entityRail": {
+            "x": 85,
+            "y": 810,
+            "width": 1006.1516,
+            "height": 161.902,
+            "component": "JByond/Deck/EntityRail"
+          },
+          "rightTables": {
+            "x": 1180,
+            "y": 293,
+            "width": 683,
+            "height": 718.0496,
+            "component": "{component.DarkTable}"
+          }
+        },
+        "editableRequirements": [
+          "all flow text",
+          "all table text",
+          "diagram title",
+          "connectors as vectors"
+        ],
+        "knownContentFlags": [
+          "계획/TBD",
+          "개인정보 / 보안 / 환각 예방",
+          "Figma source currently uses 통계 실행; verify whether 통제 실행 was intended before derivative decks"
+        ],
+        "visualQa": "qa/visual-diff/07-system-flow-structured-v1.json"
+      }
+    },
+    "09-user-scenario": {
+      "$type": "slide",
+      "$value": {
+        "sourceNodeId": "6:1046",
+        "sourceRefs": {
+          "figmaOriginalNodeId": "5053:12685",
+          "pastedWorkingNodeId": "6:1046",
+          "structuredRebuildNodeId": "26:2",
+          "localPixelReference": "assets/rebuild-screenshots/09-user-scenario-source-6-1046.png",
+          "sourcePriority": [
+            "pastedWorkingNodeId",
+            "figmaOriginalNodeId",
+            "localPixelReference",
+            "finalPdf"
+          ]
+        },
+        "sourceName": "제안솔루션",
+        "role": "user_scenario_storyboard",
+        "stage": "{component.FrameDark.deep}",
+        "zones": {
+          "background": {
+            "x": -53,
+            "y": -172,
+            "width": 2025.0271,
+            "height": 1350.9823,
+            "assetPolicy": "raster_reference_allowed"
+          },
+          "header": {
+            "x": 420,
+            "y": 80,
+            "width": 1080,
+            "height": 248,
+            "component": "{component.SlideHeader.scenarioCentered}"
+          },
+          "processRail": {
+            "x": 93,
+            "y": 367,
+            "width": 1715,
+            "height": 179,
+            "component": "JByond/Deck/ProcessRail"
+          },
+          "decision": {
+            "x": 1311.002,
+            "y": 395.104,
+            "width": 118.7939,
+            "height": 118.7939,
+            "component": "{component.DecisionDiamond}"
+          },
+          "useCase": {
+            "x": 83,
+            "y": 573,
+            "width": 399,
+            "height": 30,
+            "component": "{component.UseCaseLabel}"
+          },
+          "cards": {
+            "x": 83,
+            "y": 630,
+            "width": 1734,
+            "height": 352,
+            "component": "{component.ScenarioCard}",
+            "items": [
+              {
+                "step": 1,
+                "x": 83,
+                "width": 393,
+                "height": 349
+              },
+              {
+                "step": 2,
+                "x": 496,
+                "width": 434,
+                "height": 352
+              },
+              {
+                "step": 3,
+                "x": 950,
+                "width": 415,
+                "height": 349
+              },
+              {
+                "step": 4,
+                "x": 1385,
+                "width": 432,
+                "height": 352
+              }
+            ]
+          }
+        },
+        "editableRequirements": [
+          "headline",
+          "process nodes",
+          "decision label",
+          "use case label",
+          "story captions",
+          "connectors"
+        ],
+        "rasterAllowed": [
+          "background image",
+          "four story card images"
+        ],
+        "knownContentFlags": [
+          "Source Figma uses 케이스보드 칸반; older markdown mentioning 간반 is stale",
+          "Enter button/product-demo alignment remains a derivative-deck decision"
+        ],
+        "visualQa": "qa/visual-diff/09-user-scenario-structured-v1.json"
+      }
+    }
+  }
+}

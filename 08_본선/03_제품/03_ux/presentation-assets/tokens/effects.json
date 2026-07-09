@@ -1,0 +1,186 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation effect tokens",
+    "source": "Figma read-only extraction and local screenshot interpretation",
+    "created": "2026-07-08",
+    "status": "pilot"
+  },
+  "gradient": {
+    "stageCover": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "opacity": 1,
+        "stops": [
+          { "position": 0, "color": "#08124A", "alpha": 1 },
+          { "position": 0.216, "color": "#6583EC", "alpha": 1 },
+          { "position": 0.465, "color": "#08124A", "alpha": 1 },
+          { "position": 1, "color": "#08124A", "alpha": 1 }
+        ]
+      },
+      "$extensions": { "figmaSourceNode": "5053:11835" }
+    },
+    "stageStandard": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "opacity": 0.3,
+        "stops": [
+          { "position": 0.135, "color": "#08124A", "alpha": 1 },
+          { "position": 0.255, "color": "#6583EC", "alpha": 1 },
+          { "position": 0.337, "color": "#08124A", "alpha": 1 },
+          { "position": 1, "color": "#08124A", "alpha": 1 }
+        ]
+      },
+      "$extensions": { "figmaSourceNodes": ["5053:11964", "5053:12685"] }
+    },
+    "coverBottomVeil": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "opacity": 0.2,
+        "stops": [
+          { "position": 0, "color": "#5A76DD", "alpha": 0 },
+          { "position": 0.264, "color": "#283B7F", "alpha": 1 }
+        ]
+      },
+      "$extensions": { "figmaSourceNode": "5053:11843" }
+    },
+    "diagramFadeRight": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "opacity": 1,
+        "stops": [
+          { "position": 0, "color": "#000B49", "alpha": 0 },
+          { "position": 1, "color": "#000B49", "alpha": 1 }
+        ]
+      }
+    }
+  },
+  "shadow": {
+    "productShot": {
+      "$type": "shadow",
+      "$value": "0 24px 80px rgba(0,0,0,0.35)",
+      "$extensions": { "status": "inferred_from_screenshot" }
+    },
+    "storyImage": {
+      "$type": "shadow",
+      "$value": "0 12px 36px rgba(0,0,0,0.22)",
+      "$extensions": { "status": "inferred_from_screenshot" }
+    },
+    "softBlueGlow": {
+      "$type": "shadow",
+      "$value": "0 0 80px rgba(101,131,236,0.35)"
+    }
+  },
+  "imageTreatment": {
+    "coverBackgroundPhoto": {
+      "$type": "object",
+      "$value": {
+        "scaleMode": "FILL",
+        "opacity": 1,
+        "mask": "rounded-rectangle",
+        "allowedRaster": true
+      },
+      "$extensions": { "figmaSourceNode": "5053:11836" }
+    },
+    "coverLaptopMockup": {
+      "$type": "object",
+      "$value": {
+        "scaleMode": "FILL",
+        "opacity": 1,
+        "mask": "rounded-rectangle",
+        "allowedRaster": true,
+        "editableBoundary": "outer placement editable, screenshot content raster"
+      },
+      "$extensions": { "figmaSourceNode": "5053:11841" }
+    },
+    "scenarioCardImage": {
+      "$type": "object",
+      "$value": {
+        "scaleMode": "CROP",
+        "opacity": 1,
+        "radius": 10,
+        "allowedRaster": true,
+        "captionEditable": true
+      },
+      "$extensions": { "figmaSourceNodes": ["5053:12718", "5053:12721", "5053:12724", "5053:12727"] }
+    }
+  },
+  "strokeStyle": {
+    "diagramHairline": {
+      "$type": "strokeStyle",
+      "$value": { "color": "#565656", "weight": 0.64, "opacity": 1 }
+    },
+    "flowConnector": {
+      "$type": "strokeStyle",
+      "$value": { "color": "#FFFFFF", "weight": 1, "opacity": 1, "arrow": "end" }
+    },
+    "scenarioConnector": {
+      "$type": "strokeStyle",
+      "$value": { "color": "#FFFFFF", "weight": 2, "opacity": 1, "arrow": "end" }
+    },
+    "focusLine": {
+      "$type": "strokeStyle",
+      "$value": { "color": "#3E63BD", "weight": 2, "opacity": 1 }
+    }
+  },
+  "effectStack": {
+    "01-summary": {
+      "$type": "effectStack",
+      "$value": [
+        {
+          "zPath": "",
+          "sourceNodeId": "6:198",
+          "structuredNodeId": "22:2",
+          "role": "stage",
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "surface": "{surface.stage.cover}"
+        },
+        {
+          "zPath": "1",
+          "sourceNodeId": "6:199",
+          "structuredNodeId": "22:3",
+          "role": "cover stage image",
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "surface": "{surface.image.coverStage}"
+        },
+        {
+          "zPath": "4",
+          "sourceNodeId": "6:204",
+          "structuredNodeId": "22:8",
+          "role": "laptop product image",
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "surface": "{surface.image.coverLaptop}"
+        },
+        {
+          "zPath": "5",
+          "sourceNodeId": "6:205",
+          "structuredNodeId": "22:9",
+          "role": "bottom veil base",
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "fills": []
+        },
+        {
+          "zPath": "6",
+          "sourceNodeId": "6:206",
+          "structuredNodeId": "22:10",
+          "role": "bottom veil gradient",
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "surface": "{surface.overlay.coverBottomVeil}"
+        }
+      ]
+    }
+  },
+  "blend": {
+    "normal": { "$value": "NORMAL", "$type": "string" },
+    "overlay": { "$value": "OVERLAY", "$type": "string" }
+  }
+}

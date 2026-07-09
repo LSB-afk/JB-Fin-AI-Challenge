@@ -1,0 +1,37 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "slideId": "07-system-flow",
+  "checkedAt": "2026-07-09",
+  "figma": {
+    "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+    "sourceNodeId": "6:325",
+    "rebuildNodeId": "25:2",
+    "rebuildName": "S07/SystemFlow/Structured Rebuild v1.0"
+  },
+  "images": {
+    "source": "assets/rebuild-screenshots/07-system-flow-source-6-325.png",
+    "rebuild": "assets/rebuild-screenshots/07-system-flow-structured-25-2.png",
+    "sha256": {
+      "source": "e3468452db04c1771cfec39bc7b22b195282ccd3283ea66a735bf9fa3dce99cf",
+      "rebuild": "e345c94a1400281e04bd6f915f2504116b079f86d5b28e3dfba8339e3586631e"
+    }
+  },
+  "metrics": {
+    "sameSize": true,
+    "width": 1920,
+    "height": 1080,
+    "changedPixels": 512,
+    "totalPixels": 2073600,
+    "changedRatio": 0.0002469136,
+    "similarity": 0.9997530864,
+    "rmsRgbaNorm": 0.0010272472,
+    "diffBbox": [1409, 436, 1676, 672],
+    "channelExtrema": [[0, 33], [0, 33], [0, 33], [0, 1]]
+  },
+  "status": "pass_above_98_percent",
+  "caveats": [
+    "The structured clone preserves editable source layers and passes the 98% visual threshold.",
+    "A small right-table-region render delta remains. It is tracked as an additional polish-loop candidate, not a blocking pilot failure.",
+    "Do not mutate text content until Pretendard is available to the Figma runtime."
+  ]
+}

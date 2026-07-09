@@ -1,0 +1,31 @@
+{
+  "source": "assets/rebuild-screenshots/06-key-feature-approval-source-6-286.png",
+  "rebuild": "assets/rebuild-screenshots/06-key-feature-approval-componentized-101-1206.png",
+  "sourceNodeId": "6:286",
+  "rebuildNodeId": "101:1206",
+  "baselineNodeId": "28:184",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "exactChangedPixels": 0,
+  "exactSimilarity": 1.0,
+  "pixelTolerancePerChannel": 1,
+  "changedPixels": 0,
+  "similarity": 1.0,
+  "maxChannelDelta": 0,
+  "bbox": null,
+  "qaStatus": "pass_tolerance_delta_le_1",
+  "componentSets": [
+    "101:1205"
+  ],
+  "componentInstances": [
+    "101:1233",
+    "101:1236"
+  ],
+  "notes": "Baseline clone with original approval/audit callouts hidden and promoted callout component instances. Node 6:304 was not directly accessed.",
+  "sourceSha256": "022e6f5fae188b0281560dd0d86faba01214c08dfb1a5799d2b666eb4909bef9",
+  "rebuildSha256": "022e6f5fae188b0281560dd0d86faba01214c08dfb1a5799d2b666eb4909bef9",
+  "diffSha256": "f9708f9f8361d467ddfc7575e35f49343096b3b5a76cd81faf9b1dfc99462381",
+  "componentSetScreenshot": "assets/components/approval-audit-callout-exact-variant-set-101-1205.png",
+  "componentSetSha256": "a844bc9379a837795a46a47ac7e879007b4d636c9274b32766d6869bb933e25b"
+}

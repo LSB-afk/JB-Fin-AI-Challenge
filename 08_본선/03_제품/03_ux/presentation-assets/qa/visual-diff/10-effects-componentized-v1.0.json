@@ -1,0 +1,32 @@
+{
+  "slideNo": 10,
+  "version": "v1.0",
+  "sourceNodeId": "6:96",
+  "baselineNodeId": "29:2",
+  "rebuiltNodeId": "70:660",
+  "name": "S10/ExpectedEffects/Componentized Rebuild v1.0",
+  "componentSets": [
+    "70:659"
+  ],
+  "sourceScreenshot": "assets/rebuild-screenshots/10-effects-source-6-96.png",
+  "rebuiltScreenshot": "assets/rebuild-screenshots/10-effects-componentized-70-660.png",
+  "diffImage": "qa/visual-diff/10-effects-componentized-v1.0-diff.png",
+  "width": 1920,
+  "height": 1080,
+  "totalPixels": 2073600,
+  "changedPixels": 2627,
+  "similarity": 0.9987331211419753,
+  "maxChannelDelta": 33,
+  "changedBoundingBox": [
+    78,
+    111,
+    1792,
+    997
+  ],
+  "rmsRgbaNormalized": 0.0027228155185518,
+  "qaStatus": "pass",
+  "sourceSha256": "778a702d4ae5452f56be5a9a639353bf5d7d6b42bb1175897b18a3c485295eda",
+  "rebuiltSha256": "e2cd1a17f209b30290551d2f6db015e55dc7727901f9cdb0e83c77d1ea07afbd",
+  "diffSha256": "d2e2b51ec4654485f58b2a5bc1db8dc520f7bb2ab6e9eaea0eb7775b873cf017",
+  "notes": "Pixel diff between source slide 6:96 and componentized rebuild 70:660. Five TX/AX/UX/EX-PX/CX experience map nodes are replaced with exact component instances; arrows, left header, logo material group, and value-chain panel remain cloned source layers."
+}

@@ -1,0 +1,426 @@
+{
+  "generatedAt": "2026-07-09",
+  "fileKey": "h6RkEn7fGbTwZbzuwaHsWi",
+  "pageId": "0:1",
+  "scope": "14 source-preserving structured rebuild frames",
+  "qualityTarget": 0.98,
+  "summary": {
+    "totalSlides": 14,
+    "passSlides": 14,
+    "minSimilarity": 0.9996238425925926,
+    "pixelDiffSlides": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+    ],
+    "byteEqualOnlySlides": [
+      3,
+      5,
+      6,
+      13
+    ],
+    "remainingDeepWork": "Structured audit scope passed for all 14 slides. Later componentized loops accepted all 14 slides above the 98% visual gate. Remaining work is optional deeper atomization, not visual parity."
+  },
+  "slides": [
+    {
+      "slideNo": 1,
+      "sourceNodeId": "6:198",
+      "rebuildNodeId": "22:2",
+      "rebuildName": "S01/Summary/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 9,
+      "rebuildChildCount": 9,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "01-summary-structured-v1.json",
+      "changedPixels": 0,
+      "similarity": 1,
+      "diffBbox": null
+    },
+    {
+      "slideNo": 2,
+      "sourceNodeId": "6:3",
+      "rebuildNodeId": "28:2",
+      "rebuildName": "S02/ProblemDefinition/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 22,
+      "rebuildChildCount": 22,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "02-problem-structured-v1.json",
+      "changedPixels": 41,
+      "similarity": 0.9999802276234568,
+      "diffBbox": [
+        55,
+        30,
+        1916,
+        1035
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 979126,
+        "rebuildBytes": 979099,
+        "sourceHash32": "3720523c",
+        "rebuildHash32": "487fe8ed",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 3,
+      "sourceNodeId": "6:313",
+      "rebuildNodeId": "28:95",
+      "rebuildName": "S03/ProblemDefinition/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 6,
+      "rebuildChildCount": 6,
+      "qaStatus": "pass",
+      "method": "figma_export_png_byte_equal",
+      "byteExport": {
+        "sourceBytes": 951727,
+        "rebuildBytes": 951727,
+        "sourceHash32": "2507a3ab",
+        "rebuildHash32": "2507a3ab",
+        "byteEqual": true
+      },
+      "changedPixels": 0,
+      "similarity": 1.0,
+      "diffBbox": null,
+      "byteExportAudit": {
+        "sourceBytes": 951727,
+        "rebuildBytes": 951727,
+        "sourceHash32": "2507a3ab",
+        "rebuildHash32": "2507a3ab",
+        "byteEqual": true
+      }
+    },
+    {
+      "slideNo": 4,
+      "sourceNodeId": "6:210",
+      "rebuildNodeId": "28:108",
+      "rebuildName": "S04/SolutionOverview/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 6,
+      "rebuildChildCount": 6,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "04-solution-structured-v1.json",
+      "changedPixels": 10,
+      "similarity": 0.9999951774691358,
+      "diffBbox": [
+        145,
+        602,
+        500,
+        929
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 1758219,
+        "rebuildBytes": 1758225,
+        "sourceHash32": "7417b912",
+        "rebuildHash32": "b1b29d40",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 5,
+      "sourceNodeId": "6:261",
+      "rebuildNodeId": "28:159",
+      "rebuildName": "S05/KeyFeature/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 20,
+      "rebuildChildCount": 20,
+      "qaStatus": "pass",
+      "method": "figma_export_png_byte_equal",
+      "byteExport": {
+        "sourceBytes": 1716790,
+        "rebuildBytes": 1716790,
+        "sourceHash32": "88db9ab2",
+        "rebuildHash32": "88db9ab2",
+        "byteEqual": true
+      },
+      "changedPixels": 0,
+      "similarity": 1.0,
+      "diffBbox": null,
+      "byteExportAudit": {
+        "sourceBytes": 1716790,
+        "rebuildBytes": 1716790,
+        "sourceHash32": "88db9ab2",
+        "rebuildHash32": "88db9ab2",
+        "byteEqual": true
+      }
+    },
+    {
+      "slideNo": 6,
+      "sourceNodeId": "6:286",
+      "rebuildNodeId": "28:184",
+      "rebuildName": "S06/KeyFeature/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 13,
+      "rebuildChildCount": 13,
+      "qaStatus": "pass",
+      "method": "figma_export_png_byte_equal",
+      "byteExport": {
+        "sourceBytes": 1349571,
+        "rebuildBytes": 1349571,
+        "sourceHash32": "cc25d97f",
+        "rebuildHash32": "cc25d97f",
+        "byteEqual": true
+      },
+      "changedPixels": 0,
+      "similarity": 1.0,
+      "diffBbox": null,
+      "byteExportAudit": {
+        "sourceBytes": 1349571,
+        "rebuildBytes": 1349571,
+        "sourceHash32": "cc25d97f",
+        "rebuildHash32": "cc25d97f",
+        "byteEqual": true
+      }
+    },
+    {
+      "slideNo": 7,
+      "sourceNodeId": "6:325",
+      "rebuildNodeId": "25:2",
+      "rebuildName": "S07/SystemFlow/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 9,
+      "rebuildChildCount": 9,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "07-system-flow-structured-v1.json",
+      "changedPixels": 512,
+      "similarity": 0.9997530864,
+      "diffBbox": [
+        1409,
+        436,
+        1676,
+        672
+      ]
+    },
+    {
+      "slideNo": 8,
+      "sourceNodeId": "6:592",
+      "rebuildNodeId": "28:211",
+      "rebuildName": "S08/AIOrgChart/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 46,
+      "rebuildChildCount": 46,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "08-ai-org-structured-v1.json",
+      "changedPixels": 1,
+      "similarity": 0.9999995177469135,
+      "diffBbox": [
+        1734,
+        977,
+        1735,
+        978
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 616587,
+        "rebuildBytes": 616587,
+        "sourceHash32": "a9ec17ae",
+        "rebuildHash32": "f807a587",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 9,
+      "sourceNodeId": "6:1046",
+      "rebuildNodeId": "26:2",
+      "rebuildName": "S09/UserScenario/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 30,
+      "rebuildChildCount": 30,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "09-user-scenario-structured-v1.json",
+      "changedPixels": 0,
+      "similarity": 1,
+      "diffBbox": null
+    },
+    {
+      "slideNo": 10,
+      "sourceNodeId": "6:96",
+      "rebuildNodeId": "29:2",
+      "rebuildName": "S10/ExpectedEffects/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 7,
+      "rebuildChildCount": 7,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "10-effects-structured-v1.json",
+      "changedPixels": 617,
+      "similarity": 0.999702449845679,
+      "diffBbox": [
+        104,
+        111,
+        1791,
+        992
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 860872,
+        "rebuildBytes": 860950,
+        "sourceHash32": "a002d67c",
+        "rebuildHash32": "08a5da9e",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 11,
+      "sourceNodeId": "6:1108",
+      "rebuildNodeId": "29:104",
+      "rebuildName": "S11/ImplementationDemoPlan/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 13,
+      "rebuildChildCount": 13,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "11-demo-plan-structured-v1.json",
+      "changedPixels": 356,
+      "similarity": 0.9998283179012346,
+      "diffBbox": [
+        0,
+        26,
+        1918,
+        1076
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 1267081,
+        "rebuildBytes": 1266733,
+        "sourceHash32": "510b7b7b",
+        "rebuildHash32": "3d2d345b",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 12,
+      "sourceNodeId": "6:983",
+      "rebuildNodeId": "29:151",
+      "rebuildName": "S12/ClosingExpansion/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 34,
+      "rebuildChildCount": 34,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "12-expansion-structured-v1.json",
+      "changedPixels": 2,
+      "similarity": 0.9999990354938272,
+      "diffBbox": [
+        1298,
+        969,
+        1473,
+        973
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 782495,
+        "rebuildBytes": 782488,
+        "sourceHash32": "e678336f",
+        "rebuildHash32": "83ab0809",
+        "byteEqual": false
+      }
+    },
+    {
+      "slideNo": 13,
+      "sourceNodeId": "6:1586",
+      "rebuildNodeId": "29:214",
+      "rebuildName": "S13/AppendixReferences/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 2,
+      "rebuildChildCount": 2,
+      "qaStatus": "pass",
+      "method": "figma_export_png_byte_equal",
+      "byteExport": {
+        "sourceBytes": 726827,
+        "rebuildBytes": 726827,
+        "sourceHash32": "627ed2c9",
+        "rebuildHash32": "627ed2c9",
+        "byteEqual": true
+      },
+      "changedPixels": 0,
+      "similarity": 1.0,
+      "diffBbox": null,
+      "byteExportAudit": {
+        "sourceBytes": 726827,
+        "rebuildBytes": 726827,
+        "sourceHash32": "627ed2c9",
+        "rebuildHash32": "627ed2c9",
+        "byteEqual": true
+      }
+    },
+    {
+      "slideNo": 14,
+      "sourceNodeId": "6:1155",
+      "rebuildNodeId": "29:357",
+      "rebuildName": "S14/AppendixGantt/Structured Rebuild v1.0",
+      "frame": "1920x1080",
+      "sameType": true,
+      "sameSize": true,
+      "sameChildCount": true,
+      "sourceChildCount": 2,
+      "rebuildChildCount": 2,
+      "qaStatus": "pass",
+      "method": "full_screenshot_pixel_diff",
+      "visualDiff": "14-gantt-structured-v1.json",
+      "changedPixels": 780,
+      "similarity": 0.9996238425925926,
+      "diffBbox": [
+        13,
+        42,
+        1895,
+        1020
+      ],
+      "byteExportAudit": {
+        "sourceBytes": 214092,
+        "rebuildBytes": 214031,
+        "sourceHash32": "45c6d4c1",
+        "rebuildHash32": "75881ea8",
+        "byteEqual": false
+      }
+    }
+  ]
+}

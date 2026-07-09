@@ -1,0 +1,84 @@
+token,file,layer,type,value_or_ref,source,notes
+color.navy.950,primitives.json,primitive,color,#000832,5053:12685,S09 stage
+color.navy.940,primitives.json,primitive,color,#000B49,5053:11964,S07 stage
+color.navy.900,primitives.json,primitive,color,#08124A,5053:11835,cover gradient base
+color.blue.500,primitives.json,primitive,color,#6583EC,figma extraction,gradient glow stop
+color.blue.600,primitives.json,primitive,color,#4660C1,5053:12685,scenario badge/accent
+color.blue.700,primitives.json,primitive,color,#344895,5053:11840,cover vector accent
+color.white.1000,primitives.json,primitive,color,#FFFFFF,all,presentation white
+opacity.60,primitives.json,primitive,number,0.6,5053:11838,cover eyebrow opacity
+opacity.80,primitives.json,primitive,number,0.8,5053:11845/story captions,secondary white text
+font.family.korean,primitives.json,primitive,fontFamily,Pretendard,Figma text extraction,main Korean/Latin UI font
+font.family.display,primitives.json,primitive,fontFamily,Panchang,5053:11846,cover wordmark
+font.size.heroWordmark,primitives.json,primitive,dimension,300,5053:11846,JByond wordmark
+font.size.coverStatement,primitives.json,primitive,dimension,40,5053:11839,cover headline
+font.size.table,primitives.json,primitive,dimension,16.4294,5053:11967,S07 table header
+font.size.tableSm,primitives.json,primitive,dimension,15.5227,5053:11988,S07 dense table body
+font.size.scenarioHeadline,primitives.json,primitive,dimension,56.1889,5053:12691,S09 main headline
+radius.panel,primitives.json,primitive,dimension,18.88,5053:11964,S07 diagram panel family
+radius.pill,primitives.json,primitive,dimension,40,5053:12685,pill and rounded controls
+stroke.default,primitives.json,primitive,dimension,1,Figma extraction,default connector/table line
+gradient.stageCover,effects.json,effect,gradient,0:#08124A 0.216:#6583EC 0.465:#08124A 1:#08124A,5053:11835,cover stage gradient
+gradient.stageStandard,effects.json,effect,gradient,0.135:#08124A 0.255:#6583EC 0.337:#08124A 1:#08124A,5053:11964/5053:12685,standard stage glow
+typography.role.coverWordmark,typography.json,typography,typography,Panchang 300/110% 500,5053:11846,editable wordmark
+typography.role.diagramTitle,typography.json,typography,typography,Pretendard 28.3158/130% 600,5053:12022,S07 panel title
+typography.role.storyCaption,typography.json,typography,typography,Pretendard 20/150% 400,5053:12725,S09 card captions
+component.FrameDark,components.json,component,component,1920x1080 stage,all,base slide frame
+component.SlideHeader,components.json,component,component,cover/left/scenario variants,01/07/09,reusable header family
+component.DarkTable,components.json,component,component,683x718 table region,5053:11965,S07 data/tech table
+component.FlowNode,components.json,component,component,dense diagram node,5053:11964,S07 system flow nodes
+component.ScenarioCard,components.json,component,component,4-card storyboard,5053:12716,S09 scenario cards
+component.LimitationRowExact,components.json,component,component,762x33 exact row variants,48:88,S02 componentized v1.2 row geometry
+component.EvidenceScreenshotExact,components.json,component,component,two evidence screenshot image-fill variants,58:175,S03 componentized v1.0 evidence captures
+component.EvidenceHighlightExact,components.json,component,component,three blue evidence highlight overlay variants,58:182,S03 componentized v1.0 editable overlays
+component.SolutionAxisColumnExact,components.json,component,component,three axis column variants,53:174,S04 componentized v1.0 axis columns
+component.SolutionFlowStepExact,components.json,component,component,three flow step pill variants,53:184,S04 componentized v1.0 bottom flow
+component.SystemFlowTableExact,components.json,component,component,two right-side table variants,66:560,S07 componentized v1.0 tables
+component.EntityPillExact,components.json,component,component,seven entity pill variants,66:610,S07 componentized v1.0 entity rail
+component.OrgRoleNodeCompactExact,components.json,component,component,fourteen compact org card variants,60:372,S08 componentized v1.0 compact role cards
+component.OrgRoleNodeTallExact,components.json,component,component,twelve tall org card variants,60:505,S08 componentized v1.0 tall role cards
+component.OrgGateNodeExact,components.json,component,component,three gate coordination variants,60:550,S08 componentized v1.0 gate cards
+component.ScenarioProcessNodeExact,components.json,component,component,ten workflow and branch node variants,63:520,S09 componentized v1.0 process nodes
+component.ScenarioCardExact,components.json,component,component,four exact story card variants,63:537,S09 componentized v1.0 story cards
+component.ExperienceNodeExact,components.json,component,component,five TX AX UX EX-PX CX variants,70:659,S10 componentized v1.0 experience nodes
+component.MvpChecklistRowExact,components.json,component,component,four completed MVP row variants,72:661,S11 componentized v1.0 checklist rows
+component.DemoPlanRowExact,components.json,component,component,five demo plan row pair variants,72:697,S11 componentized v1.0 demo rows
+component.ExperienceBenefitBubbleExact,components.json,component,component,three AX EX CX benefit bubble variants,75:690,S12 componentized v1.0 benefit bubbles
+component.ExpansionStepExact,components.json,component,component,four expansion step variants,75:703,S12 componentized v1.0 expansion steps
+component.ReferenceItem2LineExact,components.json,component,component,twelve 2-line reference item variants,79:736,S13 componentized v1.0 appendix references
+component.ReferenceItem3LineExact,components.json,component,component,nineteen 3-line reference item variants,79:832,S13 componentized v1.0 appendix references
+component.VerificationSummaryRowExact,components.json,component,component,four verification summary row variants,79:849,S13 componentized v1.0 verification summary
+slide.01-summary,slides.json,slide,slide,calibration_cover,5053:11835,cover rebuild contract
+slide.02-problem-componentized-v1.2,assetization-backlog.json,slide,slide,componentized_rebuild_99_978_percent,49:76,uses component sets 39:77 and 48:88
+slide.03-problem-evidence-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_100_percent,58:183,uses component sets 58:175 and 58:182
+slide.04-solution-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_996_percent,54:150,uses component sets 53:174 and 53:184
+slide.07-system-flow-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_953_percent,68:508,uses component sets 66:560 and 66:610
+slide.08-ai-org-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_991_percent,61:176,uses component sets 60:372 60:505 60:550
+slide.09-user-scenario-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_100_percent,64:490,uses component sets 63:520 and 63:537
+slide.10-effects-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_873_percent,70:660,uses component set 70:659
+slide.11-demo-plan-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_991_percent,74:649,uses component sets 72:661 and 72:697
+slide.12-expansion-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_995_percent,77:678,uses component sets 75:690 and 75:703
+slide.13-appendix-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_100_percent,80:688,uses component sets 79:736 79:832 79:849
+slide.07-system-flow,slides.json,slide,slide,system_flow_and_technical_tables,5053:11964,dense diagram contract
+slide.09-user-scenario,slides.json,slide,slide,user_scenario_storyboard,5053:12685,storyboard contract
+asset.coverLaptop,assets.json,asset,asset,5053:11841,5053:11841,raster allowed inside editable placement
+asset.scenarioCardImages,assets.json,asset,asset,5053:12718..12727,5053:12685,raster allowed but captions editable
+qa.rules.editableLayer,qa-rules.json,qa,rule,no full-slide raster,project gate,core assetization rule
+qa.issue.slide05SubtreeTimeout,figma-build-ledger.json,qa,issue,HTTP 504 on subtree read,6:261/28:159,use selected child node workflow before rebuild
+qa.issue.slide06SubtreeTimeout,figma-build-ledger.json,qa,issue,HTTP 504 on subtree read,6:286/28:184,use selected child node workflow before rebuild
+component.GanttDateTickExact,components.json,component,component,fourteen date tick variants,85:875,S14 componentized v1.0 date labels and grid lines
+component.GanttLaneMetaExact,components.json,component,component,nine lane metadata variants,86:885,S14 componentized v1.0 lane shells and left metadata
+component.GanttTaskBarExact,components.json,component,component,twenty-one task bar variants,88:987,S14 componentized v1.0 task bars with three text rows
+component.GanttMilestoneExact,components.json,component,component,six milestone marker variants,89:813,S14 componentized v1.0 vertical markers and labels
+slide.14-gantt-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_99_970_percent,90:777,uses component sets 85:875 86:885 88:987 89:813
+component.CoverMediaStackExact,components.json,component,component,cover media stack exact component,92:1179,S01 componentized v1.0 media stack
+component.CoverHeaderExact,components.json,component,component,cover header exact component,92:1188,Pretendard metadata preserved no text mutation
+component.CoverFooterExact,components.json,component,component,cover footer exact component,92:1189,Pretendard metadata preserved no text mutation
+component.CoverWordmarkExact,components.json,component,component,cover Panchang wordmark exact component,92:1192,Panchang Medium metadata preserved
+slide.01-summary-componentized-v1.0,assetization-backlog.json,slide,slide,componentized_rebuild_tolerance_pass_100_percent,93:1179,uses components 92:1179 92:1188 92:1189 92:1192
+component.FeatureCalloutTopExact,components.json,component,component,two top callout variants,95:1197,S05 partial componentization CaseBoard/RiskSignal
+component.FeatureCalloutRightExact,components.json,component,component,two right callout variants,96:1195,S05 partial componentization AgentRun/EvidencePack
+slide.05-small-child-probe,assetization-backlog.json,slide,qa,single-node metadata partial success,6:262-6:284 except 6:285,avoid full subtree traversal
+slide.05-componentized-rebuild,manifest.json,slide,qa,98:1189,6:261,S05 componentized rebuild v1.0 byte-identical with four callout instances
+component.ApprovalAuditCalloutExact,components.json,component,component,two approval/audit callout variants,101:1205,S06 componentization L0L4Gate/AuditLogAgent
+slide.06-componentized-rebuild,manifest.json,slide,qa,101:1206,6:286,S06 componentized rebuild v1.0 byte-identical with two callout instances

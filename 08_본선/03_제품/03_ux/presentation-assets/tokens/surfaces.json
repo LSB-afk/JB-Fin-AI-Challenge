@@ -1,0 +1,135 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "JByond presentation surface tokens",
+    "created": "2026-07-09",
+    "status": "pilot_surface_extension"
+  },
+  "surface": {
+    "stage.cover": {
+      "$type": "surface",
+      "$value": {
+        "size": { "width": 1920, "height": 1080 },
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 1,
+            "stops": [
+              { "position": 0, "color": "#08124A", "alpha": 1 },
+              { "position": 0.216, "color": "#6583EC", "alpha": 1 },
+              { "position": 0.465, "color": "#08124A", "alpha": 1 },
+              { "position": 1, "color": "#08124A", "alpha": 1 }
+            ]
+          }
+        ],
+        "blendMode": "PASS_THROUGH",
+        "effects": []
+      },
+      "$extensions": {
+        "sourceNodeId": "6:198",
+        "structuredNodeId": "22:2"
+      }
+    },
+    "overlay.coverBottomVeil": {
+      "$type": "surface",
+      "$value": {
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 0.2,
+            "stops": [
+              { "position": 0, "color": "#5A76DD", "alpha": 0 },
+              { "position": 0.264, "color": "#283B7F", "alpha": 1 }
+            ]
+          }
+        ],
+        "blendMode": "PASS_THROUGH",
+        "effects": []
+      },
+      "$extensions": {
+        "sourceNodeId": "6:206",
+        "structuredNodeId": "22:10"
+      }
+    },
+    "image.coverStage": {
+      "$type": "surface",
+      "$value": {
+        "type": "rasterFill",
+        "mask": "rounded-rectangle",
+        "cornerRadius": null,
+        "scaleMode": "FILL",
+        "pixelSize": { "width": 1448, "height": 1086 },
+        "placement": { "x": 357, "y": 234, "width": 1205, "height": 904 },
+        "imageTransform": [[1, 0, 0], [0, 1, 0]],
+        "blendMode": "PASS_THROUGH"
+      },
+      "$extensions": {
+        "sourceNodeId": "6:199",
+        "structuredNodeId": "22:3",
+        "assetPath": "assets/images/01-summary/image-2019.png",
+        "figmaImageHash": "8bc0a0c02f87f84ead092948aabd1d878f8f8364"
+      }
+    },
+    "image.coverLaptop": {
+      "$type": "surface",
+      "$value": {
+        "type": "rasterFill",
+        "mask": "rounded-rectangle",
+        "cornerRadius": null,
+        "scaleMode": "FILL",
+        "pixelSize": { "width": 1928, "height": 1320 },
+        "placement": { "x": 447, "y": 257, "width": 1026, "height": 702 },
+        "imageTransform": [[1, 0, 0], [0, 1, 0]],
+        "blendMode": "PASS_THROUGH",
+        "editableBoundary": "placement editable, inner screenshot raster"
+      },
+      "$extensions": {
+        "sourceNodeId": "6:204",
+        "structuredNodeId": "22:8",
+        "assetPath": "assets/images/01-summary/image-2090.png",
+        "figmaImageHash": "0ce013a6187f2589651792e1e79188e43955f00b"
+      }
+    },
+    "glass.card": {
+      "$type": "surface",
+      "$value": {
+        "fills": [
+          { "type": "SOLID", "color": "#FFFFFF", "opacity": 0.1 }
+        ],
+        "backdropBlur": 0,
+        "border": "{strokeStyle.glassHairline}",
+        "blendMode": "NORMAL",
+        "usage": "Future reusable cards; not applied to 01 Summary structured clone."
+      }
+    },
+    "panel.diagramLight": {
+      "$type": "surface",
+      "$value": {
+        "fills": [
+          { "type": "SOLID", "color": "#FFFFFF", "opacity": 1 }
+        ],
+        "radius": "{radius.panel}",
+        "stroke": "{strokeStyle.diagramHairline}",
+        "blendMode": "NORMAL",
+        "usage": "07 system flow panel"
+      },
+      "$extensions": {
+        "sourceSlideNodeId": "6:325"
+      }
+    },
+    "panel.darkTable": {
+      "$type": "surface",
+      "$value": {
+        "fills": [
+          { "type": "SOLID", "color": "#000B49", "opacity": 1 }
+        ],
+        "divider": "{strokeStyle.flowConnector}",
+        "blendMode": "NORMAL",
+        "usage": "07 right-side data/tech tables"
+      },
+      "$extensions": {
+        "sourceSlideNodeId": "6:325"
+      }
+    }
+  }
+}

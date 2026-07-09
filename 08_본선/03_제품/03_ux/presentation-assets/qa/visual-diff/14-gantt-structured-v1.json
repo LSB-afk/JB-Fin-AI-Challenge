@@ -1,0 +1,29 @@
+{
+  "slide": "14",
+  "slug": "14-gantt",
+  "sourceNodeId": "6:1155",
+  "rebuildNodeId": "29:357",
+  "size": [
+    1920,
+    1080
+  ],
+  "sameSize": true,
+  "sourceScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/14-gantt-source-6-1155.png",
+  "rebuildScreenshot": "08_본선/03_제품/03_ux/presentation-assets/assets/rebuild-screenshots/14-gantt-structured-29-357.png",
+  "sourceSha256": "3ae9e1faa4882b07d066177fef441d092f8dc201118c697a5a3d4e72866935a3",
+  "rebuildSha256": "d43ddcf915872dc7445d47b1822c1763a0d2a5ad405552106f37d4a5935cf7c3",
+  "rgbaChangedPixels": 780,
+  "visibleChangedPixels": 780,
+  "totalPixels": 2073600,
+  "visibleChangedRatio": 0.0003761574074074074,
+  "visibleSimilarity": 0.9996238425925926,
+  "rmsRgbaNorm": 0.0006038617132270406,
+  "maxChannelDelta": 32,
+  "visibleDiffBbox": [
+    13,
+    42,
+    1895,
+    1020
+  ],
+  "qaStatus": "pass"
+}
